@@ -3,7 +3,7 @@
 
 # Start with records.csv file
 
-head records.csv | csvjson | jq '[ .[] | {
+cat records.csv | csvjson | jq '[ .[] | {
   "program": "programid",
   "orgUnit": ."location.selection.id",
   "eventDate": .recorded_on,
