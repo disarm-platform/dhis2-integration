@@ -1,0 +1,1 @@
+Display the imported aggregate data from DiSARM on a chart (optionally and table, map, dashboard etc)
