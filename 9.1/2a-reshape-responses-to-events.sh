@@ -1,20 +1,20 @@
 #!/bin/bash
 # Reshape the exported CSV data into the DHIS2 import format (e.g. like sample-3.json in Twist)
 
-# Optionally use #!/bin/node # or something, so it can be run direct as a script
+# Start with records.csv file
 
 head records.csv | csvjson | jq '[ .[] | {
-  "program": ._id,
+  "program": "programid",
   "orgUnit": ."location.selection.id",
-  "eventDate": "2018-05-17",
+  "eventDate": .recorded_on,
   "status": "COMPLETED",
-  "completedDate": "2018-05-18",
+  "completedDate": .recorded_on,
   "storedBy": "admin",
   "coordinate": {
-    "latitude": 59.8,
-    "longitude": 10.9
+    "latitude": ."location.coords.latitude",
+    "longitude": ."location.coords.longitude"
   },
   "dataValues": [
-    { "dataElement": "fkkQRHF6UrW", "value": "22" }
+    { "dataElement": "dataelementid", "value": ."form_data.sprayed_count" }
   ]
 }]'
