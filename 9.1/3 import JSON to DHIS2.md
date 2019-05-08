@@ -1,0 +1,1 @@
+Use GUI to import as 'events' into DHIS2
