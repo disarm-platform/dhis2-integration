@@ -12,8 +12,8 @@ echo "Sending request to DiSARM API for fn-raster-vector-summary-stats"
 # Determines how we handle the processing in 7a
 
 
-echo "{\"raster\":\"https://ds-faas.storage.googleapis.com/algo_test_data/general/worldpop/AFR_PPP_2020_adj_v2.tif\",\"stats\": \"sum\", \"subject\": $(cat geodata.json)}" |\
+echo "{\"raster\":\"https://ds-faas.storage.googleapis.com/algo_test_data/general/worldpop/AFR_PPP_2020_adj_v2.tif\",\"stats\": \"sum\", \"subject\": $(cat data/9.2/geodata.json)}" |\
   curl https://faas.srv.disarm.io/function/fn-raster-vector-summary-stats \
     --header 'Content-Type: application/json' \
     --data @- \
-    -o result.json
+    -o data/9.2/result.json

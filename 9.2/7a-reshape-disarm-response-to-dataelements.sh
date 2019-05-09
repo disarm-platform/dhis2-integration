@@ -2,20 +2,19 @@
 # Create JSON file ready for manual import into DHIS2
 # Start with DiSARM result JSON, result.json
 
-echo -e '\033[0;31m!!! This will break - it is just copied from another file as a placeholder !!!\x1B[0m'
+echo -e '\033[0;31m!!! TODO: Change programid and dataelementid !!!\x1B[0m'
+echo -e '\033[0;31m!!! TODO: Check if dataelements is correct top-level !!!\x1B[0m'
+echo -e '\033[0;31m!!! TODO: Not sure if dates are correct !!!\x1B[0m'
+echo -e '\033[0;31m!!! TODO: Not sure if fine to remove coordinates !!!\x1B[0m'
 
-cat result.json | jq '[ .[] | {
-  "program": "programid",
-  "orgUnit": ."location.selection.id",
-  "eventDate": .recorded_on,
+cat data/9.2/result.json | jq '{dataElements: [ .result.features[] | .properties | {
+  "program": "<programid>",
+  "orgUnit": .id,
+  "eventDate": 2018,
   "status": "COMPLETED",
-  "completedDate": .recorded_on,
+  "completedDate": 2018,
   "storedBy": "admin",
-  "coordinate": {
-    "latitude": ."location.coords.latitude",
-    "longitude": ."location.coords.longitude"
-  },
   "dataValues": [
-    { "dataElement": "dataelementid", "value": ."form_data.sprayed_count" }
+    { "dataElement": "<dataelementid>", "value": .sum }
   ]
-}]'
+}]}' > data/9.2/dataelements.json

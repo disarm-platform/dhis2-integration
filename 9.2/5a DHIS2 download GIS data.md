@@ -1,1 +1,1 @@
-Using the GUI, download `metadata.json`
+Using the GUI, download `metadata.json`, save in `data/9.2`
