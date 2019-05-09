@@ -1,0 +1,54 @@
+{
+  "dataValues": [
+    {
+      "dataElement": "<dataelementid>",
+      "period": "2018",
+      "orgUnit": "ex7OfApmYMK",
+      "value": 379705.78125,
+      "storedBy": "admin",
+      "created": "2019-05-09T08:32:10Z",
+      "lastUpdated": "2019-05-09T08:32:10Z",
+      "followUp": false
+    },
+    {
+      "dataElement": "<dataelementid>",
+      "period": "2018",
+      "orgUnit": "kFqf0K6X6ZE",
+      "value": 280947.5625,
+      "storedBy": "admin",
+      "created": "2019-05-09T08:32:10Z",
+      "lastUpdated": "2019-05-09T08:32:10Z",
+      "followUp": false
+    },
+    {
+      "dataElement": "<dataelementid>",
+      "period": "2018",
+      "orgUnit": "sePdUBvVnE4",
+      "value": 429958.71875,
+      "storedBy": "admin",
+      "created": "2019-05-09T08:32:10Z",
+      "lastUpdated": "2019-05-09T08:32:10Z",
+      "followUp": false
+    },
+    {
+      "dataElement": "<dataelementid>",
+      "period": "2018",
+      "orgUnit": "uKfuOru98B3",
+      "value": 280693.78125,
+      "storedBy": "admin",
+      "created": "2019-05-09T08:32:10Z",
+      "lastUpdated": "2019-05-09T08:32:10Z",
+      "followUp": false
+    },
+    {
+      "dataElement": "<dataelementid>",
+      "period": "2018",
+      "orgUnit": "om2RbBlTvld",
+      "value": 1371305.75,
+      "storedBy": "admin",
+      "created": "2019-05-09T08:32:10Z",
+      "lastUpdated": "2019-05-09T08:32:10Z",
+      "followUp": false
+    }
+  ]
+}

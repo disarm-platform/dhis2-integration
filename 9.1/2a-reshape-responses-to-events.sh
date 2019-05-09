@@ -4,7 +4,7 @@
 # Start with records.csv file
 
 cat data/9.1/records.csv | csvjson | jq '{events: [ .[] | {
-  "program": "programid",
+  "program": "<programid>",
   "orgUnit": ."location.selection.id",
   "eventDate": .recorded_on,
   "status": "COMPLETED",
@@ -15,6 +15,6 @@ cat data/9.1/records.csv | csvjson | jq '{events: [ .[] | {
     "longitude": ."location.coords.longitude"
   },
   "dataValues": [
-    { "dataElement": "dataelementid", "value": ."form_data.sprayed_count" }
+    { "dataElement": "<dataelementid>", "value": ."form_data.sprayed_count" }
   ]
 }]}' > data/9.1/events.json
