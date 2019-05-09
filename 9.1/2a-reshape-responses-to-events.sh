@@ -3,7 +3,7 @@
 
 # Start with records.csv file
 
-cat records.csv | csvjson | jq '[ .[] | {
+cat data/9.1/records.csv | csvjson | jq '{events: [ .[] | {
   "program": "programid",
   "orgUnit": ."location.selection.id",
   "eventDate": .recorded_on,
@@ -17,4 +17,4 @@ cat records.csv | csvjson | jq '[ .[] | {
   "dataValues": [
     { "dataElement": "dataelementid", "value": ."form_data.sprayed_count" }
   ]
-}]'
+}]}' > data/9.1/events.json
