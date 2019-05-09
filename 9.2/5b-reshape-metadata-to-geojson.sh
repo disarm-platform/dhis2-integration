@@ -7,4 +7,4 @@ cat metadata.json |
     '{type: "FeatureCollection", features: [.organisationUnits[] |
     {"type": "Feature", "properties": {"id": .id},
     "geometry": {"type": "Polygon","coordinates": 
-    (.coordinates | sub("^\\["; "") | sub("\\]$"; "") | fromjson)  }} ]}'
+    (.coordinates | sub("^\\["; "") | sub("\\]$"; "") | fromjson)  }} ]}' > geodata.json

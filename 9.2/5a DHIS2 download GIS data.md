@@ -1,1 +1,1 @@
-Using the `metadata.json` export GUI
+Using the GUI, download `metadata.json`
