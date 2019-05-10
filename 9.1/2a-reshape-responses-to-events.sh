@@ -3,18 +3,18 @@
 
 # Start with records.csv file
 
-cat data/9.1/records.csv | csvjson | jq '{events: [ .[] | {
-  "program": "RuGS1IGoh2W",
-  "orgUnit": ."location.selection.id",
-  "eventDate": .recorded_on[0:23],
+cat 1s-disarm-export.csv | csvjson | jq '{events:[ .[] | {
+  "program": "hMnWOY0jQiW",
+  "orgUnit": "Hhohho",
+  "eventDate": .recorded_on,
+  "status": "COMPLETED",
+  "completedDate": .recorded_on,
+  "storedBy": "admin",
   "coordinate": {
     "latitude": ."location.coords.latitude",
     "longitude": ."location.coords.longitude"
   },
   "dataValues": [
-    { 
-      "dataElement": "ZjqhC7hueSJ", "value": ."form_data.sprayed_count" 
-    }
+    { "dataElement": "dataelementid", "value": ."form_data.sprayed_count" }
   ]
-}]}' > data/9.1/events.json
-   
+}]}'
