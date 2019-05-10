@@ -13,8 +13,12 @@
       },
       "dataValues": [
         {
-          "dataElement": "dataelementid",
+          "dataElement": "bed_nets",
           "value": 3
+        },
+        {
+          "dataElement": "sprayed_count",
+          "value": 15
         }
       ]
     },

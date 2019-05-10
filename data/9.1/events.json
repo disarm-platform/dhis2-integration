@@ -1,0 +1,2314 @@
+{
+  "events": [
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-11-05T00:31:44.096",
+      "coordinate": {
+        "latitude": -13.9509936942613,
+        "longitude": 38.4789204803421
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-11-03T22:52:26.061",
+      "coordinate": {
+        "latitude": -11.9762109014655,
+        "longitude": 40.1212715716
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-11-03T14:04:34.061",
+      "coordinate": {
+        "latitude": -13.815075810432,
+        "longitude": 39.4390620425666
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-11-02T08:25:38.056",
+      "coordinate": {
+        "latitude": -13.3198107167151,
+        "longitude": 40.0405467440309
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-11-02T05:10:35.059",
+      "coordinate": {
+        "latitude": -13.2623948257246,
+        "longitude": 40.136319628548
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-11-02T02:27:57.095",
+      "coordinate": {
+        "latitude": -13.9369814417661,
+        "longitude": 38.4568060163828
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-11-01T19:52:16.049",
+      "coordinate": {
+        "latitude": -13.1764545532855,
+        "longitude": 40.4642259519918
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-11-01T18:45:08.046",
+      "coordinate": {
+        "latitude": -13.2371318137355,
+        "longitude": 40.1712986100616
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-11-01T14:02:36.082",
+      "coordinate": {
+        "latitude": -13.138084092843,
+        "longitude": 39.0636178902339
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-31T15:30:02.087",
+      "coordinate": {
+        "latitude": -11.6042739706537,
+        "longitude": 39.5390912226618
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-30T09:53:09.060",
+      "coordinate": {
+        "latitude": -13.7065345987104,
+        "longitude": 39.4943776107043
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-30T05:46:04.077",
+      "coordinate": {
+        "latitude": -11.4053320608737,
+        "longitude": 40.1569099715958
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-30T04:53:48.106",
+      "coordinate": {
+        "latitude": -10.872039542305,
+        "longitude": 40.4556193808824
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-29T23:03:33.093",
+      "coordinate": {
+        "latitude": -11.7729027454573,
+        "longitude": 39.6794946781713
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-29T06:50:38.050",
+      "coordinate": {
+        "latitude": -13.2460446144335,
+        "longitude": 38.5904534354852
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-28T10:53:57.073",
+      "coordinate": {
+        "latitude": -12.2699751859511,
+        "longitude": 39.6433418618369
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-28T02:46:05.090",
+      "coordinate": {
+        "latitude": -11.275714556145,
+        "longitude": 38.9265425258882
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-28T00:44:16.097",
+      "coordinate": {
+        "latitude": -13.5959360284024,
+        "longitude": 39.0738394123561
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-27T21:50:55.075",
+      "coordinate": {
+        "latitude": -12.4799254129619,
+        "longitude": 40.1278814052431
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-27T12:39:18.059",
+      "coordinate": {
+        "latitude": -13.3899299448494,
+        "longitude": 40.2461196376032
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-26T20:32:23.068",
+      "coordinate": {
+        "latitude": -12.3865501670389,
+        "longitude": 40.3207839334768
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-26T19:56:02.039",
+      "coordinate": {
+        "latitude": -12.8550685866684,
+        "longitude": 39.8342841058339
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-26T11:50:58.082",
+      "coordinate": {
+        "latitude": -13.1655561704688,
+        "longitude": 38.9898934040466
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-24T14:08:27.075",
+      "coordinate": {
+        "latitude": -12.5652947825237,
+        "longitude": 39.8824442595821
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-24T12:31:20.096",
+      "coordinate": {
+        "latitude": -14.0642657651745,
+        "longitude": 38.8688875586761
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-22T13:21:41.079",
+      "coordinate": {
+        "latitude": -11.1674603795295,
+        "longitude": 40.0866411419308
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-21T17:44:10.065",
+      "coordinate": {
+        "latitude": -12.236329496559,
+        "longitude": 40.432669043977
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-21T15:28:03.054",
+      "coordinate": {
+        "latitude": -13.6249744447154,
+        "longitude": 38.5325192323271
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-20T10:28:14.085",
+      "coordinate": {
+        "latitude": -11.9223438862334,
+        "longitude": 39.1926930844242
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-19T08:47:19.061",
+      "coordinate": {
+        "latitude": -13.5122197058928,
+        "longitude": 39.8502649326292
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Hhohho",
+      "eventDate": "2018-10-18T13:11:14.067",
+      "coordinate": {
+        "latitude": -12.3681062485699,
+        "longitude": 40.5819114596376
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-15T14:22:49.077",
+      "coordinate": {
+        "latitude": -11.7138741484296,
+        "longitude": 40.1376133622346
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-15T13:03:50.063",
+      "coordinate": {
+        "latitude": -12.1441614477043,
+        "longitude": 39.9164686278939
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-15T09:16:34.084",
+      "coordinate": {
+        "latitude": -13.1013011222569,
+        "longitude": 38.2193958930816
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-15T03:33:11.050",
+      "coordinate": {
+        "latitude": -13.3157645698609,
+        "longitude": 38.5669729346472
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-14T04:25:58.097",
+      "coordinate": {
+        "latitude": -13.8677293279358,
+        "longitude": 38.872636642036
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-13T19:16:47.076",
+      "coordinate": {
+        "latitude": -11.6490987329786,
+        "longitude": 40.1677363745587
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-13T05:36:21.087",
+      "coordinate": {
+        "latitude": -11.5091028252941,
+        "longitude": 39.8073598306511
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-11T14:21:27.042",
+      "coordinate": {
+        "latitude": -12.8459749580201,
+        "longitude": 39.8869078708097
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-10T22:55:51.062",
+      "coordinate": {
+        "latitude": -11.8091697037311,
+        "longitude": 40.1589603340249
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-10T17:35:12.104",
+      "coordinate": {
+        "latitude": -11.3279020521452,
+        "longitude": 39.8763277694485
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-08T22:19:42.089",
+      "coordinate": {
+        "latitude": -11.543794074566,
+        "longitude": 39.5137246566252
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-08T02:00:58.048",
+      "coordinate": {
+        "latitude": -13.1599496346746,
+        "longitude": 40.2819464074135
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-07T02:18:40.059",
+      "coordinate": {
+        "latitude": -13.6194559382317,
+        "longitude": 39.4044803887469
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-07T01:53:54.065",
+      "coordinate": {
+        "latitude": -12.2226650365854,
+        "longitude": 40.0448572650616
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-07T00:29:26.072",
+      "coordinate": {
+        "latitude": -13.3665255350737,
+        "longitude": 40.4592332624321
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-06T13:43:16.092",
+      "coordinate": {
+        "latitude": -11.8587556519448,
+        "longitude": 39.6553960969091
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-06T12:36:37.081",
+      "coordinate": {
+        "latitude": -12.769632997742,
+        "longitude": 38.94526652073
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-05T08:37:07.105",
+      "coordinate": {
+        "latitude": -10.9848149822517,
+        "longitude": 40.3747356557985
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-05T06:02:46.062",
+      "coordinate": {
+        "latitude": -12.075305720491,
+        "longitude": 40.0379551302341
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-03T17:29:34.052",
+      "coordinate": {
+        "latitude": -13.3804909104563,
+        "longitude": 38.4067853798709
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-03T16:10:56.106",
+      "coordinate": {
+        "latitude": -10.6723525972534,
+        "longitude": 40.5212597936174
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-03T02:03:55.102",
+      "coordinate": {
+        "latitude": -13.7288937616135,
+        "longitude": 38.5542811938253
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-02T10:55:01.090",
+      "coordinate": {
+        "latitude": -11.5353488005927,
+        "longitude": 38.8529407268287
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-10-01T22:50:15.068",
+      "coordinate": {
+        "latitude": -12.3795884678586,
+        "longitude": 40.3498828282514
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-09-30T06:57:06.083",
+      "coordinate": {
+        "latitude": -13.1929700109315,
+        "longitude": 39.0060939047487
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-09-29T16:16:25.047",
+      "coordinate": {
+        "latitude": -12.877969689963,
+        "longitude": 39.4007832174349
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-09-28T02:19:07.098",
+      "coordinate": {
+        "latitude": -13.6897865830774,
+        "longitude": 39.2578733681553
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-09-27T18:29:59.080",
+      "coordinate": {
+        "latitude": -12.7747114133083,
+        "longitude": 38.8506790790344
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-09-27T14:39:14.103",
+      "coordinate": {
+        "latitude": -11.2035169169752,
+        "longitude": 39.9339321371639
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Shiselweni",
+      "eventDate": "2018-09-27T02:26:43.078",
+      "coordinate": {
+        "latitude": -11.4350325929987,
+        "longitude": 40.3278178872656
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-26T21:26:05.056",
+      "coordinate": {
+        "latitude": -13.0033665182821,
+        "longitude": 38.3866712384912
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-26T20:24:27.067",
+      "coordinate": {
+        "latitude": -12.3618334824627,
+        "longitude": 40.5785060721075
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-25T20:37:42.070",
+      "coordinate": {
+        "latitude": -11.6795425117494,
+        "longitude": 40.3359269986904
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-25T14:10:26.103",
+      "coordinate": {
+        "latitude": -11.2580408664316,
+        "longitude": 39.7794739222346
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-25T11:48:10.047",
+      "coordinate": {
+        "latitude": -13.0846102816817,
+        "longitude": 39.5606599835637
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-25T00:42:31.107",
+      "coordinate": {
+        "latitude": -10.8995324548483,
+        "longitude": 39.9784204615134
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-24T23:37:23.081",
+      "coordinate": {
+        "latitude": -13.3532683031434,
+        "longitude": 38.9240091941706
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-24T21:21:38.086",
+      "coordinate": {
+        "latitude": -11.5565350958693,
+        "longitude": 39.6876183078389
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-24T15:10:20.101",
+      "coordinate": {
+        "latitude": -13.7117115105356,
+        "longitude": 38.7470674672738
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-23T09:54:38.088",
+      "coordinate": {
+        "latitude": -11.5717110838802,
+        "longitude": 39.4439297016426
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-23T07:53:05.065",
+      "coordinate": {
+        "latitude": -12.2991333083418,
+        "longitude": 40.2413736992054
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-21T05:52:01.106",
+      "coordinate": {
+        "latitude": -10.782006460925,
+        "longitude": 40.3878608140124
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-20T22:24:37.093",
+      "coordinate": {
+        "latitude": -11.7019716173976,
+        "longitude": 39.8033479461681
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-20T13:46:55.043",
+      "coordinate": {
+        "latitude": -12.9680666037038,
+        "longitude": 40.0575352945299
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-20T08:35:40.054",
+      "coordinate": {
+        "latitude": -13.7764082990701,
+        "longitude": 38.4586133283298
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-20T03:30:52.085",
+      "coordinate": {
+        "latitude": -12.8926325794539,
+        "longitude": 39.2631284351022
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-19T06:48:41.053",
+      "coordinate": {
+        "latitude": -13.3782997554316,
+        "longitude": 38.3334851138912
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-18T23:40:09.072",
+      "coordinate": {
+        "latitude": -13.2549595502239,
+        "longitude": 40.4113384803371
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-18T15:59:50.043",
+      "coordinate": {
+        "latitude": -13.3326248354826,
+        "longitude": 39.8135107298785
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-18T14:38:09.061",
+      "coordinate": {
+        "latitude": -13.6265613725988,
+        "longitude": 39.7691691528944
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-16T12:14:16.065",
+      "coordinate": {
+        "latitude": -11.9280225257141,
+        "longitude": 40.4156982285025
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-15T21:54:55.096",
+      "coordinate": {
+        "latitude": -13.9374836786029,
+        "longitude": 38.8355224606128
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-15T21:07:15.045",
+      "coordinate": {
+        "latitude": -13.0596956030001,
+        "longitude": 40.1294541701505
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-15T18:12:55.059",
+      "coordinate": {
+        "latitude": -13.6471383574522,
+        "longitude": 39.4201044466644
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-15T02:41:41.091",
+      "coordinate": {
+        "latitude": -11.5890842071437,
+        "longitude": 38.4382158122379
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-15T00:16:42.091",
+      "coordinate": {
+        "latitude": -11.6968097674242,
+        "longitude": 40.0067562087709
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-13T20:28:09.057",
+      "coordinate": {
+        "latitude": -13.502226388326,
+        "longitude": 39.3760163001836
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-13T11:52:14.101",
+      "coordinate": {
+        "latitude": -13.6849913148454,
+        "longitude": 38.6968275038852
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-12T22:57:59.057",
+      "coordinate": {
+        "latitude": -13.2455198129963,
+        "longitude": 39.9287360775218
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-12T08:13:21.067",
+      "coordinate": {
+        "latitude": -12.414211609006,
+        "longitude": 40.6061086849498
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-11T21:23:06.056",
+      "coordinate": {
+        "latitude": -13.2901751575238,
+        "longitude": 40.0037322618609
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-09T22:32:53.106",
+      "coordinate": {
+        "latitude": -10.7406768778934,
+        "longitude": 40.3375385978016
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-09T20:40:49.103",
+      "coordinate": {
+        "latitude": -11.1792861093213,
+        "longitude": 39.9280921452034
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-09T17:07:48.089",
+      "coordinate": {
+        "latitude": -11.2357148394077,
+        "longitude": 39.4661006639036
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-08T22:17:54.053",
+      "coordinate": {
+        "latitude": -13.356572323738,
+        "longitude": 38.1901224429827
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-08T15:04:58.100",
+      "coordinate": {
+        "latitude": -13.6083512113666,
+        "longitude": 38.630863794281
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-07T23:29:04.102",
+      "coordinate": {
+        "latitude": -11.0006622779749,
+        "longitude": 39.700733878379
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-07T13:42:52.084",
+      "coordinate": {
+        "latitude": -13.0772116335662,
+        "longitude": 39.3603781528687
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-07T09:52:13.079",
+      "coordinate": {
+        "latitude": -11.4406530240897,
+        "longitude": 40.1661208555661
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-07T06:06:28.085",
+      "coordinate": {
+        "latitude": -11.779440924173,
+        "longitude": 39.3884736068153
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-07T05:27:20.108",
+      "coordinate": {
+        "latitude": -10.9274196793922,
+        "longitude": 40.077071522447
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-06T23:22:21.058",
+      "coordinate": {
+        "latitude": -13.3121890302436,
+        "longitude": 40.1751680912931
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-06T10:10:20.068",
+      "coordinate": {
+        "latitude": -12.346319819784,
+        "longitude": 40.6176316063561
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-06T07:15:25.055",
+      "coordinate": {
+        "latitude": -13.0745446599285,
+        "longitude": 38.5245916165145
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-04T15:58:14.070",
+      "coordinate": {
+        "latitude": -11.856199162436,
+        "longitude": 40.2584324544068
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-04T12:28:20.048",
+      "coordinate": {
+        "latitude": -13.084230596294,
+        "longitude": 40.519963320117
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-04T10:34:10.071",
+      "coordinate": {
+        "latitude": -13.2911948055089,
+        "longitude": 40.4810046625693
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-04T08:37:05.044",
+      "coordinate": {
+        "latitude": -13.4807404222271,
+        "longitude": 39.7993450627854
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-04T01:46:29.084",
+      "coordinate": {
+        "latitude": -12.0663717699934,
+        "longitude": 38.950242127487
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-03T10:46:09.102",
+      "coordinate": {
+        "latitude": -10.8907432754057,
+        "longitude": 39.8287438455235
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-02T03:35:01.052",
+      "coordinate": {
+        "latitude": -13.3075696246384,
+        "longitude": 38.1875804096292
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-09-01T05:21:30.092",
+      "coordinate": {
+        "latitude": -11.7788888005823,
+        "longitude": 40.1016217308176
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-08-31T13:08:34.082",
+      "coordinate": {
+        "latitude": -13.3220617720923,
+        "longitude": 38.9949278632249
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-08-31T10:33:49.074",
+      "coordinate": {
+        "latitude": -12.3879643276253,
+        "longitude": 39.9565963447817
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-08-30T22:43:03.090",
+      "coordinate": {
+        "latitude": -11.3950265011102,
+        "longitude": 39.1249571913515
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-08-30T18:16:00.062",
+      "coordinate": {
+        "latitude": -11.9458264387249,
+        "longitude": 39.9278916841479
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-08-29T10:06:55.108",
+      "coordinate": {
+        "latitude": -11.0409397160823,
+        "longitude": 40.1177497262784
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-08-28T04:59:34.096",
+      "coordinate": {
+        "latitude": -14.0855070342203,
+        "longitude": 38.55966460393
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Manzini",
+      "eventDate": "2018-08-26T16:55:06.081",
+      "coordinate": {
+        "latitude": -13.0807776561623,
+        "longitude": 39.0212456763536
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-26T15:35:38.108",
+      "coordinate": {
+        "latitude": -10.8580146298942,
+        "longitude": 40.1271823769252
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-26T07:20:48.070",
+      "coordinate": {
+        "latitude": -11.8339786406878,
+        "longitude": 40.2904288985508
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-25T22:46:42.087",
+      "coordinate": {
+        "latitude": -11.3947197990617,
+        "longitude": 39.5204269735088
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-25T22:21:35.044",
+      "coordinate": {
+        "latitude": -13.2235008154609,
+        "longitude": 39.8831346126648
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-25T07:02:13.090",
+      "coordinate": {
+        "latitude": -11.6990983994501,
+        "longitude": 38.4181769320875
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-25T05:48:55.066",
+      "coordinate": {
+        "latitude": -12.2421014210025,
+        "longitude": 40.4330684146022
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-24T23:17:30.074",
+      "coordinate": {
+        "latitude": -12.4109703899794,
+        "longitude": 40.0020943778552
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-24T22:23:18.051",
+      "coordinate": {
+        "latitude": -13.311220677084,
+        "longitude": 38.7641042511361
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-24T00:54:03.047",
+      "coordinate": {
+        "latitude": -12.8400967733534,
+        "longitude": 39.4884927517016
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-24T00:16:31.093",
+      "coordinate": {
+        "latitude": -11.917995009623,
+        "longitude": 39.6450060316927
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-23T19:18:23.069",
+      "coordinate": {
+        "latitude": -12.3969643675272,
+        "longitude": 40.2492544049238
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-22T14:58:55.050",
+      "coordinate": {
+        "latitude": -13.4159914368292,
+        "longitude": 38.6696314985113
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-21T08:09:48.063",
+      "coordinate": {
+        "latitude": -12.2104193068958,
+        "longitude": 40.0122925221688
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-20T21:03:55.066",
+      "coordinate": {
+        "latitude": -12.0774618376117,
+        "longitude": 40.4713365004594
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-18T06:40:43.090",
+      "coordinate": {
+        "latitude": -11.3835411232589,
+        "longitude": 38.8521857418556
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-16T08:58:51.046",
+      "coordinate": {
+        "latitude": -13.1449585392128,
+        "longitude": 40.0630114186693
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-16T08:18:05.093",
+      "coordinate": {
+        "latitude": -11.7632333273005,
+        "longitude": 39.7836119281837
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-16T01:38:52.076",
+      "coordinate": {
+        "latitude": -11.395192670326,
+        "longitude": 39.9533863942901
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-15T22:37:24.071",
+      "coordinate": {
+        "latitude": -13.3773034598275,
+        "longitude": 40.5429575646313
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-14T19:09:00.086",
+      "coordinate": {
+        "latitude": -11.4946845091398,
+        "longitude": 39.6692843110995
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-13T07:02:48.101",
+      "coordinate": {
+        "latitude": -13.7133710708388,
+        "longitude": 38.7934868442751
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-13T02:12:00.076",
+      "coordinate": {
+        "latitude": -11.5069851160551,
+        "longitude": 39.90801397277
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-12T00:35:03.095",
+      "coordinate": {
+        "latitude": -13.8932033187747,
+        "longitude": 39.1643096404816
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-11T12:47:58.074",
+      "coordinate": {
+        "latitude": -12.5423577539177,
+        "longitude": 39.6649040929876
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-11T02:00:16.080",
+      "coordinate": {
+        "latitude": -12.6503272505182,
+        "longitude": 39.1349003240373
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-10T23:30:42.054",
+      "coordinate": {
+        "latitude": -13.1355924082992,
+        "longitude": 38.5665759932992
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-10T19:14:02.100",
+      "coordinate": {
+        "latitude": -13.5980718716501,
+        "longitude": 38.7850063703828
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-10T08:36:58.072",
+      "coordinate": {
+        "latitude": -12.5217859757528,
+        "longitude": 39.6529693149289
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-09T23:28:39.095",
+      "coordinate": {
+        "latitude": -13.8305350012758,
+        "longitude": 38.936682388125
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-08T22:51:02.056",
+      "coordinate": {
+        "latitude": -13.258193844272,
+        "longitude": 38.3464941298955
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-08T18:26:39.098",
+      "coordinate": {
+        "latitude": -13.6491545533412,
+        "longitude": 39.3247263361349
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-08T18:03:20.095",
+      "coordinate": {
+        "latitude": -14.0572960974387,
+        "longitude": 38.7987119632079
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-08T06:34:15.057",
+      "coordinate": {
+        "latitude": -13.4804368236329,
+        "longitude": 39.6851684668836
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "program": "RuGS1IGoh2W",
+      "orgUnit": "Lubombo",
+      "eventDate": "2018-08-07T18:05:44.106",
+      "coordinate": {
+        "latitude": -10.9148309826146,
+        "longitude": 40.4529823378425
+      },
+      "dataValues": [
+        {
+          "dataElement": "ZjqhC7hueSJ",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}
