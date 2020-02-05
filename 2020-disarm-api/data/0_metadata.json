@@ -1,0 +1,199 @@
+{
+  "system": {
+    "id": "ce544b21-ebe3-4ec6-a6a5-57e3e82a2bb3",
+    "rev": "dad221d",
+    "version": "2.29",
+    "date": "2020-02-05T15:10:59.615"
+  },
+  "organisationUnits": [
+    {
+      "created": "2020-02-05T11:43:31.184",
+      "lastUpdated": "2020-02-05T11:50:05.324",
+      "name": "Eswatini",
+      "id": "pZ1ppeizx0V",
+      "shortName": "eswatini",
+      "path": "/pZ1ppeizx0V",
+      "featureType": "NONE",
+      "openingDate": "2020-01-01T00:00:00.000",
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "created": "2020-02-05T11:44:35.455",
+      "lastUpdated": "2020-02-05T11:50:05.323",
+      "name": "Facility_1",
+      "id": "b9KzF3yT6vF",
+      "shortName": "Facility_1",
+      "coordinates": "[1,1]",
+      "path": "/pZ1ppeizx0V/b9KzF3yT6vF",
+      "featureType": "POINT",
+      "openingDate": "2020-01-01T00:00:00.000",
+      "parent": {
+        "id": "pZ1ppeizx0V"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "created": "2020-02-05T11:44:35.455",
+      "lastUpdated": "2020-02-05T12:46:01.828",
+      "name": "Facility_2",
+      "id": "pLgoeZTqSAc",
+      "shortName": "Facility_2",
+      "coordinates": "[2,2]",
+      "path": "/pZ1ppeizx0V/pLgoeZTqSAc",
+      "featureType": "POINT",
+      "openingDate": "2020-01-01T00:00:00.000",
+      "parent": {
+        "id": "pZ1ppeizx0V"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "created": "2020-02-05T11:44:35.455",
+      "lastUpdated": "2020-02-05T11:50:05.324",
+      "name": "Facility_3",
+      "id": "VcAEdFIy823",
+      "shortName": "Facility_3",
+      "coordinates": "[3,3]",
+      "path": "/pZ1ppeizx0V/VcAEdFIy823",
+      "featureType": "POINT",
+      "openingDate": "2020-01-01T00:00:00.000",
+      "parent": {
+        "id": "pZ1ppeizx0V"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "created": "2020-02-05T11:44:35.455",
+      "lastUpdated": "2020-02-05T11:49:42.921",
+      "name": "Facility_4",
+      "id": "MFfuE2fPk31",
+      "shortName": "Facility_4",
+      "coordinates": "[4,4]",
+      "path": "/pZ1ppeizx0V/MFfuE2fPk31",
+      "featureType": "POINT",
+      "openingDate": "2020-01-01T00:00:00.000",
+      "parent": {
+        "id": "pZ1ppeizx0V"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
+    }
+  ],
+  "dataElements": [
+    {
+      "lastUpdated": "2020-02-05T11:52:34.660",
+      "id": "QrtLqMOOXfQ",
+      "created": "2020-02-05T11:52:02.274",
+      "name": "n_positive",
+      "shortName": "n_positive",
+      "aggregationType": "SUM",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "NUMBER",
+      "zeroIsSignificant": true,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": []
+    },
+    {
+      "lastUpdated": "2020-02-05T11:52:27.678",
+      "id": "IaPazF64WBQ",
+      "created": "2020-02-05T11:50:59.742",
+      "name": "n_trials",
+      "shortName": "n_trials",
+      "aggregationType": "SUM",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "NUMBER",
+      "zeroIsSignificant": true,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": []
+    },
+    {
+      "lastUpdated": "2020-02-05T11:52:20.929",
+      "id": "XnrAqy6sd36",
+      "created": "2020-02-05T11:52:20.929",
+      "name": "prevalence",
+      "shortName": "prevalence",
+      "aggregationType": "MAX",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "NUMBER",
+      "zeroIsSignificant": true,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": []
+    }
+  ]
+}

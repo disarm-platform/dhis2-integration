@@ -1,0 +1,83 @@
+[
+  {
+    "lastUpdated": "2020-02-05T11:52:34.660",
+    "id": "QrtLqMOOXfQ",
+    "created": "2020-02-05T11:52:02.274",
+    "name": "n_positive",
+    "shortName": "n_positive",
+    "aggregationType": "SUM",
+    "domainType": "AGGREGATE",
+    "publicAccess": "rw------",
+    "valueType": "NUMBER",
+    "zeroIsSignificant": true,
+    "categoryCombo": {
+      "id": "bjDvmb4bfuf"
+    },
+    "lastUpdatedBy": {
+      "id": "M5zQapPyTZI"
+    },
+    "user": {
+      "id": "M5zQapPyTZI"
+    },
+    "translations": [],
+    "userGroupAccesses": [],
+    "attributeValues": [],
+    "userAccesses": [],
+    "legendSets": [],
+    "aggregationLevels": []
+  },
+  {
+    "lastUpdated": "2020-02-05T11:52:27.678",
+    "id": "IaPazF64WBQ",
+    "created": "2020-02-05T11:50:59.742",
+    "name": "n_trials",
+    "shortName": "n_trials",
+    "aggregationType": "SUM",
+    "domainType": "AGGREGATE",
+    "publicAccess": "rw------",
+    "valueType": "NUMBER",
+    "zeroIsSignificant": true,
+    "categoryCombo": {
+      "id": "bjDvmb4bfuf"
+    },
+    "lastUpdatedBy": {
+      "id": "M5zQapPyTZI"
+    },
+    "user": {
+      "id": "M5zQapPyTZI"
+    },
+    "translations": [],
+    "userGroupAccesses": [],
+    "attributeValues": [],
+    "userAccesses": [],
+    "legendSets": [],
+    "aggregationLevels": []
+  },
+  {
+    "lastUpdated": "2020-02-05T11:52:20.929",
+    "id": "XnrAqy6sd36",
+    "created": "2020-02-05T11:52:20.929",
+    "name": "prevalence",
+    "shortName": "prevalence",
+    "aggregationType": "MAX",
+    "domainType": "AGGREGATE",
+    "publicAccess": "rw------",
+    "valueType": "NUMBER",
+    "zeroIsSignificant": true,
+    "categoryCombo": {
+      "id": "bjDvmb4bfuf"
+    },
+    "lastUpdatedBy": {
+      "id": "M5zQapPyTZI"
+    },
+    "user": {
+      "id": "M5zQapPyTZI"
+    },
+    "translations": [],
+    "userGroupAccesses": [],
+    "attributeValues": [],
+    "userAccesses": [],
+    "legendSets": [],
+    "aggregationLevels": []
+  }
+]

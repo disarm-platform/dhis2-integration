@@ -1,0 +1,73 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "orgUnit_id": "b9KzF3yT6vF",
+        "orgUnit_name": "Facility_1",
+        "prevalence": 0.16170642393019863,
+        "n_trials": 1,
+        "n_positive": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "orgUnit_id": "pLgoeZTqSAc",
+        "orgUnit_name": "Facility_2",
+        "prevalence": 0.576893435399429,
+        "n_trials": 2,
+        "n_positive": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "orgUnit_id": "VcAEdFIy823",
+        "orgUnit_name": "Facility_3",
+        "prevalence": 0.23570913384523395,
+        "n_trials": 3,
+        "n_positive": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "orgUnit_id": "MFfuE2fPk31",
+        "orgUnit_name": "Facility_4",
+        "prevalence": 0.9086813067099775,
+        "n_trials": 4,
+        "n_positive": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4,
+          4
+        ]
+      }
+    }
+  ]
+}

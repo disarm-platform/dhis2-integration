@@ -1,0 +1,148 @@
+{
+  "dataValues": [
+    {
+      "dataElement": "XnrAqy6sd36",
+      "period": "20200201",
+      "orgUnit": "MFfuE2fPk31",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "0.9371408271336976",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "XnrAqy6sd36",
+      "period": "20200201",
+      "orgUnit": "VcAEdFIy823",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "0.06905377666319779",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "XnrAqy6sd36",
+      "period": "20200201",
+      "orgUnit": "pLgoeZTqSAc",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "0.9546056941075058",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "XnrAqy6sd36",
+      "period": "20200201",
+      "orgUnit": "b9KzF3yT6vF",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "0.9608621015442178",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "IaPazF64WBQ",
+      "period": "20200201",
+      "orgUnit": "MFfuE2fPk31",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "4",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "IaPazF64WBQ",
+      "period": "20200201",
+      "orgUnit": "VcAEdFIy823",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "3",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "IaPazF64WBQ",
+      "period": "20200201",
+      "orgUnit": "pLgoeZTqSAc",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "2",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "IaPazF64WBQ",
+      "period": "20200201",
+      "orgUnit": "b9KzF3yT6vF",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "1",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "QrtLqMOOXfQ",
+      "period": "20200201",
+      "orgUnit": "MFfuE2fPk31",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "4",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "QrtLqMOOXfQ",
+      "period": "20200201",
+      "orgUnit": "VcAEdFIy823",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "3",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "QrtLqMOOXfQ",
+      "period": "20200201",
+      "orgUnit": "pLgoeZTqSAc",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "2",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    },
+    {
+      "dataElement": "QrtLqMOOXfQ",
+      "period": "20200201",
+      "orgUnit": "b9KzF3yT6vF",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "1",
+      "storedBy": "admin",
+      "created": "2020-02-05T13:07:16.000+0000",
+      "lastUpdated": "2020-02-05T13:07:16.000+0000",
+      "followUp": false
+    }
+  ]
+}

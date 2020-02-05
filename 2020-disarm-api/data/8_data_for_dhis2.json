@@ -1,0 +1,88 @@
+{
+  "dataValues": [
+    {
+      "dataElement": "IaPazF64WBQ",
+      "value": 1,
+      "period": "20200201",
+      "orgUnit": "b9KzF3yT6vF",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "QrtLqMOOXfQ",
+      "value": 1,
+      "period": "20200201",
+      "orgUnit": "b9KzF3yT6vF",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "XnrAqy6sd36",
+      "value": 0.16170642393019863,
+      "period": "20200201",
+      "orgUnit": "b9KzF3yT6vF",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "IaPazF64WBQ",
+      "value": 2,
+      "period": "20200201",
+      "orgUnit": "pLgoeZTqSAc",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "QrtLqMOOXfQ",
+      "value": 2,
+      "period": "20200201",
+      "orgUnit": "pLgoeZTqSAc",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "XnrAqy6sd36",
+      "value": 0.576893435399429,
+      "period": "20200201",
+      "orgUnit": "pLgoeZTqSAc",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "IaPazF64WBQ",
+      "value": 3,
+      "period": "20200201",
+      "orgUnit": "VcAEdFIy823",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "QrtLqMOOXfQ",
+      "value": 3,
+      "period": "20200201",
+      "orgUnit": "VcAEdFIy823",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "XnrAqy6sd36",
+      "value": 0.23570913384523395,
+      "period": "20200201",
+      "orgUnit": "VcAEdFIy823",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "IaPazF64WBQ",
+      "value": 4,
+      "period": "20200201",
+      "orgUnit": "MFfuE2fPk31",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "QrtLqMOOXfQ",
+      "value": 4,
+      "period": "20200201",
+      "orgUnit": "MFfuE2fPk31",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    },
+    {
+      "dataElement": "XnrAqy6sd36",
+      "value": 0.9086813067099775,
+      "period": "20200201",
+      "orgUnit": "MFfuE2fPk31",
+      "lastUpdated": "2020-02-05T13:10:59.706Z"
+    }
+  ]
+}

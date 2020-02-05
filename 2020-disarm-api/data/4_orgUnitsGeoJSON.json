@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "orgUnit_id": "b9KzF3yT6vF",
+        "orgUnit_name": "Facility_1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "orgUnit_id": "pLgoeZTqSAc",
+        "orgUnit_name": "Facility_2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "orgUnit_id": "VcAEdFIy823",
+        "orgUnit_name": "Facility_3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "orgUnit_id": "MFfuE2fPk31",
+        "orgUnit_name": "Facility_4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4,
+          4
+        ]
+      }
+    }
+  ]
+}

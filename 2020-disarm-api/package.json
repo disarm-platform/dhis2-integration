@@ -1,0 +1,17 @@
+{
+  "name": "2020-02-05-extracting-data-from-DHIS2",
+  "version": "1.0.0",
+  "description": "notes for data integration",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
