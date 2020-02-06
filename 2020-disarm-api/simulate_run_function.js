@@ -81,16 +81,16 @@ async function main() {
 
   await write_file(orgUnitsGeoJSON, 'send_to_disarm');
 
-  // Simulate DiSARM function - randomly add prevalence
+  // Simulate DiSARM function - randomly add prevalence_prediction
   const output_geojson = cloneDeep(orgUnitsGeoJSON);
   output_geojson.features.forEach(f => {
-    f.properties.prevalence = Math.random();
+    f.properties.prevalence_prediction = Math.random();
   })
   await write_file(output_geojson, 'disarm_output');
 
   // reshape back from DiSARM for DHIS2
   const dataValues = output_geojson.features.reduce((acc, f) => {
-    for (const field_name of ['n_trials', 'n_positive', 'prevalence']) {
+    for (const field_name of ['n_trials', 'n_positive', 'prevalence_prediction']) {
       const properties = f.properties;
       const dataElement = dataElementLookup[field_name];
       const value = properties[field_name];

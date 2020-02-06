@@ -26,38 +26,11 @@ async function main() {
 
   const orgUnitParams = orgUnitIds.map(i => `&orgUnit=${i}`).join('');
 
-  // const dataValueSetsUrl = `${root_url}/api/dataValueSets.json?dataSet=${dataSetId}&period=${static_period}${orgUnitParams}`;
-  // const dataValueSetsUrl_res = await fetch(dataValueSetsUrl, { headers });
-  // const dataValueSets = await dataValueSetsUrl_res.json();
-  // await write_file(dataValueSets, 'dataValueSets');
-
   const rawOrgUnits = metadata.organisationUnits;
   await write_file(rawOrgUnits, 'rawOrgUnits');
 
   const rawDataElements = metadata.dataElements;
   await write_file(rawDataElements, 'rawDataElements');
-
-  // // Create GeoJSON of OrgUnits
-  // const orgUnitsFeatures = rawOrgUnits.filter(i => i.hasOwnProperty('parent')).map(i => {
-  //   return {
-  //     type: 'Feature',
-  //     properties: {
-  //       orgUnit_id: i.id,
-  //       orgUnit_name: i.name,
-  //     },
-  //     geometry: {
-  //       type: 'Point',
-  //       coordinates: i.geometry.coordinates,
-  //     }
-  //   };
-  // });
-
-  // const orgUnitsGeoJSON = {
-  //   type: 'FeatureCollection',
-  //   features: orgUnitsFeatures,
-  // };
-
-  // await write_file(orgUnitsGeoJSON, 'orgUnitsGeoJSON');
 
   // Create lookup for dataElement renaming
   const dataElementLookup = rawDataElements.reduce((acc, i) => {
@@ -75,7 +48,7 @@ async function main() {
       return acc;
     }
 
-    for (const field_name of ['n_trials', 'n_positive', 'prevalence']) {
+    for (const field_name of ['n_trials', 'n_positive', 'prevalence_prediction']) {
       const dataElementId = dataElementLookup[field_name];
 
       const value = found_feature.properties[field_name];
@@ -84,55 +57,13 @@ async function main() {
         "dataElement": dataElementId,
         "period": static_period,
         "orgUnit": u.id,
-        "value": value || -1,
+        "value": value || 0.0001,
         "storedBy": "admin",
         "followup": false
       })
     }
     return acc;
   }, [])
-
-  // // Reshape for DiSARM
-  // dataValueSets.dataValues.forEach((d) => {
-  //   const found_orgUnit = orgUnitsFeatures.find(o => o.properties.orgUnit_id === d.orgUnit);
-  //   if (!found_orgUnit) {
-  //     console.error('Cannot find orgUnit for', d);
-  //   }
-  //   const found_dataElement = dataElementLookup[d.dataElement];
-  //   if (!found_dataElement) {
-  //     console.error('Cannot find dataElement for', d);
-  //   }
-  //   found_orgUnit.properties[found_dataElement] = parseFloat(d.value);
-  // });
-
-  // await write_file(orgUnitsGeoJSON, 'send_to_disarm');
-
-  // // Simulate DiSARM function - randomly add prevalence
-  // const output_geojson = cloneDeep(orgUnitsGeoJSON);
-  // output_geojson.features.forEach(f => {
-  //   f.properties.prevalence = Math.random();
-  // })
-  // await write_file(output_geojson, 'disarm_output');
-
-  // // reshape back from DiSARM for DHIS2
-  // const dataValues = output_geojson.features.reduce((acc, f) => {
-  //   for (const field_name of ['n_trials', 'n_positive', 'prevalence']) {
-  //     const properties = f.properties;
-  //     const dataElement = dataElementLookup[field_name];
-  //     const value = properties[field_name];
-  //     const orgUnit = properties.orgUnit_id;
-  //     const lastUpdated = new Date;
-  //     acc.push({
-  //       dataElement,
-  //       value,
-  //       period: static_period,
-  //       orgUnit,
-  //       lastUpdated,
-  //     })
-  //   }
-  //   return acc;
-
-  // }, [])
 
   const data_for_dhis2 = {
     dataValues,

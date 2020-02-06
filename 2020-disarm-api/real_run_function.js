@@ -40,6 +40,7 @@ async function main() {
     return {
       type: 'Feature',
       properties: {
+        id: i.id,
         orgUnit_id: i.id,
         orgUnit_name: i.name,
       },
@@ -61,17 +62,20 @@ async function main() {
   await write_file(dataElementLookup, 'dataElementLookup');
 
   // Reshape for DiSARM
-  dataValueSets.dataValues.forEach((d) => {
-    const found_orgUnitIndex = orgUnitsFeatures.findIndex(o => o.properties.orgUnit_id === d.orgUnit);
-    if (!found_orgUnitIndex) {
+  const iterate_this = dataValueSets.dataValues; //.slice(0, 9);
+  iterate_this.forEach((d) => {
+    const found_orgUnit = orgUnitsFeatures.find(o => o.properties.orgUnit_id === d.orgUnit);
+    if (!found_orgUnit) {
       console.error('Cannot find orgUnit for', d);
+      return;
     }
     const found_dataElement = dataElementLookup[d.dataElement];
     if (!found_dataElement) {
       console.error('Cannot find dataElement for', d);
+      return;
     }
     const value = parseFloat(d.value);
-    orgUnitsFeatures[found_orgUnitIndex].properties[found_dataElement] = value;
+    found_orgUnit.properties[found_dataElement] = value;
   });
 
   const orgUnitsGeoJSON = {
@@ -81,7 +85,7 @@ async function main() {
 
   await write_file(orgUnitsGeoJSON, 'send_to_disarm');
 
-  // Simulate DiSARM function - randomly add prevalence
+  // Simulate DiSARM function - randomly add prevalence_prediction
   const real_run_Url = `https://faas.srv.disarm.io/function/fn-prevalence-predictor`;
   const real_run_Url_res = await fetch(real_run_Url, {
     method: 'post',
@@ -94,8 +98,9 @@ async function main() {
 
   // reshape back from DiSARM for DHIS2
   const dataValues = real_run_result.result.features.reduce((acc, f) => {
-    for (const field_name of ['n_trials', 'n_positive', 'prevalence']) {
+    for (const field_name of ['n_trials', 'n_positive', 'prevalence_prediction']) {
       const properties = f.properties;
+      let dataElement = dataElementLookup[field_name];
       const dataElement = dataElementLookup[field_name];
       const value = properties[field_name];
       const orgUnit = properties.orgUnit_id;
