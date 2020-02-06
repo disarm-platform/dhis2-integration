@@ -4,6 +4,7 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "XlHhWiVxBGG",
         "orgUnit_id": "XlHhWiVxBGG",
         "orgUnit_name": "exFacility_1"
       },
@@ -18,6 +19,7 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "Ls6tC1GElLn",
         "orgUnit_id": "Ls6tC1GElLn",
         "orgUnit_name": "exFacility_2"
       },
@@ -32,6 +34,7 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "EOHnM49uRgJ",
         "orgUnit_id": "EOHnM49uRgJ",
         "orgUnit_name": "exFacility_3"
       },
@@ -46,6 +49,7 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "UmvchELKw1Y",
         "orgUnit_id": "UmvchELKw1Y",
         "orgUnit_name": "exFacility_4"
       },
@@ -60,11 +64,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "ettZPvfj2rA",
         "orgUnit_id": "ettZPvfj2rA",
         "orgUnit_name": "Facility_1",
         "n_trials": 5000,
         "n_positive": 1068,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -77,11 +82,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "RcNEsFHWaEa",
         "orgUnit_id": "RcNEsFHWaEa",
         "orgUnit_name": "Facility_10",
         "n_trials": 5000,
         "n_positive": 224,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -94,6 +100,7 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "dX1vDXUNRNS",
         "orgUnit_id": "dX1vDXUNRNS",
         "orgUnit_name": "Facility_100"
       },
@@ -108,11 +115,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "dmPEU7fn5DW",
         "orgUnit_id": "dmPEU7fn5DW",
         "orgUnit_name": "Facility_11",
         "n_trials": 5000,
         "n_positive": 169,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -125,11 +133,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "hjm6qqtVG6i",
         "orgUnit_id": "hjm6qqtVG6i",
         "orgUnit_name": "Facility_12",
         "n_trials": 5000,
         "n_positive": 880,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -142,11 +151,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "oIKQl7NidBe",
         "orgUnit_id": "oIKQl7NidBe",
         "orgUnit_name": "Facility_13",
         "n_trials": 5000,
         "n_positive": 566,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -159,11 +169,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "iVrwjxIEFxJ",
         "orgUnit_id": "iVrwjxIEFxJ",
         "orgUnit_name": "Facility_14",
         "n_trials": 5000,
         "n_positive": 263,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -176,11 +187,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "B1zUCxVCoJi",
         "orgUnit_id": "B1zUCxVCoJi",
         "orgUnit_name": "Facility_15",
         "n_trials": 5000,
         "n_positive": 1131,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -193,11 +205,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "DE9lRvG5VP8",
         "orgUnit_id": "DE9lRvG5VP8",
         "orgUnit_name": "Facility_16",
         "n_trials": 5000,
         "n_positive": 350,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -210,11 +223,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "iHgY3Tl5PTu",
         "orgUnit_id": "iHgY3Tl5PTu",
         "orgUnit_name": "Facility_17",
         "n_trials": 5000,
         "n_positive": 1259,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -227,11 +241,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "sfC2m7YG84O",
         "orgUnit_id": "sfC2m7YG84O",
         "orgUnit_name": "Facility_18",
         "n_trials": 5000,
         "n_positive": 249,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -244,11 +259,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "PO5tJtZ0twE",
         "orgUnit_id": "PO5tJtZ0twE",
         "orgUnit_name": "Facility_19",
         "n_trials": 5000,
         "n_positive": 228,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -261,11 +277,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "ftlRuVHfk6y",
         "orgUnit_id": "ftlRuVHfk6y",
         "orgUnit_name": "Facility_2",
         "n_trials": 5000,
         "n_positive": 765,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -278,11 +295,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "wywzXlaHU8r",
         "orgUnit_id": "wywzXlaHU8r",
         "orgUnit_name": "Facility_20",
         "n_trials": 5000,
         "n_positive": 1360,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -295,11 +313,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "Erk3XTSecGy",
         "orgUnit_id": "Erk3XTSecGy",
         "orgUnit_name": "Facility_21",
         "n_trials": 5000,
         "n_positive": 918,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -312,11 +331,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "uV4i2LPWC4y",
         "orgUnit_id": "uV4i2LPWC4y",
         "orgUnit_name": "Facility_22",
         "n_trials": 5000,
         "n_positive": 218,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -329,11 +349,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "wWHW6g6msFw",
         "orgUnit_id": "wWHW6g6msFw",
         "orgUnit_name": "Facility_23",
         "n_trials": 5000,
         "n_positive": 1100,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -346,11 +367,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "PMMz121X4NN",
         "orgUnit_id": "PMMz121X4NN",
         "orgUnit_name": "Facility_24",
         "n_trials": 5000,
         "n_positive": 1094,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -363,11 +385,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "R5bHwX8fCyr",
         "orgUnit_id": "R5bHwX8fCyr",
         "orgUnit_name": "Facility_25",
         "n_trials": 5000,
         "n_positive": 598,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -380,11 +403,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "y6PSKfIx1FY",
         "orgUnit_id": "y6PSKfIx1FY",
         "orgUnit_name": "Facility_26",
         "n_trials": 5000,
         "n_positive": 268,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -397,11 +421,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "ET8OzhldiZ7",
         "orgUnit_id": "ET8OzhldiZ7",
         "orgUnit_name": "Facility_27",
         "n_trials": 5000,
         "n_positive": 880,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -414,11 +439,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "plq0eujLgKr",
         "orgUnit_id": "plq0eujLgKr",
         "orgUnit_name": "Facility_28",
         "n_trials": 5000,
         "n_positive": 308,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -431,11 +457,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "AeXvkM63Uwx",
         "orgUnit_id": "AeXvkM63Uwx",
         "orgUnit_name": "Facility_29",
         "n_trials": 5000,
         "n_positive": 405,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -448,11 +475,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "fliRJPfUrTt",
         "orgUnit_id": "fliRJPfUrTt",
         "orgUnit_name": "Facility_3",
         "n_trials": 5000,
         "n_positive": 333,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -465,10 +493,11 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "Nr1rOURApiG",
         "orgUnit_id": "Nr1rOURApiG",
         "orgUnit_name": "Facility_30",
         "n_positive": 474,
-        "prevalence": -1,
+        "prevalence": 0.0001,
         "n_trials": 5000
       },
       "geometry": {
@@ -482,11 +511,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "F6Hz1bzjx7A",
         "orgUnit_id": "F6Hz1bzjx7A",
         "orgUnit_name": "Facility_31",
         "n_trials": 5000,
         "n_positive": 255,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -499,11 +529,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "xYSLUUSzkcI",
         "orgUnit_id": "xYSLUUSzkcI",
         "orgUnit_name": "Facility_32",
         "n_trials": 5000,
         "n_positive": 501,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -516,11 +547,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "TMl0GoYaYQm",
         "orgUnit_id": "TMl0GoYaYQm",
         "orgUnit_name": "Facility_33",
         "n_trials": 5000,
         "n_positive": 890,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -533,11 +565,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "yeK6eYUI8qv",
         "orgUnit_id": "yeK6eYUI8qv",
         "orgUnit_name": "Facility_34",
         "n_trials": 5000,
         "n_positive": 815,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -550,11 +583,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "l7ACVOof6GN",
         "orgUnit_id": "l7ACVOof6GN",
         "orgUnit_name": "Facility_35",
         "n_trials": 5000,
         "n_positive": 793,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -567,11 +601,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "VxXRwbHh8b9",
         "orgUnit_id": "VxXRwbHh8b9",
         "orgUnit_name": "Facility_36",
         "n_trials": 5000,
         "n_positive": 323,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -584,11 +619,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "HFF4zDa3933",
         "orgUnit_id": "HFF4zDa3933",
         "orgUnit_name": "Facility_37",
         "n_trials": 5000,
         "n_positive": 325,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -601,11 +637,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "lhmzAzXno4Y",
         "orgUnit_id": "lhmzAzXno4Y",
         "orgUnit_name": "Facility_38",
         "n_trials": 5000,
         "n_positive": 1010,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -618,11 +655,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "l1FutjQuBQG",
         "orgUnit_id": "l1FutjQuBQG",
         "orgUnit_name": "Facility_39",
         "n_trials": 5000,
         "n_positive": 358,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -635,11 +673,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "LwR1AKgf1lc",
         "orgUnit_id": "LwR1AKgf1lc",
         "orgUnit_name": "Facility_4",
         "n_trials": 5000,
         "n_positive": 1175,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -652,11 +691,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "VIcNbWy5B0I",
         "orgUnit_id": "VIcNbWy5B0I",
         "orgUnit_name": "Facility_40",
         "n_trials": 5000,
         "n_positive": 1131,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -669,11 +709,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "Ny3jp8X0fP5",
         "orgUnit_id": "Ny3jp8X0fP5",
         "orgUnit_name": "Facility_41",
         "n_trials": 5000,
         "n_positive": 433,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -686,11 +727,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "a4YHSG4ioq4",
         "orgUnit_id": "a4YHSG4ioq4",
         "orgUnit_name": "Facility_42",
         "n_trials": 5000,
         "n_positive": 713,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -703,11 +745,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "XuLm3q9QqXp",
         "orgUnit_id": "XuLm3q9QqXp",
         "orgUnit_name": "Facility_43",
         "n_trials": 5000,
         "n_positive": 245,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -720,11 +763,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "g46wWno2O05",
         "orgUnit_id": "g46wWno2O05",
         "orgUnit_name": "Facility_44",
         "n_trials": 5000,
         "n_positive": 563,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -737,11 +781,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "Bty27hIErdN",
         "orgUnit_id": "Bty27hIErdN",
         "orgUnit_name": "Facility_45",
         "n_trials": 5000,
         "n_positive": 853,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -754,11 +799,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "sJ6UFAZFcwt",
         "orgUnit_id": "sJ6UFAZFcwt",
         "orgUnit_name": "Facility_46",
         "n_trials": 5000,
         "n_positive": 399,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -771,11 +817,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "MxCBCRbA1J8",
         "orgUnit_id": "MxCBCRbA1J8",
         "orgUnit_name": "Facility_47",
         "n_trials": 5000,
         "n_positive": 1000,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -788,11 +835,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "CCkCaPDOLVw",
         "orgUnit_id": "CCkCaPDOLVw",
         "orgUnit_name": "Facility_48",
         "n_trials": 5000,
         "n_positive": 809,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -805,11 +853,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "SfzQqxUtIli",
         "orgUnit_id": "SfzQqxUtIli",
         "orgUnit_name": "Facility_49",
         "n_trials": 5000,
         "n_positive": 301,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -822,11 +871,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "rLefMhN4nAg",
         "orgUnit_id": "rLefMhN4nAg",
         "orgUnit_name": "Facility_5",
         "n_trials": 5000,
         "n_positive": 333,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -839,11 +889,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "ewGwBjd4zU8",
         "orgUnit_id": "ewGwBjd4zU8",
         "orgUnit_name": "Facility_50",
         "n_trials": 5000,
         "n_positive": 333,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -856,11 +907,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "tZaVUMFFBGO",
         "orgUnit_id": "tZaVUMFFBGO",
         "orgUnit_name": "Facility_51",
         "n_trials": 5000,
         "n_positive": 229,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -873,11 +925,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "vlQy1Zcj1Hk",
         "orgUnit_id": "vlQy1Zcj1Hk",
         "orgUnit_name": "Facility_52",
         "n_trials": 5000,
         "n_positive": 343,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -890,11 +943,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "BzlngdELcFs",
         "orgUnit_id": "BzlngdELcFs",
         "orgUnit_name": "Facility_53",
         "n_trials": 5000,
         "n_positive": 1346,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -907,11 +961,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "LBgqwX4Gbjv",
         "orgUnit_id": "LBgqwX4Gbjv",
         "orgUnit_name": "Facility_54",
         "n_trials": 5000,
         "n_positive": 370,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -924,11 +979,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "UeRbIBCmWil",
         "orgUnit_id": "UeRbIBCmWil",
         "orgUnit_name": "Facility_55",
         "n_trials": 5000,
         "n_positive": 499,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -941,11 +997,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "CN8t07qVKcs",
         "orgUnit_id": "CN8t07qVKcs",
         "orgUnit_name": "Facility_56",
         "n_trials": 5000,
         "n_positive": 1113,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -958,11 +1015,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "oZxWPoNCLbb",
         "orgUnit_id": "oZxWPoNCLbb",
         "orgUnit_name": "Facility_57",
         "n_trials": 5000,
         "n_positive": 829,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -975,11 +1033,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "Im611z1BLob",
         "orgUnit_id": "Im611z1BLob",
         "orgUnit_name": "Facility_58",
         "n_trials": 5000,
         "n_positive": 389,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -992,11 +1051,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "XNbYijZVjHa",
         "orgUnit_id": "XNbYijZVjHa",
         "orgUnit_name": "Facility_59",
         "n_trials": 5000,
         "n_positive": 132,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1009,11 +1069,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "o0kJI9Lhzz6",
         "orgUnit_id": "o0kJI9Lhzz6",
         "orgUnit_name": "Facility_6",
         "n_trials": 5000,
         "n_positive": 1105,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1026,11 +1087,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "YkkAQuJegUy",
         "orgUnit_id": "YkkAQuJegUy",
         "orgUnit_name": "Facility_60",
         "n_trials": 5000,
         "n_positive": 249,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1043,11 +1105,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "sGk1hSAbeji",
         "orgUnit_id": "sGk1hSAbeji",
         "orgUnit_name": "Facility_61",
         "n_trials": 5000,
         "n_positive": 1270,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1060,11 +1123,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "ng7p23nS22S",
         "orgUnit_id": "ng7p23nS22S",
         "orgUnit_name": "Facility_62",
         "n_trials": 5000,
         "n_positive": 317,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1077,11 +1141,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "YKf5tCOTY2W",
         "orgUnit_id": "YKf5tCOTY2W",
         "orgUnit_name": "Facility_63",
         "n_trials": 5000,
         "n_positive": 1044,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1094,11 +1159,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "cG6XLx78DyT",
         "orgUnit_id": "cG6XLx78DyT",
         "orgUnit_name": "Facility_64",
         "n_trials": 5000,
         "n_positive": 1008,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1111,11 +1177,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "kbfGesvW1Y4",
         "orgUnit_id": "kbfGesvW1Y4",
         "orgUnit_name": "Facility_65",
         "n_trials": 5000,
         "n_positive": 326,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1128,11 +1195,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "hC7YuKtjbdQ",
         "orgUnit_id": "hC7YuKtjbdQ",
         "orgUnit_name": "Facility_66",
         "n_trials": 5000,
         "n_positive": 210,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1145,11 +1213,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "nPcD5ynGc3L",
         "orgUnit_id": "nPcD5ynGc3L",
         "orgUnit_name": "Facility_67",
         "n_trials": 5000,
         "n_positive": 517,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1162,11 +1231,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "jMSG5dP7RXI",
         "orgUnit_id": "jMSG5dP7RXI",
         "orgUnit_name": "Facility_68",
         "n_trials": 5000,
         "n_positive": 313,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1179,11 +1249,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "kiRHuD7tgk4",
         "orgUnit_id": "kiRHuD7tgk4",
         "orgUnit_name": "Facility_69",
         "n_trials": 5000,
         "n_positive": 376,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1196,11 +1267,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "OASAkQSyBpY",
         "orgUnit_id": "OASAkQSyBpY",
         "orgUnit_name": "Facility_7",
         "n_trials": 5000,
         "n_positive": 727,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1213,11 +1285,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "OSjwQvIcZPQ",
         "orgUnit_id": "OSjwQvIcZPQ",
         "orgUnit_name": "Facility_70",
         "n_trials": 5000,
         "n_positive": 221,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1230,11 +1303,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "OEoKP8I17nm",
         "orgUnit_id": "OEoKP8I17nm",
         "orgUnit_name": "Facility_71",
         "n_trials": 5000,
         "n_positive": 919,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1247,11 +1321,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "vEx19KnHLrU",
         "orgUnit_id": "vEx19KnHLrU",
         "orgUnit_name": "Facility_72",
         "n_trials": 5000,
         "n_positive": 272,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1264,11 +1339,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "iMZe1e2eRYp",
         "orgUnit_id": "iMZe1e2eRYp",
         "orgUnit_name": "Facility_73",
         "n_trials": 5000,
         "n_positive": 484,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1281,11 +1357,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "toQxooiCpPO",
         "orgUnit_id": "toQxooiCpPO",
         "orgUnit_name": "Facility_74",
         "n_trials": 5000,
         "n_positive": 357,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1298,11 +1375,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "EfTVO0WBL9c",
         "orgUnit_id": "EfTVO0WBL9c",
         "orgUnit_name": "Facility_75",
         "n_trials": 5000,
         "n_positive": 1243,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1315,11 +1393,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "bGf0bUxS08M",
         "orgUnit_id": "bGf0bUxS08M",
         "orgUnit_name": "Facility_76",
         "n_trials": 5000,
         "n_positive": 1147,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1332,11 +1411,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "LjWiHpzRowF",
         "orgUnit_id": "LjWiHpzRowF",
         "orgUnit_name": "Facility_77",
         "n_trials": 5000,
         "n_positive": 207,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1349,11 +1429,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "LyMpwC5UoG6",
         "orgUnit_id": "LyMpwC5UoG6",
         "orgUnit_name": "Facility_78",
         "n_trials": 5000,
         "n_positive": 172,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1366,11 +1447,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "ZQEoZa98YnK",
         "orgUnit_id": "ZQEoZa98YnK",
         "orgUnit_name": "Facility_79",
         "n_trials": 5000,
         "n_positive": 219,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1383,11 +1465,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "dQpfTyVRv6y",
         "orgUnit_id": "dQpfTyVRv6y",
         "orgUnit_name": "Facility_8",
         "n_trials": 5000,
         "n_positive": 739,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1400,11 +1483,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "kysgaVg0FgV",
         "orgUnit_id": "kysgaVg0FgV",
         "orgUnit_name": "Facility_80",
         "n_trials": 5000,
         "n_positive": 612,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1417,11 +1501,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "a8ssyk6zwXa",
         "orgUnit_id": "a8ssyk6zwXa",
         "orgUnit_name": "Facility_81",
         "n_trials": 5000,
         "n_positive": 1039,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1434,11 +1519,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "denKShNdmbx",
         "orgUnit_id": "denKShNdmbx",
         "orgUnit_name": "Facility_82",
         "n_trials": 5000,
         "n_positive": 462,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1451,11 +1537,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "HTDRQO98t56",
         "orgUnit_id": "HTDRQO98t56",
         "orgUnit_name": "Facility_83",
         "n_trials": 5000,
         "n_positive": 330,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1468,11 +1555,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "f2yQ1uUkmVH",
         "orgUnit_id": "f2yQ1uUkmVH",
         "orgUnit_name": "Facility_84",
         "n_trials": 5000,
         "n_positive": 491,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1485,11 +1573,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "zAFMaXEbtuo",
         "orgUnit_id": "zAFMaXEbtuo",
         "orgUnit_name": "Facility_85",
         "n_trials": 5000,
         "n_positive": 880,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1502,11 +1591,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "iiINDZtlAd9",
         "orgUnit_id": "iiINDZtlAd9",
         "orgUnit_name": "Facility_86",
         "n_trials": 5000,
         "n_positive": 1120,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1519,11 +1609,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "RdkdViQTn1k",
         "orgUnit_id": "RdkdViQTn1k",
         "orgUnit_name": "Facility_87",
         "n_trials": 5000,
         "n_positive": 966,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1536,11 +1627,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "B92NU5eFxUY",
         "orgUnit_id": "B92NU5eFxUY",
         "orgUnit_name": "Facility_88",
         "n_trials": 5000,
         "n_positive": 919,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1553,11 +1645,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "MleGXaLXteZ",
         "orgUnit_id": "MleGXaLXteZ",
         "orgUnit_name": "Facility_89",
         "n_trials": 5000,
         "n_positive": 298,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1570,11 +1663,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "JiQymzr9kAR",
         "orgUnit_id": "JiQymzr9kAR",
         "orgUnit_name": "Facility_9",
         "n_trials": 5000,
         "n_positive": 241,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1587,11 +1681,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "LBExxl2dHen",
         "orgUnit_id": "LBExxl2dHen",
         "orgUnit_name": "Facility_90",
         "n_trials": 5000,
         "n_positive": 393,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1604,11 +1699,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "HE46a3oOcqi",
         "orgUnit_id": "HE46a3oOcqi",
         "orgUnit_name": "Facility_91",
         "n_trials": 5000,
         "n_positive": 712,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1621,11 +1717,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "KqOrHEbjdhb",
         "orgUnit_id": "KqOrHEbjdhb",
         "orgUnit_name": "Facility_92",
         "n_trials": 5000,
         "n_positive": 1142,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1638,11 +1735,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "mEd0lRrgknn",
         "orgUnit_id": "mEd0lRrgknn",
         "orgUnit_name": "Facility_93",
         "n_trials": 5000,
         "n_positive": 203,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1655,11 +1753,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "ToBs43z7kV2",
         "orgUnit_id": "ToBs43z7kV2",
         "orgUnit_name": "Facility_94",
         "n_trials": 5000,
         "n_positive": 579,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1672,11 +1771,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "vtUO5VFl3ZW",
         "orgUnit_id": "vtUO5VFl3ZW",
         "orgUnit_name": "Facility_95",
         "n_trials": 5000,
         "n_positive": 197,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1689,11 +1789,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "l4CYZ74XwBx",
         "orgUnit_id": "l4CYZ74XwBx",
         "orgUnit_name": "Facility_96",
         "n_trials": 5000,
         "n_positive": 286,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1706,11 +1807,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "KCutgCR7342",
         "orgUnit_id": "KCutgCR7342",
         "orgUnit_name": "Facility_97",
         "n_trials": 5000,
         "n_positive": 469,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1723,11 +1825,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "nKJ1AxKz1v4",
         "orgUnit_id": "nKJ1AxKz1v4",
         "orgUnit_name": "Facility_98",
         "n_trials": 5000,
         "n_positive": 352,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
@@ -1740,11 +1843,12 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "eKWxOyAIaDS",
         "orgUnit_id": "eKWxOyAIaDS",
         "orgUnit_name": "Facility_99",
         "n_trials": 5000,
         "n_positive": 1011,
-        "prevalence": -1
+        "prevalence": 0.0001
       },
       "geometry": {
         "type": "Point",
