@@ -11,14 +11,20 @@
     "skipExistingCheck": false,
     "sharing": false,
     "skipNotifications": false,
+    "skipAudit": false,
     "datasetAllowsPeriods": false,
     "strictPeriods": false,
+    "strictDataElements": false,
     "strictCategoryOptionCombos": false,
     "strictAttributeOptionCombos": false,
     "strictOrganisationUnits": false,
     "requireCategoryOptionCombo": false,
     "requireAttributeOptionCombo": false,
-    "skipPatternValidation": false
+    "skipPatternValidation": false,
+    "ignoreEmptyCollection": false,
+    "force": false,
+    "firstRowIsHeader": true,
+    "skipLastUpdated": false
   },
   "description": "Import process completed successfully",
   "importCount": {

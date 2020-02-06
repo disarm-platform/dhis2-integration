@@ -1,1 +1,17 @@
-"{\"name\":\"inMemoryAnalyticsJob\",\"created\":\"2020-02-05T13:10:59.884+0000\",\"lastUpdated\":\"2020-02-05T13:10:59.884+0000\",\"externalAccess\":false,\"displayName\":\"inMemoryAnalyticsJob\",\"cronExpression\":\"\",\"jobType\":\"ANALYTICS_TABLE\",\"jobStatus\":\"SCHEDULED\",\"jobParameters\":{\"skipResourceTables\":false},\"continuousExecution\":false,\"enabled\":true,\"inMemoryJob\":true,\"userUid\":\"M5zQapPyTZI\",\"configurable\":true,\"favorite\":false,\"id\":\"B9gVlbx1Hpn\"}{\"httpStatus\":\"OK\",\"httpStatusCode\":200,\"status\":\"OK\",\"message\":\"Initiated analytics table update\"}"
+{
+  "httpStatus": "OK",
+  "httpStatusCode": 200,
+  "status": "OK",
+  "message": "Initiated inMemoryAnalyticsJob",
+  "response": {
+    "name": "inMemoryAnalyticsJob",
+    "id": "CsHsmXZkvgl",
+    "created": "2020-02-06T12:10:53.255",
+    "jobType": "ANALYTICS_TABLE",
+    "jobStatus": "SCHEDULED",
+    "jobParameters": {
+      "skipResourceTables": false
+    },
+    "relativeNotifierEndpoint": "/api/system/tasks/ANALYTICS_TABLE/CsHsmXZkvgl"
+  }
+}

@@ -1,63 +1,35 @@
 {
   "system": {
-    "id": "ce544b21-ebe3-4ec6-a6a5-57e3e82a2bb3",
-    "rev": "dad221d",
-    "version": "2.29",
-    "date": "2020-02-05T15:10:59.615"
+    "rev": "071f135",
+    "version": "2.33.0",
+    "date": "2020-02-06T12:10:52.827"
   },
-  "organisationUnits": [
+  "dataSets": [
     {
-      "created": "2020-02-05T11:43:31.184",
-      "lastUpdated": "2020-02-05T11:50:05.324",
-      "name": "Eswatini",
-      "id": "pZ1ppeizx0V",
-      "shortName": "eswatini",
-      "path": "/pZ1ppeizx0V",
-      "featureType": "NONE",
-      "openingDate": "2020-01-01T00:00:00.000",
-      "lastUpdatedBy": {
-        "id": "M5zQapPyTZI"
-      },
-      "user": {
-        "id": "M5zQapPyTZI"
-      },
-      "attributeValues": [],
-      "translations": []
-    },
-    {
-      "created": "2020-02-05T11:44:35.455",
-      "lastUpdated": "2020-02-05T11:50:05.323",
-      "name": "Facility_1",
-      "id": "b9KzF3yT6vF",
-      "shortName": "Facility_1",
-      "coordinates": "[1,1]",
-      "path": "/pZ1ppeizx0V/b9KzF3yT6vF",
-      "featureType": "POINT",
-      "openingDate": "2020-01-01T00:00:00.000",
-      "parent": {
-        "id": "pZ1ppeizx0V"
-      },
-      "lastUpdatedBy": {
-        "id": "M5zQapPyTZI"
-      },
-      "user": {
-        "id": "M5zQapPyTZI"
-      },
-      "attributeValues": [],
-      "translations": []
-    },
-    {
-      "created": "2020-02-05T11:44:35.455",
-      "lastUpdated": "2020-02-05T12:46:01.828",
-      "name": "Facility_2",
-      "id": "pLgoeZTqSAc",
-      "shortName": "Facility_2",
-      "coordinates": "[2,2]",
-      "path": "/pZ1ppeizx0V/pLgoeZTqSAc",
-      "featureType": "POINT",
-      "openingDate": "2020-01-01T00:00:00.000",
-      "parent": {
-        "id": "pZ1ppeizx0V"
+      "code": "Data_set",
+      "lastUpdated": "2020-02-06T11:51:18.337",
+      "id": "nY643nTqYIt",
+      "created": "2020-02-06T11:50:21.567",
+      "name": "Data_set",
+      "shortName": "Data_set",
+      "validCompleteOnly": false,
+      "dataElementDecoration": false,
+      "publicAccess": "rw------",
+      "notifyCompletingUser": false,
+      "noValueRequiresComment": false,
+      "skipOffline": false,
+      "compulsoryFieldsCompleteOnly": false,
+      "fieldCombinationRequired": false,
+      "renderHorizontally": false,
+      "renderAsTabs": false,
+      "mobile": false,
+      "version": 1,
+      "timelyDays": 15,
+      "periodType": "Monthly",
+      "openFuturePeriods": 0,
+      "expiryDays": 0,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
       },
       "lastUpdatedBy": {
         "id": "M5zQapPyTZI"
@@ -65,66 +37,78 @@
       "user": {
         "id": "M5zQapPyTZI"
       },
+      "dataSetElements": [
+        {
+          "dataElement": {
+            "id": "PPX2Xi3Cj1i"
+          },
+          "dataSet": {
+            "id": "nY643nTqYIt"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "OOSBjoDYpxv"
+          },
+          "dataSet": {
+            "id": "nY643nTqYIt"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "IdZgCAy09mH"
+          },
+          "dataSet": {
+            "id": "nY643nTqYIt"
+          }
+        }
+      ],
+      "compulsoryDataElementOperands": [],
+      "translations": [],
+      "dataInputPeriods": [
+        {
+          "period": {
+            "id": "201912"
+          }
+        }
+      ],
+      "organisationUnits": [
+        {
+          "id": "lQHbsk4Vizg"
+        },
+        {
+          "id": "UmvchELKw1Y"
+        },
+        {
+          "id": "XlHhWiVxBGG"
+        },
+        {
+          "id": "EOHnM49uRgJ"
+        },
+        {
+          "id": "Ls6tC1GElLn"
+        }
+      ],
+      "userGroupAccesses": [],
       "attributeValues": [],
-      "translations": []
-    },
-    {
-      "created": "2020-02-05T11:44:35.455",
-      "lastUpdated": "2020-02-05T11:50:05.324",
-      "name": "Facility_3",
-      "id": "VcAEdFIy823",
-      "shortName": "Facility_3",
-      "coordinates": "[3,3]",
-      "path": "/pZ1ppeizx0V/VcAEdFIy823",
-      "featureType": "POINT",
-      "openingDate": "2020-01-01T00:00:00.000",
-      "parent": {
-        "id": "pZ1ppeizx0V"
-      },
-      "lastUpdatedBy": {
-        "id": "M5zQapPyTZI"
-      },
-      "user": {
-        "id": "M5zQapPyTZI"
-      },
-      "attributeValues": [],
-      "translations": []
-    },
-    {
-      "created": "2020-02-05T11:44:35.455",
-      "lastUpdated": "2020-02-05T11:49:42.921",
-      "name": "Facility_4",
-      "id": "MFfuE2fPk31",
-      "shortName": "Facility_4",
-      "coordinates": "[4,4]",
-      "path": "/pZ1ppeizx0V/MFfuE2fPk31",
-      "featureType": "POINT",
-      "openingDate": "2020-01-01T00:00:00.000",
-      "parent": {
-        "id": "pZ1ppeizx0V"
-      },
-      "lastUpdatedBy": {
-        "id": "M5zQapPyTZI"
-      },
-      "user": {
-        "id": "M5zQapPyTZI"
-      },
-      "attributeValues": [],
-      "translations": []
+      "indicators": [],
+      "userAccesses": [],
+      "legendSets": []
     }
   ],
   "dataElements": [
     {
-      "lastUpdated": "2020-02-05T11:52:34.660",
-      "id": "QrtLqMOOXfQ",
-      "created": "2020-02-05T11:52:02.274",
+      "code": "n_positive",
+      "lastUpdated": "2020-02-06T11:48:50.069",
+      "id": "PPX2Xi3Cj1i",
+      "created": "2020-02-06T11:48:50.069",
       "name": "n_positive",
       "shortName": "n_positive",
       "aggregationType": "SUM",
       "domainType": "AGGREGATE",
       "publicAccess": "rw------",
       "valueType": "NUMBER",
-      "zeroIsSignificant": true,
+      "zeroIsSignificant": false,
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
       },
@@ -139,19 +123,23 @@
       "attributeValues": [],
       "userAccesses": [],
       "legendSets": [],
-      "aggregationLevels": []
+      "aggregationLevels": [
+        1,
+        2
+      ]
     },
     {
-      "lastUpdated": "2020-02-05T11:52:27.678",
-      "id": "IaPazF64WBQ",
-      "created": "2020-02-05T11:50:59.742",
+      "code": "n_trials",
+      "lastUpdated": "2020-02-06T11:48:38.175",
+      "id": "OOSBjoDYpxv",
+      "created": "2020-02-06T11:48:38.175",
       "name": "n_trials",
       "shortName": "n_trials",
       "aggregationType": "SUM",
       "domainType": "AGGREGATE",
       "publicAccess": "rw------",
       "valueType": "NUMBER",
-      "zeroIsSignificant": true,
+      "zeroIsSignificant": false,
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
       },
@@ -166,19 +154,23 @@
       "attributeValues": [],
       "userAccesses": [],
       "legendSets": [],
-      "aggregationLevels": []
+      "aggregationLevels": [
+        1,
+        2
+      ]
     },
     {
-      "lastUpdated": "2020-02-05T11:52:20.929",
-      "id": "XnrAqy6sd36",
-      "created": "2020-02-05T11:52:20.929",
+      "code": "prevalence",
+      "lastUpdated": "2020-02-06T11:49:04.281",
+      "id": "IdZgCAy09mH",
+      "created": "2020-02-06T11:49:04.280",
       "name": "prevalence",
       "shortName": "prevalence",
       "aggregationType": "MAX",
       "domainType": "AGGREGATE",
       "publicAccess": "rw------",
       "valueType": "NUMBER",
-      "zeroIsSignificant": true,
+      "zeroIsSignificant": false,
       "categoryCombo": {
         "id": "bjDvmb4bfuf"
       },
@@ -193,7 +185,154 @@
       "attributeValues": [],
       "userAccesses": [],
       "legendSets": [],
-      "aggregationLevels": []
+      "aggregationLevels": [
+        1,
+        2
+      ]
+    }
+  ],
+  "organisationUnits": [
+    {
+      "code": "Eswatini",
+      "level": 1,
+      "created": "2020-02-06T11:45:56.368",
+      "lastUpdated": "2020-02-06T11:50:32.430",
+      "name": "Eswatini",
+      "id": "lQHbsk4Vizg",
+      "shortName": "Eswatini",
+      "path": "/lQHbsk4Vizg",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1,
+          1
+        ]
+      },
+      "openingDate": "2017-01-31T00:00:00.000",
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "Facility_1",
+      "level": 2,
+      "created": "2020-02-06T11:46:33.365",
+      "lastUpdated": "2020-02-06T11:47:59.954",
+      "name": "Facility_1",
+      "id": "XlHhWiVxBGG",
+      "shortName": "Facility_1",
+      "path": "/lQHbsk4Vizg/XlHhWiVxBGG",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1,
+          1
+        ]
+      },
+      "openingDate": "2017-01-31T00:00:00.000",
+      "parent": {
+        "id": "lQHbsk4Vizg"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "Facility_2",
+      "level": 2,
+      "created": "2020-02-06T11:46:43.988",
+      "lastUpdated": "2020-02-06T11:48:00.102",
+      "name": "Facility_2",
+      "id": "Ls6tC1GElLn",
+      "shortName": "Facility_2",
+      "path": "/lQHbsk4Vizg/Ls6tC1GElLn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2,
+          2
+        ]
+      },
+      "openingDate": "2017-01-31T00:00:00.000",
+      "parent": {
+        "id": "lQHbsk4Vizg"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "Facility_3",
+      "level": 2,
+      "created": "2020-02-06T11:46:53.895",
+      "lastUpdated": "2020-02-06T11:48:00.259",
+      "name": "Facility_3",
+      "id": "EOHnM49uRgJ",
+      "shortName": "Facility_3",
+      "path": "/lQHbsk4Vizg/EOHnM49uRgJ",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3,
+          3
+        ]
+      },
+      "openingDate": "2017-01-31T00:00:00.000",
+      "parent": {
+        "id": "lQHbsk4Vizg"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "Facility_4",
+      "level": 2,
+      "created": "2020-02-06T11:47:03.023",
+      "lastUpdated": "2020-02-06T11:48:00.351",
+      "name": "Facility_4",
+      "id": "UmvchELKw1Y",
+      "shortName": "Facility_4",
+      "path": "/lQHbsk4Vizg/UmvchELKw1Y",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4,
+          4
+        ]
+      },
+      "openingDate": "2017-01-31T00:00:00.000",
+      "parent": {
+        "id": "lQHbsk4Vizg"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "attributeValues": [],
+      "translations": []
     }
   ]
 }

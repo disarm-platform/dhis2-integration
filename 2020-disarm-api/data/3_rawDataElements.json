@@ -1,15 +1,16 @@
 [
   {
-    "lastUpdated": "2020-02-05T11:52:34.660",
-    "id": "QrtLqMOOXfQ",
-    "created": "2020-02-05T11:52:02.274",
+    "code": "n_positive",
+    "lastUpdated": "2020-02-06T11:48:50.069",
+    "id": "PPX2Xi3Cj1i",
+    "created": "2020-02-06T11:48:50.069",
     "name": "n_positive",
     "shortName": "n_positive",
     "aggregationType": "SUM",
     "domainType": "AGGREGATE",
     "publicAccess": "rw------",
     "valueType": "NUMBER",
-    "zeroIsSignificant": true,
+    "zeroIsSignificant": false,
     "categoryCombo": {
       "id": "bjDvmb4bfuf"
     },
@@ -24,19 +25,23 @@
     "attributeValues": [],
     "userAccesses": [],
     "legendSets": [],
-    "aggregationLevels": []
+    "aggregationLevels": [
+      1,
+      2
+    ]
   },
   {
-    "lastUpdated": "2020-02-05T11:52:27.678",
-    "id": "IaPazF64WBQ",
-    "created": "2020-02-05T11:50:59.742",
+    "code": "n_trials",
+    "lastUpdated": "2020-02-06T11:48:38.175",
+    "id": "OOSBjoDYpxv",
+    "created": "2020-02-06T11:48:38.175",
     "name": "n_trials",
     "shortName": "n_trials",
     "aggregationType": "SUM",
     "domainType": "AGGREGATE",
     "publicAccess": "rw------",
     "valueType": "NUMBER",
-    "zeroIsSignificant": true,
+    "zeroIsSignificant": false,
     "categoryCombo": {
       "id": "bjDvmb4bfuf"
     },
@@ -51,19 +56,23 @@
     "attributeValues": [],
     "userAccesses": [],
     "legendSets": [],
-    "aggregationLevels": []
+    "aggregationLevels": [
+      1,
+      2
+    ]
   },
   {
-    "lastUpdated": "2020-02-05T11:52:20.929",
-    "id": "XnrAqy6sd36",
-    "created": "2020-02-05T11:52:20.929",
+    "code": "prevalence",
+    "lastUpdated": "2020-02-06T11:49:04.281",
+    "id": "IdZgCAy09mH",
+    "created": "2020-02-06T11:49:04.280",
     "name": "prevalence",
     "shortName": "prevalence",
     "aggregationType": "MAX",
     "domainType": "AGGREGATE",
     "publicAccess": "rw------",
     "valueType": "NUMBER",
-    "zeroIsSignificant": true,
+    "zeroIsSignificant": false,
     "categoryCombo": {
       "id": "bjDvmb4bfuf"
     },
@@ -78,6 +87,9 @@
     "attributeValues": [],
     "userAccesses": [],
     "legendSets": [],
-    "aggregationLevels": []
+    "aggregationLevels": [
+      1,
+      2
+    ]
   }
 ]
