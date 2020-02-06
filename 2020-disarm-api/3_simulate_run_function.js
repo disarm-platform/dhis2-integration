@@ -145,7 +145,7 @@ async function main() {
 }
 
 async function write_file(content, filename) {
-  return await fs.writeFileSync(`data/simulate_run_function/${file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
+  return await fs.writeFileSync(`data/3_simulate_run_function/${file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
 }
 
 main()

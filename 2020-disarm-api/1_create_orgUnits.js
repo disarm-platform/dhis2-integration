@@ -72,7 +72,7 @@ async function main() {
 }
 
 async function write_file(content, filename) {
-  return await fs.writeFileSync(`data/create_orgUnits/${file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
+  return await fs.writeFileSync(`data/1_create_orgUnits/${file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
 }
 
 main()
