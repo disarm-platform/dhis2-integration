@@ -3,24 +3,27 @@ const fetch = require('node-fetch');
 const { cloneDeep } = require('lodash');
 
 // CONFIG
-const static_period = '20200201';
+const static_period = '201912';
 const root_url = 'http://localhost:8080';
+// const root_url = 'https://ppls.ngrok.io';
 const headers = {
   Authorization: 'Basic YWRtaW46ZGlzdHJpY3Q='
 };
 let file_count = 0;
 
 async function main() {
-  const metadata_url = `${root_url}/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true`;
+  const metadata_url = `${root_url}/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true&dataSets=true`;
   const metadata_res = await fetch(metadata_url, { headers });
   const metadata = await metadata_res.json();
   await write_file(metadata, 'metadata');
+
+  const dataSetId = metadata.dataSets[0].id;
 
   const orgUnitIds = metadata.organisationUnits.filter(i => i.hasOwnProperty('parent')).map(i => i.id);
 
   const orgUnitParams = orgUnitIds.map(i => `&orgUnit=${i}`).join('');
 
-  const dataValueSetsUrl = `${root_url}/api/dataValueSets.json?dataSet=CNM7hjjV4Dg&period=20200201${orgUnitParams}`;
+  const dataValueSetsUrl = `${root_url}/api/dataValueSets.json?dataSet=${dataSetId}&period=${static_period}${orgUnitParams}`;
   const dataValueSetsUrl_res = await fetch(dataValueSetsUrl, { headers });
   const dataValueSets = await dataValueSetsUrl_res.json();
   await write_file(dataValueSets, 'dataValueSets');
@@ -41,7 +44,7 @@ async function main() {
       },
       geometry: {
         type: 'Point',
-        coordinates: i.coordinates.replace(/\[|\]/g, '').split(',').map(i => parseFloat(i))
+        coordinates: i.geometry.coordinates,
       }
     };
   });
@@ -81,6 +84,7 @@ async function main() {
   const output_geojson = cloneDeep(orgUnitsGeoJSON);
   output_geojson.features.forEach(f => {
     f.properties.prevalence = Math.random();
+    f.properties.n_trials = Math.random();
   })
   await write_file(output_geojson, 'disarm_output');
 
@@ -112,24 +116,24 @@ async function main() {
 
   // Write back to DHIS2
   const post_data_to_dhis2_url = `${root_url}/api/dataValueSets.json?importStrategy=UPDATE`;
-  const post_data_to_dhis2_res = await fetch(post_data_to_dhis2_url, { 
-    method: 'post', 
+  const post_data_to_dhis2_res = await fetch(post_data_to_dhis2_url, {
+    method: 'post',
     headers: {
       ...headers,
       'Content-Type': 'application/json',
-    }, 
-    body: JSON.stringify(data_for_dhis2) 
+    },
+    body: JSON.stringify(data_for_dhis2)
   });
   const post_data_to_dhis2 = await post_data_to_dhis2_res.json();
   await write_file(post_data_to_dhis2, 'response_from_dhis2');
-  
+
   // Force update of DHIS2 analytics tables
   const dhis2_trigger_analytics_url = `${root_url}/api/resourceTables/analytics.json`;
-  const dhis2_trigger_analytics_res = await fetch(dhis2_trigger_analytics_url, { 
-    method: 'post', 
+  const dhis2_trigger_analytics_res = await fetch(dhis2_trigger_analytics_url, {
+    method: 'post',
     headers
   });
-  const dhis2_trigger_analytics = await dhis2_trigger_analytics_res.text(); // bug in DHIS2 returns broken JSON
+  const dhis2_trigger_analytics = await dhis2_trigger_analytics_res.json();
   await write_file(dhis2_trigger_analytics, 'response_from_dhis2_analytics_bump');
 }
 
