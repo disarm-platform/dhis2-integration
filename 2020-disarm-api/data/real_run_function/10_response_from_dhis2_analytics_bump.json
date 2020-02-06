@@ -1,0 +1,17 @@
+{
+  "httpStatus": "OK",
+  "httpStatusCode": 200,
+  "status": "OK",
+  "message": "Initiated inMemoryAnalyticsJob",
+  "response": {
+    "name": "inMemoryAnalyticsJob",
+    "id": "WcJKWvhlpxi",
+    "created": "2020-02-06T14:33:10.186",
+    "jobType": "ANALYTICS_TABLE",
+    "jobStatus": "SCHEDULED",
+    "jobParameters": {
+      "skipResourceTables": false
+    },
+    "relativeNotifierEndpoint": "/api/system/tasks/ANALYTICS_TABLE/WcJKWvhlpxi"
+  }
+}

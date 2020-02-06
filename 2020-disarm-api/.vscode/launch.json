@@ -7,11 +7,22 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "create_initial_data",
+      "program": "${workspaceFolder}/create_initial_data.js",
       "skipFiles": [
         "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}/index.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "real_run_function",
+      "program": "${workspaceFolder}/real_run_function.js",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
     }
+
+
   ]
 }

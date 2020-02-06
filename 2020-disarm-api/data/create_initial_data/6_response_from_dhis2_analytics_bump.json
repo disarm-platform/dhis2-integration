@@ -5,13 +5,13 @@
   "message": "Initiated inMemoryAnalyticsJob",
   "response": {
     "name": "inMemoryAnalyticsJob",
-    "id": "KOSF3jcG6Du",
-    "created": "2020-02-06T12:45:02.348",
+    "id": "NhMvmBwuLhT",
+    "created": "2020-02-06T14:28:31.482",
     "jobType": "ANALYTICS_TABLE",
     "jobStatus": "SCHEDULED",
     "jobParameters": {
       "skipResourceTables": false
     },
-    "relativeNotifierEndpoint": "/api/system/tasks/ANALYTICS_TABLE/KOSF3jcG6Du"
+    "relativeNotifierEndpoint": "/api/system/tasks/ANALYTICS_TABLE/NhMvmBwuLhT"
   }
 }

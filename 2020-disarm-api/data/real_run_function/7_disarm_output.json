@@ -1,0 +1,2296 @@
+{
+  "function_status": "success",
+  "result": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "0",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": null,
+          "n_trials": null,
+          "orgUnit_id": "XlHhWiVxBGG",
+          "orgUnit_name": "exFacility_1",
+          "prevalence": null,
+          "prevalence_bci_width": 0,
+          "prevalence_prediction": 0.9999999999999998
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "1",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": null,
+          "n_trials": null,
+          "orgUnit_id": "Ls6tC1GElLn",
+          "orgUnit_name": "exFacility_2",
+          "prevalence": null,
+          "prevalence_bci_width": 0,
+          "prevalence_prediction": 0.9999999999999998
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "id": "2",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": null,
+          "n_trials": null,
+          "orgUnit_id": "EOHnM49uRgJ",
+          "orgUnit_name": "exFacility_3",
+          "prevalence": null,
+          "prevalence_bci_width": 0,
+          "prevalence_prediction": 0.9999999999999998
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "id": "3",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": null,
+          "n_trials": null,
+          "orgUnit_id": "UmvchELKw1Y",
+          "orgUnit_name": "exFacility_4",
+          "prevalence": null,
+          "prevalence_bci_width": 0,
+          "prevalence_prediction": 0.9999999999999998
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4,
+            4
+          ]
+        }
+      },
+      {
+        "id": "4",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1068,
+          "n_trials": 5000,
+          "orgUnit_id": "ettZPvfj2rA",
+          "orgUnit_name": "Facility_1",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.004641817106503757,
+          "prevalence_prediction": 0.10084048905072895
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.387355517901135,
+            -26.256360407879175
+          ]
+        }
+      },
+      {
+        "id": "5",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 224,
+          "n_trials": 5000,
+          "orgUnit_id": "RcNEsFHWaEa",
+          "orgUnit_name": "Facility_10",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005528705033681927,
+          "prevalence_prediction": 0.0909780089054535
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.820140772279796,
+            -26.58365861841374
+          ]
+        }
+      },
+      {
+        "id": "6",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": null,
+          "n_trials": null,
+          "orgUnit_id": "dX1vDXUNRNS",
+          "orgUnit_name": "Facility_100",
+          "prevalence": null,
+          "prevalence_bci_width": 0.00790985374457856,
+          "prevalence_prediction": 0.08966545703413188
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.314441260158162,
+            -26.9526280312632
+          ]
+        }
+      },
+      {
+        "id": "7",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 169,
+          "n_trials": 5000,
+          "orgUnit_id": "dmPEU7fn5DW",
+          "orgUnit_name": "Facility_11",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006101573353706452,
+          "prevalence_prediction": 0.09875177090670151
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.890404767624553,
+            -26.6871724447058
+          ]
+        }
+      },
+      {
+        "id": "8",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 880,
+          "n_trials": 5000,
+          "orgUnit_id": "hjm6qqtVG6i",
+          "orgUnit_name": "Facility_12",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.017466736968839325,
+          "prevalence_prediction": 0.14528195650738682
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.893023003396607,
+            -27.300824114795784
+          ]
+        }
+      },
+      {
+        "id": "9",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 566,
+          "n_trials": 5000,
+          "orgUnit_id": "oIKQl7NidBe",
+          "orgUnit_name": "Facility_13",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.00809459281433196,
+          "prevalence_prediction": 0.12467498572329672
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.364265950542627,
+            -25.885042010465295
+          ]
+        }
+      },
+      {
+        "id": "10",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 263,
+          "n_trials": 5000,
+          "orgUnit_id": "iVrwjxIEFxJ",
+          "orgUnit_name": "Facility_14",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.0048418891279729676,
+          "prevalence_prediction": 0.10414387864674814
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.450146418431558,
+            -26.295764146436557
+          ]
+        }
+      },
+      {
+        "id": "11",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1131,
+          "n_trials": 5000,
+          "orgUnit_id": "B1zUCxVCoJi",
+          "orgUnit_name": "Facility_15",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006081335975406027,
+          "prevalence_prediction": 0.1564607271653186
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.697998114624767,
+            -26.814562775981354
+          ]
+        }
+      },
+      {
+        "id": "12",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 350,
+          "n_trials": 5000,
+          "orgUnit_id": "DE9lRvG5VP8",
+          "orgUnit_name": "Facility_16",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.00896171684518722,
+          "prevalence_prediction": 0.110333990818564
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.18705821701351,
+            -25.93682474035093
+          ]
+        }
+      },
+      {
+        "id": "13",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1259,
+          "n_trials": 5000,
+          "orgUnit_id": "iHgY3Tl5PTu",
+          "orgUnit_name": "Facility_17",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008465259502907524,
+          "prevalence_prediction": 0.1579257886163779
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.708386580718315,
+            -27.14937039975653
+          ]
+        }
+      },
+      {
+        "id": "14",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 249,
+          "n_trials": 5000,
+          "orgUnit_id": "sfC2m7YG84O",
+          "orgUnit_name": "Facility_18",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.01451358313792786,
+          "prevalence_prediction": 0.17608990015325743
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.011683189503145,
+            -27.025228225674045
+          ]
+        }
+      },
+      {
+        "id": "15",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 228,
+          "n_trials": 5000,
+          "orgUnit_id": "PO5tJtZ0twE",
+          "orgUnit_name": "Facility_19",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.010340865557411386,
+          "prevalence_prediction": 0.08165053254104662
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.698904509882187,
+            -27.29911341089691
+          ]
+        }
+      },
+      {
+        "id": "16",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 765,
+          "n_trials": 5000,
+          "orgUnit_id": "ftlRuVHfk6y",
+          "orgUnit_name": "Facility_2",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.013632976169799194,
+          "prevalence_prediction": 0.1644373080845062
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.80834706055214,
+            -26.777993684360133
+          ]
+        }
+      },
+      {
+        "id": "17",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1360,
+          "n_trials": 5000,
+          "orgUnit_id": "wywzXlaHU8r",
+          "orgUnit_name": "Facility_20",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005709199865148756,
+          "prevalence_prediction": 0.10843215216602402
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.793229769404917,
+            -26.698555811185503
+          ]
+        }
+      },
+      {
+        "id": "18",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 918,
+          "n_trials": 5000,
+          "orgUnit_id": "Erk3XTSecGy",
+          "orgUnit_name": "Facility_21",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.01397753300928925,
+          "prevalence_prediction": 0.1409897993963572
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.06023296142676,
+            -26.23485838270146
+          ]
+        }
+      },
+      {
+        "id": "19",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 218,
+          "n_trials": 5000,
+          "orgUnit_id": "uV4i2LPWC4y",
+          "orgUnit_name": "Facility_22",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.011639652532550171,
+          "prevalence_prediction": 0.048629684722293044
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.22479172744341,
+            -27.224309767496838
+          ]
+        }
+      },
+      {
+        "id": "20",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1100,
+          "n_trials": 5000,
+          "orgUnit_id": "wWHW6g6msFw",
+          "orgUnit_name": "Facility_23",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007500367854346518,
+          "prevalence_prediction": 0.11300702843550056
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.895269001750865,
+            -26.124678798513624
+          ]
+        }
+      },
+      {
+        "id": "21",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1094,
+          "n_trials": 5000,
+          "orgUnit_id": "PMMz121X4NN",
+          "orgUnit_name": "Facility_24",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.011855228897425907,
+          "prevalence_prediction": 0.16360615536337347
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.844114159050147,
+            -26.79212675492322
+          ]
+        }
+      },
+      {
+        "id": "22",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 598,
+          "n_trials": 5000,
+          "orgUnit_id": "R5bHwX8fCyr",
+          "orgUnit_name": "Facility_25",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007498673616766344,
+          "prevalence_prediction": 0.1202563175786268
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.919489852778923,
+            -26.76469777135612
+          ]
+        }
+      },
+      {
+        "id": "23",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 268,
+          "n_trials": 5000,
+          "orgUnit_id": "y6PSKfIx1FY",
+          "orgUnit_name": "Facility_26",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005584446257058007,
+          "prevalence_prediction": 0.10574593776797789
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.474363712958827,
+            -26.322504356358255
+          ]
+        }
+      },
+      {
+        "id": "24",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 880,
+          "n_trials": 5000,
+          "orgUnit_id": "ET8OzhldiZ7",
+          "orgUnit_name": "Facility_27",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.0056953408188722965,
+          "prevalence_prediction": 0.12790682081646007
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.63873748074347,
+            -26.644807572853757
+          ]
+        }
+      },
+      {
+        "id": "25",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 308,
+          "n_trials": 5000,
+          "orgUnit_id": "plq0eujLgKr",
+          "orgUnit_name": "Facility_28",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005101837522107813,
+          "prevalence_prediction": 0.0967866997154863
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.38460707113512,
+            -26.198982402712126
+          ]
+        }
+      },
+      {
+        "id": "26",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 405,
+          "n_trials": 5000,
+          "orgUnit_id": "AeXvkM63Uwx",
+          "orgUnit_name": "Facility_29",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005633675341628744,
+          "prevalence_prediction": 0.103132359171775
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.87673748454823,
+            -26.36721397779777
+          ]
+        }
+      },
+      {
+        "id": "27",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 333,
+          "n_trials": 5000,
+          "orgUnit_id": "fliRJPfUrTt",
+          "orgUnit_name": "Facility_3",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.004921072942273272,
+          "prevalence_prediction": 0.11322781012069855
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.327209611054993,
+            -26.308000758049307
+          ]
+        }
+      },
+      {
+        "id": "28",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 474,
+          "n_trials": 5000,
+          "orgUnit_id": "Nr1rOURApiG",
+          "orgUnit_name": "Facility_30",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006438525406612286,
+          "prevalence_prediction": 0.11551077600070739
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.431160672801262,
+            -26.097588760117883
+          ]
+        }
+      },
+      {
+        "id": "29",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 255,
+          "n_trials": 5000,
+          "orgUnit_id": "F6Hz1bzjx7A",
+          "orgUnit_name": "Facility_31",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.011031819230278295,
+          "prevalence_prediction": 0.14844622511738134
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.36449334670208,
+            -25.80423774411632
+          ]
+        }
+      },
+      {
+        "id": "30",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 501,
+          "n_trials": 5000,
+          "orgUnit_id": "xYSLUUSzkcI",
+          "orgUnit_name": "Facility_32",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.0077547296176884856,
+          "prevalence_prediction": 0.1251013284440798
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.864110783075283,
+            -26.222344244038247
+          ]
+        }
+      },
+      {
+        "id": "31",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 890,
+          "n_trials": 5000,
+          "orgUnit_id": "TMl0GoYaYQm",
+          "orgUnit_name": "Facility_33",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008645585520114962,
+          "prevalence_prediction": 0.15022134342177063
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            32.068039195243195,
+            -26.634316121938667
+          ]
+        }
+      },
+      {
+        "id": "32",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 815,
+          "n_trials": 5000,
+          "orgUnit_id": "yeK6eYUI8qv",
+          "orgUnit_name": "Facility_34",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.00526489479492942,
+          "prevalence_prediction": 0.11766104357843908
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.308202356516368,
+            -26.320563711958975
+          ]
+        }
+      },
+      {
+        "id": "33",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 793,
+          "n_trials": 5000,
+          "orgUnit_id": "l7ACVOof6GN",
+          "orgUnit_name": "Facility_35",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007859505712230513,
+          "prevalence_prediction": 0.16409404379460477
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.532481659155444,
+            -26.754608660676368
+          ]
+        }
+      },
+      {
+        "id": "34",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 323,
+          "n_trials": 5000,
+          "orgUnit_id": "VxXRwbHh8b9",
+          "orgUnit_name": "Facility_36",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008580361001479186,
+          "prevalence_prediction": 0.1353081518842191
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.179871776420633,
+            -26.43740267908579
+          ]
+        }
+      },
+      {
+        "id": "35",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 325,
+          "n_trials": 5000,
+          "orgUnit_id": "HFF4zDa3933",
+          "orgUnit_name": "Facility_37",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008070093013865895,
+          "prevalence_prediction": 0.07188277590474933
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.593636082100495,
+            -27.276269297168056
+          ]
+        }
+      },
+      {
+        "id": "36",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1010,
+          "n_trials": 5000,
+          "orgUnit_id": "lhmzAzXno4Y",
+          "orgUnit_name": "Facility_38",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.009495444532503505,
+          "prevalence_prediction": 0.18465446914121886
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.8556630999683,
+            -27.01466162206925
+          ]
+        }
+      },
+      {
+        "id": "37",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 358,
+          "n_trials": 5000,
+          "orgUnit_id": "l1FutjQuBQG",
+          "orgUnit_name": "Facility_39",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006617369157495834,
+          "prevalence_prediction": 0.09633168104064428
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.323670061619296,
+            -26.213668028229993
+          ]
+        }
+      },
+      {
+        "id": "38",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1175,
+          "n_trials": 5000,
+          "orgUnit_id": "LwR1AKgf1lc",
+          "orgUnit_name": "Facility_4",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007651939909301103,
+          "prevalence_prediction": 0.13165358643053188
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.690221912198705,
+            -27.19241205336023
+          ]
+        }
+      },
+      {
+        "id": "39",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1131,
+          "n_trials": 5000,
+          "orgUnit_id": "VIcNbWy5B0I",
+          "orgUnit_name": "Facility_40",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.012715006868056877,
+          "prevalence_prediction": 0.18677024197574824
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            32.11864344869568,
+            -26.646921166946733
+          ]
+        }
+      },
+      {
+        "id": "40",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 433,
+          "n_trials": 5000,
+          "orgUnit_id": "Ny3jp8X0fP5",
+          "orgUnit_name": "Facility_41",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.0062247096252788375,
+          "prevalence_prediction": 0.12449108007505834
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.255952943568392,
+            -26.33277887706288
+          ]
+        }
+      },
+      {
+        "id": "41",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 713,
+          "n_trials": 5000,
+          "orgUnit_id": "a4YHSG4ioq4",
+          "orgUnit_name": "Facility_42",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007639761633453257,
+          "prevalence_prediction": 0.11623193899177064
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.571753417321574,
+            -26.21755550938516
+          ]
+        }
+      },
+      {
+        "id": "42",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 245,
+          "n_trials": 5000,
+          "orgUnit_id": "XuLm3q9QqXp",
+          "orgUnit_name": "Facility_43",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006411829343921954,
+          "prevalence_prediction": 0.14007497574329697
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.316373465878975,
+            -26.419325050880833
+          ]
+        }
+      },
+      {
+        "id": "43",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 563,
+          "n_trials": 5000,
+          "orgUnit_id": "g46wWno2O05",
+          "orgUnit_name": "Facility_44",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008967674562785799,
+          "prevalence_prediction": 0.13363448880221235
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.808184237920912,
+            -26.221190068393728
+          ]
+        }
+      },
+      {
+        "id": "44",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 853,
+          "n_trials": 5000,
+          "orgUnit_id": "Bty27hIErdN",
+          "orgUnit_name": "Facility_45",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.00812415446757786,
+          "prevalence_prediction": 0.0871784051930841
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.99045787225154,
+            -26.33008010860346
+          ]
+        }
+      },
+      {
+        "id": "45",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 399,
+          "n_trials": 5000,
+          "orgUnit_id": "sJ6UFAZFcwt",
+          "orgUnit_name": "Facility_46",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005008128686526503,
+          "prevalence_prediction": 0.12216216448739789
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.35601369565265,
+            -26.359268672314514
+          ]
+        }
+      },
+      {
+        "id": "46",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1000,
+          "n_trials": 5000,
+          "orgUnit_id": "MxCBCRbA1J8",
+          "orgUnit_name": "Facility_47",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.010909133417857236,
+          "prevalence_prediction": 0.16635162572346263
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            32.090473317823644,
+            -26.607889965485633
+          ]
+        }
+      },
+      {
+        "id": "47",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 809,
+          "n_trials": 5000,
+          "orgUnit_id": "CCkCaPDOLVw",
+          "orgUnit_name": "Facility_48",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006063932175243564,
+          "prevalence_prediction": 0.09634723804699172
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.34990225792023,
+            -26.220355099394705
+          ]
+        }
+      },
+      {
+        "id": "48",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 301,
+          "n_trials": 5000,
+          "orgUnit_id": "SfzQqxUtIli",
+          "orgUnit_name": "Facility_49",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.010941047825599945,
+          "prevalence_prediction": 0.08894208161262902
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.27785358328455,
+            -25.796094465919168
+          ]
+        }
+      },
+      {
+        "id": "49",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 333,
+          "n_trials": 5000,
+          "orgUnit_id": "rLefMhN4nAg",
+          "orgUnit_name": "Facility_5",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007709436487620777,
+          "prevalence_prediction": 0.11071646726818014
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.08695128653478,
+            -26.849883837061075
+          ]
+        }
+      },
+      {
+        "id": "50",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 333,
+          "n_trials": 5000,
+          "orgUnit_id": "ewGwBjd4zU8",
+          "orgUnit_name": "Facility_50",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.009913533164062849,
+          "prevalence_prediction": 0.16850395342852795
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.85247495237363,
+            -27.176860118221178
+          ]
+        }
+      },
+      {
+        "id": "51",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 229,
+          "n_trials": 5000,
+          "orgUnit_id": "tZaVUMFFBGO",
+          "orgUnit_name": "Facility_51",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.0048784533429840765,
+          "prevalence_prediction": 0.09834925410576754
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.72853131827768,
+            -26.417578232330285
+          ]
+        }
+      },
+      {
+        "id": "52",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 343,
+          "n_trials": 5000,
+          "orgUnit_id": "vlQy1Zcj1Hk",
+          "orgUnit_name": "Facility_52",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.009779162984915983,
+          "prevalence_prediction": 0.06675984014294355
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            32.02542292936493,
+            -26.19596429613665
+          ]
+        }
+      },
+      {
+        "id": "53",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1346,
+          "n_trials": 5000,
+          "orgUnit_id": "BzlngdELcFs",
+          "orgUnit_name": "Facility_53",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007682412885723772,
+          "prevalence_prediction": 0.16288225674010368
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.504166815121305,
+            -26.6939762844359
+          ]
+        }
+      },
+      {
+        "id": "54",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 370,
+          "n_trials": 5000,
+          "orgUnit_id": "LBgqwX4Gbjv",
+          "orgUnit_name": "Facility_54",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008059539569262142,
+          "prevalence_prediction": 0.06615840116329726
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.915187536026924,
+            -26.464970112493013
+          ]
+        }
+      },
+      {
+        "id": "55",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 499,
+          "n_trials": 5000,
+          "orgUnit_id": "UeRbIBCmWil",
+          "orgUnit_name": "Facility_55",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.013397201912839288,
+          "prevalence_prediction": 0.09647183234003952
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.96324769859761,
+            -26.040411942530838
+          ]
+        }
+      },
+      {
+        "id": "56",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1113,
+          "n_trials": 5000,
+          "orgUnit_id": "CN8t07qVKcs",
+          "orgUnit_name": "Facility_56",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.009767585065707157,
+          "prevalence_prediction": 0.128053466123949
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.344614249931833,
+            -25.791953467956937
+          ]
+        }
+      },
+      {
+        "id": "57",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 829,
+          "n_trials": 5000,
+          "orgUnit_id": "oZxWPoNCLbb",
+          "orgUnit_name": "Facility_57",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.010363060194209434,
+          "prevalence_prediction": 0.163751895348893
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.13688129260852,
+            -25.975095307827303
+          ]
+        }
+      },
+      {
+        "id": "58",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 389,
+          "n_trials": 5000,
+          "orgUnit_id": "Im611z1BLob",
+          "orgUnit_name": "Facility_58",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007603046846025391,
+          "prevalence_prediction": 0.1046997505813929
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.243289221761177,
+            -26.871200074683127
+          ]
+        }
+      },
+      {
+        "id": "59",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 132,
+          "n_trials": 5000,
+          "orgUnit_id": "XNbYijZVjHa",
+          "orgUnit_name": "Facility_59",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.012111390045415088,
+          "prevalence_prediction": 0.12054462124500454
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            32.06944203181324,
+            -26.753311647467832
+          ]
+        }
+      },
+      {
+        "id": "60",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1105,
+          "n_trials": 5000,
+          "orgUnit_id": "o0kJI9Lhzz6",
+          "orgUnit_name": "Facility_6",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.014753587588753087,
+          "prevalence_prediction": 0.1976831563992131
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.11859314680638,
+            -25.974515488545002
+          ]
+        }
+      },
+      {
+        "id": "61",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 249,
+          "n_trials": 5000,
+          "orgUnit_id": "YkkAQuJegUy",
+          "orgUnit_name": "Facility_60",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.0061551802546694345,
+          "prevalence_prediction": 0.1367863203551712
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.828794493548422,
+            -26.825502956424437
+          ]
+        }
+      },
+      {
+        "id": "62",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1270,
+          "n_trials": 5000,
+          "orgUnit_id": "sGk1hSAbeji",
+          "orgUnit_name": "Facility_61",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.011559176804234572,
+          "prevalence_prediction": 0.11603195980552712
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.977721941447914,
+            -26.953683911103894
+          ]
+        }
+      },
+      {
+        "id": "63",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 317,
+          "n_trials": 5000,
+          "orgUnit_id": "ng7p23nS22S",
+          "orgUnit_name": "Facility_62",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.011558253759876291,
+          "prevalence_prediction": 0.07829508320183992
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.80812702457848,
+            -26.651074160845166
+          ]
+        }
+      },
+      {
+        "id": "64",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1044,
+          "n_trials": 5000,
+          "orgUnit_id": "YKf5tCOTY2W",
+          "orgUnit_name": "Facility_63",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006118900168699801,
+          "prevalence_prediction": 0.1069258004010908
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.803030428651233,
+            -26.353610862071537
+          ]
+        }
+      },
+      {
+        "id": "65",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1008,
+          "n_trials": 5000,
+          "orgUnit_id": "cG6XLx78DyT",
+          "orgUnit_name": "Facility_64",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007914539162884926,
+          "prevalence_prediction": 0.13041509426984071
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.153232374193628,
+            -26.427761657540962
+          ]
+        }
+      },
+      {
+        "id": "66",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 326,
+          "n_trials": 5000,
+          "orgUnit_id": "kbfGesvW1Y4",
+          "orgUnit_name": "Facility_65",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007257521315164231,
+          "prevalence_prediction": 0.11971163008482855
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.904141571424407,
+            -26.757134554101352
+          ]
+        }
+      },
+      {
+        "id": "67",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 210,
+          "n_trials": 5000,
+          "orgUnit_id": "hC7YuKtjbdQ",
+          "orgUnit_name": "Facility_66",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.004899530536701668,
+          "prevalence_prediction": 0.09739418472184978
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.729223061393725,
+            -26.428309584540216
+          ]
+        }
+      },
+      {
+        "id": "68",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 517,
+          "n_trials": 5000,
+          "orgUnit_id": "nPcD5ynGc3L",
+          "orgUnit_name": "Facility_67",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005831256344873692,
+          "prevalence_prediction": 0.09804132866768424
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.936272093068432,
+            -26.598052722060626
+          ]
+        }
+      },
+      {
+        "id": "69",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 313,
+          "n_trials": 5000,
+          "orgUnit_id": "jMSG5dP7RXI",
+          "orgUnit_name": "Facility_68",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006976935140424079,
+          "prevalence_prediction": 0.12787259731199116
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.54791083051781,
+            -26.52889729218108
+          ]
+        }
+      },
+      {
+        "id": "70",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 376,
+          "n_trials": 5000,
+          "orgUnit_id": "kiRHuD7tgk4",
+          "orgUnit_name": "Facility_69",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005133436899330379,
+          "prevalence_prediction": 0.10107262216102549
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.92015642905273,
+            -26.35184501036054
+          ]
+        }
+      },
+      {
+        "id": "71",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 727,
+          "n_trials": 5000,
+          "orgUnit_id": "OASAkQSyBpY",
+          "orgUnit_name": "Facility_7",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007208088602525586,
+          "prevalence_prediction": 0.12291682991892984
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.204398277313118,
+            -26.309935294250835
+          ]
+        }
+      },
+      {
+        "id": "72",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 221,
+          "n_trials": 5000,
+          "orgUnit_id": "OSjwQvIcZPQ",
+          "orgUnit_name": "Facility_70",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007434387493999509,
+          "prevalence_prediction": 0.1213204012010572
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.455026617919106,
+            -26.105910228342072
+          ]
+        }
+      },
+      {
+        "id": "73",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 919,
+          "n_trials": 5000,
+          "orgUnit_id": "OEoKP8I17nm",
+          "orgUnit_name": "Facility_71",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005025495186072704,
+          "prevalence_prediction": 0.10565507174845384
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.746581242551272,
+            -26.64993219195392
+          ]
+        }
+      },
+      {
+        "id": "74",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 272,
+          "n_trials": 5000,
+          "orgUnit_id": "vEx19KnHLrU",
+          "orgUnit_name": "Facility_72",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006706311444531814,
+          "prevalence_prediction": 0.06455247085819518
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.291223275523016,
+            -27.057173196469826
+          ]
+        }
+      },
+      {
+        "id": "75",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 484,
+          "n_trials": 5000,
+          "orgUnit_id": "iMZe1e2eRYp",
+          "orgUnit_name": "Facility_73",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.010590427545496328,
+          "prevalence_prediction": 0.11923430281653141
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            32.053698906443145,
+            -26.47796019657849
+          ]
+        }
+      },
+      {
+        "id": "76",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 357,
+          "n_trials": 5000,
+          "orgUnit_id": "toQxooiCpPO",
+          "orgUnit_name": "Facility_74",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008991127182656808,
+          "prevalence_prediction": 0.05651498865152816
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.552077392810986,
+            -27.302935894784873
+          ]
+        }
+      },
+      {
+        "id": "77",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1243,
+          "n_trials": 5000,
+          "orgUnit_id": "EfTVO0WBL9c",
+          "orgUnit_name": "Facility_75",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.013534796355315876,
+          "prevalence_prediction": 0.17734659932773486
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.664421352197557,
+            -26.06300957898509
+          ]
+        }
+      },
+      {
+        "id": "78",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1147,
+          "n_trials": 5000,
+          "orgUnit_id": "bGf0bUxS08M",
+          "orgUnit_name": "Facility_76",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.01243290608380121,
+          "prevalence_prediction": 0.17079487153005182
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.010240352987392,
+            -27.00583095779282
+          ]
+        }
+      },
+      {
+        "id": "79",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 207,
+          "n_trials": 5000,
+          "orgUnit_id": "LjWiHpzRowF",
+          "orgUnit_name": "Facility_77",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008045481038184574,
+          "prevalence_prediction": 0.11075912577696673
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.04839441973043,
+            -26.350753141382917
+          ]
+        }
+      },
+      {
+        "id": "80",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 172,
+          "n_trials": 5000,
+          "orgUnit_id": "LyMpwC5UoG6",
+          "orgUnit_name": "Facility_78",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.00673493848329397,
+          "prevalence_prediction": 0.0963960750102825
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.949902298699712,
+            -26.22396870903518
+          ]
+        }
+      },
+      {
+        "id": "81",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 219,
+          "n_trials": 5000,
+          "orgUnit_id": "ZQEoZa98YnK",
+          "orgUnit_name": "Facility_79",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005468931915442898,
+          "prevalence_prediction": 0.1332020737546232
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.740917578859467,
+            -26.757588707665434
+          ]
+        }
+      },
+      {
+        "id": "82",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 739,
+          "n_trials": 5000,
+          "orgUnit_id": "dQpfTyVRv6y",
+          "orgUnit_name": "Facility_8",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005045180192964641,
+          "prevalence_prediction": 0.09842072944183049
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.410328132308752,
+            -26.217353589306857
+          ]
+        }
+      },
+      {
+        "id": "83",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 612,
+          "n_trials": 5000,
+          "orgUnit_id": "kysgaVg0FgV",
+          "orgUnit_name": "Facility_80",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.010674837342991045,
+          "prevalence_prediction": 0.16092198610377156
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.925888841683566,
+            -27.074659382852143
+          ]
+        }
+      },
+      {
+        "id": "84",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1039,
+          "n_trials": 5000,
+          "orgUnit_id": "a8ssyk6zwXa",
+          "orgUnit_name": "Facility_81",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.009122525511534668,
+          "prevalence_prediction": 0.15835461459145636
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.328569726412884,
+            -26.51244754775558
+          ]
+        }
+      },
+      {
+        "id": "85",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 462,
+          "n_trials": 5000,
+          "orgUnit_id": "denKShNdmbx",
+          "orgUnit_name": "Facility_82",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.0074653428021144025,
+          "prevalence_prediction": 0.09651873977083948
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.95711170165699,
+            -26.677666682630438
+          ]
+        }
+      },
+      {
+        "id": "86",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 330,
+          "n_trials": 5000,
+          "orgUnit_id": "HTDRQO98t56",
+          "orgUnit_name": "Facility_83",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.010903845224331549,
+          "prevalence_prediction": 0.13955967161260174
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.593410155332684,
+            -27.092138607007662
+          ]
+        }
+      },
+      {
+        "id": "87",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 491,
+          "n_trials": 5000,
+          "orgUnit_id": "f2yQ1uUkmVH",
+          "orgUnit_name": "Facility_84",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007247296154546751,
+          "prevalence_prediction": 0.1093916842393805
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.62253394816445,
+            -26.294663037301998
+          ]
+        }
+      },
+      {
+        "id": "88",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 880,
+          "n_trials": 5000,
+          "orgUnit_id": "zAFMaXEbtuo",
+          "orgUnit_name": "Facility_85",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008981308515950234,
+          "prevalence_prediction": 0.12441313621747153
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.343978081215216,
+            -25.802475084700127
+          ]
+        }
+      },
+      {
+        "id": "89",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1120,
+          "n_trials": 5000,
+          "orgUnit_id": "iiINDZtlAd9",
+          "orgUnit_name": "Facility_86",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.009103370431812585,
+          "prevalence_prediction": 0.10189834634617183
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.034777037998907,
+            -26.553946743212695
+          ]
+        }
+      },
+      {
+        "id": "90",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 966,
+          "n_trials": 5000,
+          "orgUnit_id": "RdkdViQTn1k",
+          "orgUnit_name": "Facility_87",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.00827410953729732,
+          "prevalence_prediction": 0.11188906536631262
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.08290743463203,
+            -26.907037129625806
+          ]
+        }
+      },
+      {
+        "id": "91",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 919,
+          "n_trials": 5000,
+          "orgUnit_id": "B92NU5eFxUY",
+          "orgUnit_name": "Facility_88",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008824039709462841,
+          "prevalence_prediction": 0.0972389354787817
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.117970662563174,
+            -27.06094368211846
+          ]
+        }
+      },
+      {
+        "id": "92",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 298,
+          "n_trials": 5000,
+          "orgUnit_id": "MleGXaLXteZ",
+          "orgUnit_name": "Facility_89",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.007199993474040864,
+          "prevalence_prediction": 0.11373042634611465
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.253574776376606,
+            -26.277695920392496
+          ]
+        }
+      },
+      {
+        "id": "93",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 241,
+          "n_trials": 5000,
+          "orgUnit_id": "JiQymzr9kAR",
+          "orgUnit_name": "Facility_9",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.0075908437956729025,
+          "prevalence_prediction": 0.09138142797619493
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.248496783227406,
+            -26.927693106948105
+          ]
+        }
+      },
+      {
+        "id": "94",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 393,
+          "n_trials": 5000,
+          "orgUnit_id": "LBExxl2dHen",
+          "orgUnit_name": "Facility_90",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008056000063465768,
+          "prevalence_prediction": 0.15958355440765787
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.50399939246901,
+            -26.65743352416919
+          ]
+        }
+      },
+      {
+        "id": "95",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 712,
+          "n_trials": 5000,
+          "orgUnit_id": "HE46a3oOcqi",
+          "orgUnit_name": "Facility_91",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.005551024301360716,
+          "prevalence_prediction": 0.10764443050602983
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.62984473523626,
+            -26.49021769821274
+          ]
+        }
+      },
+      {
+        "id": "96",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1142,
+          "n_trials": 5000,
+          "orgUnit_id": "KqOrHEbjdhb",
+          "orgUnit_name": "Facility_92",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.004709702875221322,
+          "prevalence_prediction": 0.10011279623920925
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.390955195489394,
+            -26.250161381358033
+          ]
+        }
+      },
+      {
+        "id": "97",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 203,
+          "n_trials": 5000,
+          "orgUnit_id": "mEd0lRrgknn",
+          "orgUnit_name": "Facility_93",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.00801928184704713,
+          "prevalence_prediction": 0.06928247939956994
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.91906045639922,
+            -26.507354842058692
+          ]
+        }
+      },
+      {
+        "id": "98",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 579,
+          "n_trials": 5000,
+          "orgUnit_id": "ToBs43z7kV2",
+          "orgUnit_name": "Facility_94",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.009236452307502585,
+          "prevalence_prediction": 0.17126758841410034
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.898671455238414,
+            -27.040308592497354
+          ]
+        }
+      },
+      {
+        "id": "99",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 197,
+          "n_trials": 5000,
+          "orgUnit_id": "vtUO5VFl3ZW",
+          "orgUnit_name": "Facility_95",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.006120411805404832,
+          "prevalence_prediction": 0.10804592398187969
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.998784213051312,
+            -26.492599533317392
+          ]
+        }
+      },
+      {
+        "id": "100",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 286,
+          "n_trials": 5000,
+          "orgUnit_id": "l4CYZ74XwBx",
+          "orgUnit_name": "Facility_96",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.008446094726048084,
+          "prevalence_prediction": 0.08533672787349386
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.990618744181653,
+            -26.126161525497157
+          ]
+        }
+      },
+      {
+        "id": "101",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 469,
+          "n_trials": 5000,
+          "orgUnit_id": "KCutgCR7342",
+          "orgUnit_name": "Facility_97",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.01794394214789513,
+          "prevalence_prediction": 0.15529972247101403
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.755785600302012,
+            -25.973119698998474
+          ]
+        }
+      },
+      {
+        "id": "102",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 352,
+          "n_trials": 5000,
+          "orgUnit_id": "nKJ1AxKz1v4",
+          "orgUnit_name": "Facility_98",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.009169642723710417,
+          "prevalence_prediction": 0.11668322586327284
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.572606245488164,
+            -27.132974992069098
+          ]
+        }
+      },
+      {
+        "id": "103",
+        "type": "Feature",
+        "properties": {
+          "exceedance_probability": null,
+          "exceedance_uncertainty": null,
+          "n_positive": 1011,
+          "n_trials": 5000,
+          "orgUnit_id": "eKWxOyAIaDS",
+          "orgUnit_name": "Facility_99",
+          "prevalence": -1,
+          "prevalence_bci_width": 0.010533089425984687,
+          "prevalence_prediction": 0.20287069310634165
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.762283633734466,
+            -27.033602078911173
+          ]
+        }
+      }
+    ]
+  }
+}

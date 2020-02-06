@@ -1,6 +1,6 @@
 {
   "responseType": "ImportSummary",
-  "status": "SUCCESS",
+  "status": "WARNING",
   "importOptions": {
     "idSchemes": {},
     "dryRun": false,
@@ -29,9 +29,19 @@
   "description": "Import process completed successfully",
   "importCount": {
     "imported": 0,
-    "updated": 12,
-    "ignored": 0,
+    "updated": 297,
+    "ignored": 15,
     "deleted": 0
   },
+  "conflicts": [
+    {
+      "object": "Value",
+      "value": "Data value or comment not specified for data element: PPX2Xi3Cj1i"
+    },
+    {
+      "object": "Value",
+      "value": "Data value or comment not specified for data element: OOSBjoDYpxv"
+    }
+  ],
   "dataSetComplete": "false"
 }

@@ -12,12 +12,13 @@ const headers = {
 let file_count = 0;
 
 async function main() {
-  const metadata_url = `${root_url}/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true&dataSets=true`;
+  const metadata_url = `${root_url}/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true&dataSets=true&users=true`;
   const metadata_res = await fetch(metadata_url, { headers });
   const metadata = await metadata_res.json();
   await write_file(metadata, 'metadata');
 
   const dataSetId = metadata.dataSets[0].id;
+  const userId = metadata.users[0].id;
 
   const orgUnitIds = metadata.organisationUnits.filter(i => i.hasOwnProperty('parent')).map(i => i.id);
 
@@ -144,7 +145,7 @@ async function main() {
 }
 
 async function write_file(content, filename) {
-  return await fs.writeFileSync(`data/${file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
+  return await fs.writeFileSync(`data/simulate_run_function/${file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
 }
 
 main()
