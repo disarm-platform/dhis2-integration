@@ -84,7 +84,6 @@ async function main() {
   const output_geojson = cloneDeep(orgUnitsGeoJSON);
   output_geojson.features.forEach(f => {
     f.properties.prevalence = Math.random();
-    f.properties.n_trials = Math.random();
   })
   await write_file(output_geojson, 'disarm_output');
 
@@ -127,8 +126,15 @@ async function main() {
   const post_data_to_dhis2 = await post_data_to_dhis2_res.json();
   await write_file(post_data_to_dhis2, 'response_from_dhis2');
 
+  await new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log('Trigger analytics')
+      resolve();
+    }, 2000);
+  })
+
   // Force update of DHIS2 analytics tables
-  const dhis2_trigger_analytics_url = `${root_url}/api/resourceTables/analytics.json`;
+  const dhis2_trigger_analytics_url = `${root_url}/api/resourceTables/analytics`;
   const dhis2_trigger_analytics_res = await fetch(dhis2_trigger_analytics_url, {
     method: 'post',
     headers
