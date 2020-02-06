@@ -2,87 +2,87 @@
   "dataValues": [
     {
       "dataElement": "OOSBjoDYpxv",
-      "value": 0.313952156418585,
+      "value": 1,
       "period": "201912",
       "orgUnit": "XlHhWiVxBGG",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "PPX2Xi3Cj1i",
       "value": 1,
       "period": "201912",
       "orgUnit": "XlHhWiVxBGG",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "IdZgCAy09mH",
-      "value": 0.0053552374916963075,
+      "value": 0.6134240735363561,
       "period": "201912",
       "orgUnit": "XlHhWiVxBGG",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "OOSBjoDYpxv",
-      "value": 0.26337664730875776,
+      "value": 2,
       "period": "201912",
       "orgUnit": "Ls6tC1GElLn",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "PPX2Xi3Cj1i",
       "value": 2,
       "period": "201912",
       "orgUnit": "Ls6tC1GElLn",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "IdZgCAy09mH",
-      "value": 0.37670543111416177,
+      "value": 0.05236708075997076,
       "period": "201912",
       "orgUnit": "Ls6tC1GElLn",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "OOSBjoDYpxv",
-      "value": 0.07757782306808969,
+      "value": 3,
       "period": "201912",
       "orgUnit": "EOHnM49uRgJ",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "PPX2Xi3Cj1i",
       "value": 3,
       "period": "201912",
       "orgUnit": "EOHnM49uRgJ",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "IdZgCAy09mH",
-      "value": 0.6359329828118381,
+      "value": 0.6035602143603416,
       "period": "201912",
       "orgUnit": "EOHnM49uRgJ",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "OOSBjoDYpxv",
-      "value": 0.28138720020829666,
+      "value": 4,
       "period": "201912",
       "orgUnit": "UmvchELKw1Y",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "PPX2Xi3Cj1i",
       "value": 4,
       "period": "201912",
       "orgUnit": "UmvchELKw1Y",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     },
     {
       "dataElement": "IdZgCAy09mH",
-      "value": 0.6909276256053005,
+      "value": 0.5886938578076841,
       "period": "201912",
       "orgUnit": "UmvchELKw1Y",
-      "lastUpdated": "2020-02-06T12:10:52.958Z"
+      "lastUpdated": "2020-02-06T12:45:00.080Z"
     }
   ]
 }

@@ -6,9 +6,9 @@
       "properties": {
         "orgUnit_id": "XlHhWiVxBGG",
         "orgUnit_name": "Facility_1",
-        "n_trials": 0.313952156418585,
+        "n_trials": 1,
         "n_positive": 1,
-        "prevalence": 0.0053552374916963075
+        "prevalence": 0.6134240735363561
       },
       "geometry": {
         "type": "Point",
@@ -23,9 +23,9 @@
       "properties": {
         "orgUnit_id": "Ls6tC1GElLn",
         "orgUnit_name": "Facility_2",
-        "n_trials": 0.26337664730875776,
+        "n_trials": 2,
         "n_positive": 2,
-        "prevalence": 0.37670543111416177
+        "prevalence": 0.05236708075997076
       },
       "geometry": {
         "type": "Point",
@@ -40,9 +40,9 @@
       "properties": {
         "orgUnit_id": "EOHnM49uRgJ",
         "orgUnit_name": "Facility_3",
-        "n_trials": 0.07757782306808969,
+        "n_trials": 3,
         "n_positive": 3,
-        "prevalence": 0.6359329828118381
+        "prevalence": 0.6035602143603416
       },
       "geometry": {
         "type": "Point",
@@ -57,9 +57,9 @@
       "properties": {
         "orgUnit_id": "UmvchELKw1Y",
         "orgUnit_name": "Facility_4",
-        "n_trials": 0.28138720020829666,
+        "n_trials": 4,
         "n_positive": 4,
-        "prevalence": 0.6909276256053005
+        "prevalence": 0.5886938578076841
       },
       "geometry": {
         "type": "Point",

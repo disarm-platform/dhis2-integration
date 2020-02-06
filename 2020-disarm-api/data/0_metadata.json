@@ -1,196 +1,10 @@
 {
   "system": {
+    "id": "5b09b95e-b5dc-42d1-a670-476662eea060",
     "rev": "071f135",
     "version": "2.33.0",
-    "date": "2020-02-06T12:10:52.827"
+    "date": "2020-02-06T12:44:59.998"
   },
-  "dataSets": [
-    {
-      "code": "Data_set",
-      "lastUpdated": "2020-02-06T11:51:18.337",
-      "id": "nY643nTqYIt",
-      "created": "2020-02-06T11:50:21.567",
-      "name": "Data_set",
-      "shortName": "Data_set",
-      "validCompleteOnly": false,
-      "dataElementDecoration": false,
-      "publicAccess": "rw------",
-      "notifyCompletingUser": false,
-      "noValueRequiresComment": false,
-      "skipOffline": false,
-      "compulsoryFieldsCompleteOnly": false,
-      "fieldCombinationRequired": false,
-      "renderHorizontally": false,
-      "renderAsTabs": false,
-      "mobile": false,
-      "version": 1,
-      "timelyDays": 15,
-      "periodType": "Monthly",
-      "openFuturePeriods": 0,
-      "expiryDays": 0,
-      "categoryCombo": {
-        "id": "bjDvmb4bfuf"
-      },
-      "lastUpdatedBy": {
-        "id": "M5zQapPyTZI"
-      },
-      "user": {
-        "id": "M5zQapPyTZI"
-      },
-      "dataSetElements": [
-        {
-          "dataElement": {
-            "id": "PPX2Xi3Cj1i"
-          },
-          "dataSet": {
-            "id": "nY643nTqYIt"
-          }
-        },
-        {
-          "dataElement": {
-            "id": "OOSBjoDYpxv"
-          },
-          "dataSet": {
-            "id": "nY643nTqYIt"
-          }
-        },
-        {
-          "dataElement": {
-            "id": "IdZgCAy09mH"
-          },
-          "dataSet": {
-            "id": "nY643nTqYIt"
-          }
-        }
-      ],
-      "compulsoryDataElementOperands": [],
-      "translations": [],
-      "dataInputPeriods": [
-        {
-          "period": {
-            "id": "201912"
-          }
-        }
-      ],
-      "organisationUnits": [
-        {
-          "id": "lQHbsk4Vizg"
-        },
-        {
-          "id": "UmvchELKw1Y"
-        },
-        {
-          "id": "XlHhWiVxBGG"
-        },
-        {
-          "id": "EOHnM49uRgJ"
-        },
-        {
-          "id": "Ls6tC1GElLn"
-        }
-      ],
-      "userGroupAccesses": [],
-      "attributeValues": [],
-      "indicators": [],
-      "userAccesses": [],
-      "legendSets": []
-    }
-  ],
-  "dataElements": [
-    {
-      "code": "n_positive",
-      "lastUpdated": "2020-02-06T11:48:50.069",
-      "id": "PPX2Xi3Cj1i",
-      "created": "2020-02-06T11:48:50.069",
-      "name": "n_positive",
-      "shortName": "n_positive",
-      "aggregationType": "SUM",
-      "domainType": "AGGREGATE",
-      "publicAccess": "rw------",
-      "valueType": "NUMBER",
-      "zeroIsSignificant": false,
-      "categoryCombo": {
-        "id": "bjDvmb4bfuf"
-      },
-      "lastUpdatedBy": {
-        "id": "M5zQapPyTZI"
-      },
-      "user": {
-        "id": "M5zQapPyTZI"
-      },
-      "translations": [],
-      "userGroupAccesses": [],
-      "attributeValues": [],
-      "userAccesses": [],
-      "legendSets": [],
-      "aggregationLevels": [
-        1,
-        2
-      ]
-    },
-    {
-      "code": "n_trials",
-      "lastUpdated": "2020-02-06T11:48:38.175",
-      "id": "OOSBjoDYpxv",
-      "created": "2020-02-06T11:48:38.175",
-      "name": "n_trials",
-      "shortName": "n_trials",
-      "aggregationType": "SUM",
-      "domainType": "AGGREGATE",
-      "publicAccess": "rw------",
-      "valueType": "NUMBER",
-      "zeroIsSignificant": false,
-      "categoryCombo": {
-        "id": "bjDvmb4bfuf"
-      },
-      "lastUpdatedBy": {
-        "id": "M5zQapPyTZI"
-      },
-      "user": {
-        "id": "M5zQapPyTZI"
-      },
-      "translations": [],
-      "userGroupAccesses": [],
-      "attributeValues": [],
-      "userAccesses": [],
-      "legendSets": [],
-      "aggregationLevels": [
-        1,
-        2
-      ]
-    },
-    {
-      "code": "prevalence",
-      "lastUpdated": "2020-02-06T11:49:04.281",
-      "id": "IdZgCAy09mH",
-      "created": "2020-02-06T11:49:04.280",
-      "name": "prevalence",
-      "shortName": "prevalence",
-      "aggregationType": "MAX",
-      "domainType": "AGGREGATE",
-      "publicAccess": "rw------",
-      "valueType": "NUMBER",
-      "zeroIsSignificant": false,
-      "categoryCombo": {
-        "id": "bjDvmb4bfuf"
-      },
-      "lastUpdatedBy": {
-        "id": "M5zQapPyTZI"
-      },
-      "user": {
-        "id": "M5zQapPyTZI"
-      },
-      "translations": [],
-      "userGroupAccesses": [],
-      "attributeValues": [],
-      "userAccesses": [],
-      "legendSets": [],
-      "aggregationLevels": [
-        1,
-        2
-      ]
-    }
-  ],
   "organisationUnits": [
     {
       "code": "Eswatini",
@@ -333,6 +147,193 @@
       },
       "attributeValues": [],
       "translations": []
+    }
+  ],
+  "dataSets": [
+    {
+      "code": "Data_set",
+      "lastUpdated": "2020-02-06T11:51:18.337",
+      "id": "nY643nTqYIt",
+      "created": "2020-02-06T11:50:21.567",
+      "name": "Data_set",
+      "shortName": "Data_set",
+      "validCompleteOnly": false,
+      "dataElementDecoration": false,
+      "publicAccess": "rw------",
+      "notifyCompletingUser": false,
+      "noValueRequiresComment": false,
+      "skipOffline": false,
+      "compulsoryFieldsCompleteOnly": false,
+      "fieldCombinationRequired": false,
+      "renderHorizontally": false,
+      "renderAsTabs": false,
+      "mobile": false,
+      "version": 1,
+      "timelyDays": 15,
+      "periodType": "Monthly",
+      "openFuturePeriods": 0,
+      "expiryDays": 0,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "dataSetElements": [
+        {
+          "dataElement": {
+            "id": "OOSBjoDYpxv"
+          },
+          "dataSet": {
+            "id": "nY643nTqYIt"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "IdZgCAy09mH"
+          },
+          "dataSet": {
+            "id": "nY643nTqYIt"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "PPX2Xi3Cj1i"
+          },
+          "dataSet": {
+            "id": "nY643nTqYIt"
+          }
+        }
+      ],
+      "compulsoryDataElementOperands": [],
+      "translations": [],
+      "dataInputPeriods": [
+        {
+          "period": {
+            "id": "201912"
+          }
+        }
+      ],
+      "organisationUnits": [
+        {
+          "id": "lQHbsk4Vizg"
+        },
+        {
+          "id": "XlHhWiVxBGG"
+        },
+        {
+          "id": "UmvchELKw1Y"
+        },
+        {
+          "id": "EOHnM49uRgJ"
+        },
+        {
+          "id": "Ls6tC1GElLn"
+        }
+      ],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "indicators": [],
+      "userAccesses": [],
+      "legendSets": []
+    }
+  ],
+  "dataElements": [
+    {
+      "code": "n_positive",
+      "lastUpdated": "2020-02-06T11:48:50.069",
+      "id": "PPX2Xi3Cj1i",
+      "created": "2020-02-06T11:48:50.069",
+      "name": "n_positive",
+      "shortName": "n_positive",
+      "aggregationType": "SUM",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": [
+        1,
+        2
+      ]
+    },
+    {
+      "code": "n_trials",
+      "lastUpdated": "2020-02-06T11:48:38.175",
+      "id": "OOSBjoDYpxv",
+      "created": "2020-02-06T11:48:38.175",
+      "name": "n_trials",
+      "shortName": "n_trials",
+      "aggregationType": "SUM",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": [
+        1,
+        2
+      ]
+    },
+    {
+      "code": "prevalence",
+      "lastUpdated": "2020-02-06T11:49:04.281",
+      "id": "IdZgCAy09mH",
+      "created": "2020-02-06T11:49:04.280",
+      "name": "prevalence",
+      "shortName": "prevalence",
+      "aggregationType": "MAX",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "M5zQapPyTZI"
+      },
+      "user": {
+        "id": "M5zQapPyTZI"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": [
+        1,
+        2
+      ]
     }
   ]
 }
