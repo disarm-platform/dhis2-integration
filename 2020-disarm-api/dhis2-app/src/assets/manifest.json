@@ -1,0 +1,16 @@
+{
+	"name": "User Support Application",
+	"short_name": "UserSupportApp",
+	"icons": [
+		{
+			"src": "assets/img/icon-128x128.png",
+			"sizes": "128x128",
+			"type": "image\/png"
+		}
+	],
+	"theme_color": "#215e8c",
+  "background_color": "#ffffff",
+	"display": "standalone",
+	"orientation": "portrait",
+	"start_url": "./?utm_source=web_app_manifest"
+}
