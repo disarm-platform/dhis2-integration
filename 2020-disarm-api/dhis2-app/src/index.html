@@ -1,22 +1,24 @@
 <html>
 
-<body>
-  <h1>Hi</h1>
-  <button onclick='myclick()'>Click</button>
+<body style='font-family: Arial, Helvetica, sans-serif'>
+  <header style=" height: 48px; background: #2c6693; margin: -8px; "> </header>
+  <h3>Run DiSARM API integration</h3>
+  <button onclick='myclick()'>Start</button>
   <span id='running' style='display: none;'>Running ...</span>
   <span id='done' style='display: none;'>Success!</span>
   <script>
-    function myclick() {
+    async function myclick() {
       console.log('click');
       document.getElementsByTagName('button')[0].disabled = true;
       document.getElementById('running').style.display = '';
-      setTimeout(() => {
-        console.log('done');
-        document.getElementById('running').style.display = 'none';
-        document.getElementById('done').style.display = '';
-      }, 2000);
+      await fetch('https://europe-west1-disarm-platform.cloudfunctions.net/dhis2-integration');
+      document.getElementById('running').style.display = 'none';
+      document.getElementById('done').style.display = '';
     };
   </script>
+  <style>
+
+  </style>
 </body>
 
 </html>

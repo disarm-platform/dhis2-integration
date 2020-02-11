@@ -156,6 +156,14 @@ async function main() {
 }
 
 exports.handler = async (req, res) => {
+  res.set('Access-Control-Allow-Origin', '*');
+  res.set('Access-Control-Allow-Methods', 'GET, POST');
+  res.set('Access-Control-Allow-Headers', 'content-type');
+  if (req.method === 'OPTIONS') {
+    res.sendStatus(200);
+    return;
+  }
+
   const worked = await main();
   if (worked) {
     res.sendStatus(200);

@@ -21,3 +21,14 @@
 - `DHIS_AUTH`: base64-encoded `Basic <user:password>`
 - `DISARM_FN_URL`: defaults to DiSARM API `fn-prev-pred` function
 - `DEBUG`: defaults to nothing, options are 'file' or 'log'
+
+
+## Reset the data
+
+`DHIS2_ROOT_URL=http://dhis2.disarm.io:8080 DEBUG=file node 2_create_initial_data.js`
+
+
+## DHIS2-app
+
+1. From the `src` folder, run : `zip -r ../app.zip index.html manifest.webapp assets/*`
+2. Upload the created ZIP file into the DHIS2 App management.
