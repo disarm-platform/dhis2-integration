@@ -1,5 +1,5 @@
 {
-  "name": "2020-02-05-extracting-data-from-DHIS2",
+  "name": "dhis2_integration",
   "version": "1.0.0",
   "description": "notes for data integration",
   "main": "index.js",
