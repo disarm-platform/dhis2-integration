@@ -13,3 +13,11 @@
 1. Convert each value from a dataElement id to a dataElement name (using lookup function): e.g `Qrt....` --> `n_positive`
 1. Attach each converted value onto the related orgUnit
 1. Done
+
+
+## Env variables
+
+- `DHIS2_ROOT_URL`: defaults to `https://ppls.ngrok.io`
+- `DHIS_AUTH`: base64-encoded `Basic <user:password>`
+- `DISARM_FN_URL`: defaults to DiSARM API `fn-prev-pred` function
+- `DEBUG`: defaults to false, prints every response to logs
