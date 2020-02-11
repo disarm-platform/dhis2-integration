@@ -4,8 +4,10 @@ const { cloneDeep } = require('lodash');
 
 // CONFIG
 const static_period = '201912';
-const root_url = 'http://localhost:8080';
+// const root_url = 'http://localhost:8080';
 // const root_url = 'https://ppls.ngrok.io';
+const root_url = 'http://dhis2.disarm.io:8080';
+
 const headers = {
   Authorization: 'Basic YWRtaW46ZGlzdHJpY3Q='
 };
@@ -18,7 +20,6 @@ async function main() {
   await write_file(metadata, 'metadata');
 
   const dataSetId = metadata.dataSets[0].id;
-  const userId = metadata.users[0].id;
 
   const orgUnitIds = metadata.organisationUnits.filter(i => i.hasOwnProperty('parent')).map(i => i.id);
 

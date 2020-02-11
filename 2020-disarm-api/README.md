@@ -20,4 +20,4 @@
 - `DHIS2_ROOT_URL`: defaults to `https://ppls.ngrok.io`
 - `DHIS_AUTH`: base64-encoded `Basic <user:password>`
 - `DISARM_FN_URL`: defaults to DiSARM API `fn-prev-pred` function
-- `DEBUG`: defaults to false, prints every response to logs
+- `DEBUG`: defaults to nothing, options are 'file' or 'log'

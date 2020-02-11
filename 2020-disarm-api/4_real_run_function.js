@@ -1,31 +1,32 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
-const { cloneDeep } = require('lodash');
 
 // CONFIG
 const static_period = '201912';
-const root_url = 'http://localhost:8080';
-// const root_url = 'https://ppls.ngrok.io';
-const headers = {
-  Authorization: 'Basic YWRtaW46ZGlzdHJpY3Q='
+const dhis2_root_url = process.env.DHIS2_ROOT_URL || "http://dhis2.disarm.io:8080";
+const dhis2_headers = {
+  Authorization: process.env.DHIS2_AUTH || 'Basic YWRtaW46ZGlzdHJpY3Q='
 };
+const disarm_fn_url = process.env.DISARM_FN_URL || 'https://faas.srv.disarm.io/function/fn-prevalence-predictor';
+const DEBUG = process.env.DEBUG;
+
 let file_count = 0;
 
 async function main() {
-  const metadata_url = `${root_url}/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true&dataSets=true&users=true`;
-  const metadata_res = await fetch(metadata_url, { headers });
+  const metadata_url = `${dhis2_root_url}/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true&dataSets=true&users=true`;
+  const metadata_res = await fetch(metadata_url, { headers: dhis2_headers });
   const metadata = await metadata_res.json();
   await write_file(metadata, 'metadata');
 
   const dataSetId = metadata.dataSets[0].id;
-  const userId = metadata.users[0].id;
 
   const orgUnitIds = metadata.organisationUnits.filter(i => i.hasOwnProperty('parent')).map(i => i.id);
 
   const orgUnitParams = orgUnitIds.map(i => `&orgUnit=${i}`).join('');
 
-  const dataValueSetsUrl = `${root_url}/api/dataValueSets.json?dataSet=${dataSetId}&period=${static_period}${orgUnitParams}`;
-  const dataValueSetsUrl_res = await fetch(dataValueSetsUrl, { headers });
+  const dataValueSetsUrl = `${dhis2_root_url}/api/dataValueSets.json?dataSet=${dataSetId}&period=${static_period}${orgUnitParams}`;
+  
+  const dataValueSetsUrl_res = await fetch(dataValueSetsUrl, { headers: dhis2_headers });
   const dataValueSets = await dataValueSetsUrl_res.json();
   await write_file(dataValueSets, 'dataValueSets');
 
@@ -86,10 +87,10 @@ async function main() {
   await write_file(orgUnitsGeoJSON, 'send_to_disarm');
 
   // Simulate DiSARM function - randomly add prevalence_prediction
-  const real_run_Url = `https://faas.srv.disarm.io/function/fn-prevalence-predictor`;
+  const real_run_Url = `${disarm_fn_url}`;
   const real_run_Url_res = await fetch(real_run_Url, {
     method: 'post',
-    headers,
+    headers: dhis2_headers,
     body: JSON.stringify({ point_data: orgUnitsGeoJSON })
   });
   const real_run_result = await real_run_Url_res.json();
@@ -100,7 +101,6 @@ async function main() {
   const dataValues = real_run_result.result.features.reduce((acc, f) => {
     for (const field_name of ['n_trials', 'n_positive', 'prevalence_prediction']) {
       const properties = f.properties;
-      let dataElement = dataElementLookup[field_name];
       const dataElement = dataElementLookup[field_name];
       const value = properties[field_name];
       const orgUnit = properties.orgUnit_id;
@@ -124,11 +124,11 @@ async function main() {
   await write_file(data_for_dhis2, 'data_for_dhis2')
 
   // Write back to DHIS2
-  const post_data_to_dhis2_url = `${root_url}/api/dataValueSets.json?importStrategy=UPDATE`;
+  const post_data_to_dhis2_url = `${dhis2_root_url}/api/dataValueSets.json?importStrategy=UPDATE`;
   const post_data_to_dhis2_res = await fetch(post_data_to_dhis2_url, {
     method: 'post',
     headers: {
-      ...headers,
+      ...dhis2_headers,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(data_for_dhis2)
@@ -144,17 +144,33 @@ async function main() {
   })
 
   // Force update of DHIS2 analytics tables
-  const dhis2_trigger_analytics_url = `${root_url}/api/resourceTables/analytics`;
+  const dhis2_trigger_analytics_url = `${dhis2_root_url}/api/resourceTables/analytics`;
   const dhis2_trigger_analytics_res = await fetch(dhis2_trigger_analytics_url, {
     method: 'post',
-    headers
+    headers: dhis2_headers
   });
   const dhis2_trigger_analytics = await dhis2_trigger_analytics_res.json();
   await write_file(dhis2_trigger_analytics, 'response_from_dhis2_analytics_bump');
+
+  return true;
+}
+
+exports.handler = async (req, res) => {
+  const worked = await main();
+  if (worked) {
+    res.sendStatus(200);
+  } else {
+    res.sendStatus(502);
+  }
 }
 
 async function write_file(content, filename) {
-  return await fs.writeFileSync(`data/4_real_run_function/${file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
+  if (DEBUG ===  'file') {
+    // console.log(filename, content);
+    return await fs.writeFileSync(`data/4_real_run_function/${file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
+  } else if (DEBUG === 'log') {
+    console.log(content);
+  }
 }
 
 main()

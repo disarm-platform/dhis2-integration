@@ -4,8 +4,10 @@ const { cloneDeep } = require('lodash');
 
 // CONFIG
 const static_period = '201912';
-const root_url = 'http://localhost:8080';
+// const root_url = 'http://localhost:8080';
 // const root_url = 'https://ppls.ngrok.io';
+const root_url = 'http://dhis2.disarm.io:8080';
+
 const headers = {
   Authorization: 'Basic YWRtaW46ZGlzdHJpY3Q='
 };
@@ -19,12 +21,6 @@ async function main() {
   const metadata = await metadata_res.json();
   await write_file(metadata, 'metadata');
 
-  const dataSetId = metadata.dataSets[0].id;
-  const userId = metadata.users[0].id;
-
-  const orgUnitIds = metadata.organisationUnits.filter(i => i.hasOwnProperty('parent')).map(i => i.id);
-
-  const orgUnitParams = orgUnitIds.map(i => `&orgUnit=${i}`).join('');
 
   const rawOrgUnits = metadata.organisationUnits;
   await write_file(rawOrgUnits, 'rawOrgUnits');
@@ -51,13 +47,19 @@ async function main() {
     for (const field_name of ['n_trials', 'n_positive', 'prevalence_prediction']) {
       const dataElementId = dataElementLookup[field_name];
 
-      const value = found_feature.properties[field_name];
+      let value;
+      if (field_name === 'prevalence_prediction') {
+        value = 0;
+      } else {
+        value = found_feature.properties[field_name];
+      }
+      // console.log('value', value);
 
       acc.push({
         "dataElement": dataElementId,
         "period": static_period,
         "orgUnit": u.id,
-        "value": value || 0.0001,
+        "value": value,
         "storedBy": "admin",
         "followup": false
       })

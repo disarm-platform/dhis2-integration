@@ -4,8 +4,9 @@ const { cloneDeep } = require('lodash');
 
 // CONFIG
 const static_period = '201912';
-const root_url = 'http://localhost:8080';
+// const root_url = 'http://localhost:8080';
 // const root_url = 'https://ppls.ngrok.io';
+const root_url = 'http://dhis2.disarm.io:8080';
 const headers = {
   Authorization: 'Basic YWRtaW46ZGlzdHJpY3Q='
 };
@@ -16,11 +17,16 @@ async function main() {
   const source_features = JSON.parse(fs.readFileSync('./swz_points.geojson')).features;
 
   const metadata_url = `${root_url}/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true&dataSets=true&users=true`;
-  const metadata_res = await fetch(metadata_url, { headers });
+  let metadata_res;
+  try {
+    metadata_res = await fetch(metadata_url, { headers });
+  } catch (error) {
+    console.error(error);
+    process.exit();
+  }
   const metadata = await metadata_res.json();
   await write_file(metadata, 'metadata');
 
-  const dataSetId = metadata.dataSets[0].id;
   const userId = metadata.users[0].id;
   const top_level_orgUnit = metadata.organisationUnits.filter(i => i.level === 1)[0];
   const top_level_orgUnitId = top_level_orgUnit.id;
