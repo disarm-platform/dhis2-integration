@@ -44,11 +44,13 @@ async function main() {
       return acc;
     }
 
+    const ignore_this = Math.random() > 0.4;
+
     for (const field_name of ['n_trials', 'n_positive', 'prevalence_prediction']) {
       const dataElementId = dataElementLookup[field_name];
 
       let value;
-      if (field_name === 'prevalence_prediction') {
+      if (ignore_this || field_name === 'prevalence_prediction') {
         value = 0;
       } else {
         value = found_feature.properties[field_name];
