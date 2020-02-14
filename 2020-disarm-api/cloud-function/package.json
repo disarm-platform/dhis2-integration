@@ -2,7 +2,7 @@
   "name": "dhis2_integration",
   "version": "1.0.0",
   "description": "notes for data integration",
-  "main": "index.js",
+  "main": "lib/index.js",
   "dependencies": {
     "@google-cloud/functions-framework": "^1.4.0",
     "@turf/helpers": "^6.1.4",
