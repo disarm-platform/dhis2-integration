@@ -1,11 +1,35 @@
-## Preparation (could be pre-OpenFn)
+## Configure DHIS2 instance
 
-1. Download metadata: `http ':8080/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true' -a admin:district`
-2. Create GeoJSON of orgUnits with properties including the `id` and `name`
-3. Create a lookup function between dataElements `id` and `name`
+1. Navigate to system settings and set analytics cache to zero. **MOST IMPORTANT BEFORE ANYTHING ELSE!!**
+
+### Organization units creation.
+1. Create top level Organisation unit - _Eswatini_, and set its level to 1.
+1. Run script `1_create_orgUnits.js` to create orgUnits.
+1. Navigate back to the GUI under OrgUnits and delete the orgUnit Village_100.
 
 
-## Live function (prob inside OpenFn)
+### Data elements.
+1. Create the following data elements `n_trial`, `n_positive`, `prevelance_prediction` . Each must have _Record zero values_ checked.
+1. Create a data set called `data_set` and set the properties:
+    1. `Days after period to qualify for timely submission` to `1`:
+    1. `Period  type` to `Yearly`.
+1. Create a data element group named `data_element_group`.
+1. Run script `2_create_initial_data.js` to create the initial data.
+
+### Dashboard.
+1. Create a pivot table, chart and map and add them to the dashboard.
+1. Run the script `3_simulate_run_function.js` to send data to DISARM API and populate DHIS2 with returned data.
+
+
+## COnfiguring as a Cloud Function
+
+Instructions for deploying as a Google Cloud Function.
+
+- respond to HTTP trigger
+- use Node10 as runtime 
+- point to `handler` as the function to invoke
+
+## Live function outline
 
 1. Get array of all orgUnit ids
 1. Request dataElements: `http ':8080/api/dataValueSets.json?dataSet=CNM7hjjV4Dg&period=20200201&orgUnit=b9KzF3yT6vF&orgUnit=pLgoeZTqSAc&orgUnit=VcAEdFIy823&orgUnit=MFfuE2fPk31' -a admin:district` (insert orgUnit ids)
@@ -17,9 +41,9 @@
 
 ## Env variables
 
-- `DHIS2_ROOT_URL`: defaults to `https://ppls.ngrok.io`
+- `DHIS2_ROOT_URL`: defaults to `http://dhis2.disarm.io:8080`
 - `DHIS_AUTH`: base64-encoded `Basic <user:password>`
-- `DISARM_FN_URL`: defaults to DiSARM API `fn-prev-pred` function
+- `DISARM_FN_URL`: defaults to DiSARM API `fn-prevalence-prediction-mgcv` function
 - `DEBUG`: defaults to nothing, options are 'file' or 'log'
 
 

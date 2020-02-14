@@ -1,3 +1,9 @@
+/* This function is designed to be run as a serverless function. 
+ * Check the README.md for configurable environment variables
+ * 
+ * The `main` function contains the outline.
+ * The `handler` function is responsible for CORS and handling the cloud function request
+ */
 const fs = require('fs');
 const fetch = require('node-fetch');
 
@@ -7,7 +13,7 @@ const dhis2_root_url = process.env.DHIS2_ROOT_URL || "http://dhis2.disarm.io:808
 const dhis2_headers = {
   Authorization: process.env.DHIS2_AUTH || 'Basic YWRtaW46ZGlzdHJpY3Q='
 };
-const disarm_fn_url = process.env.DISARM_FN_URL || 'https://faas.srv.disarm.io/function/fn-prevalence-predictor';
+const disarm_fn_url = process.env.DISARM_FN_URL || 'https://faas.srv.disarm.io/function/fn-prevalence-predictor-mgcv';
 const DEBUG = process.env.DEBUG;
 
 let debug_file_count = 0;
