@@ -17,7 +17,7 @@ export interface RawOrgUnit {
   geometry: {
     type: string;
     coordinates: number[];
-  },
+  };
   parent: {
     id: string;
   };
@@ -31,14 +31,13 @@ export enum OrgUnitFields {
 
 export type OrgUnitsProperties = {
   [key in OrgUnitFields]: string;
-}
+};
 
 export interface OrgUnitsFeature {
   type: string;
   properties: OrgUnitsProperties;
   geometry: GeometryObject;
 }
-
 
 export interface DataValue {
   dataElement: string;
@@ -56,7 +55,6 @@ export interface DataValue {
 export interface DataValueSets {
   dataValues: DataValue[];
 }
-
 
 export interface RawDataElement {
   code: string;
@@ -93,7 +91,7 @@ export enum PointDataFields {
 
 export type PointDataProperties = {
   [key in PointDataFields]: number;
-}
+};
 
 export interface PointDataFeature {
   geometry: GeometryObject;

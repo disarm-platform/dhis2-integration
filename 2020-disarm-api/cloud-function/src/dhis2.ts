@@ -7,19 +7,21 @@ export async function get_data_from_dhis2() {
   const metadata = await get_metadata();
 
   const dataSetId = metadata.dataSets[0].id;
-  const orgUnitIds: string[] = (metadata.organisationUnits as RawOrgUnit[]).filter(i => i.hasOwnProperty('parent')).map(i => i.id);
-  const orgUnitParams = orgUnitIds.map(i => `&orgUnit=${i}`).join('');
-  
+  const orgUnitIds: string[] = (metadata.organisationUnits as RawOrgUnit[])
+    .filter((i) => i.hasOwnProperty('parent'))
+    .map((i) => i.id);
+  const orgUnitParams = orgUnitIds.map((i) => `&orgUnit=${i}`).join('');
+
   const dataValueSets: DataValueSets = await get_dataValueSets(dataSetId, orgUnitParams);
-  
+
   const rawOrgUnits: RawOrgUnit[] = metadata.organisationUnits;
   await write_debug_file(rawOrgUnits, 'rawOrgUnits');
-  
+
   const rawDataElements = metadata.dataElements;
   await write_debug_file(rawDataElements, 'rawDataElements');
-  
+
   // Create GeoJSON of OrgUnits
-  const orgUnitsFeatures: OrgUnitsFeature[] = rawOrgUnits.filter(i => i.hasOwnProperty('parent')).map(i => {
+  const orgUnitsFeatures: OrgUnitsFeature[] = rawOrgUnits.filter((i) => i.hasOwnProperty('parent')).map((i) => {
     return {
       type: 'Feature',
       properties: {
@@ -35,11 +37,12 @@ export async function get_data_from_dhis2() {
   });
 
   // Create lookup for dataElement renaming
-  const dataElementLookup: DataElementLookup = (rawDataElements as RawDataElement[]).reduce((acc: DataElementLookup, i) => {
-    acc[i.id] = i.name;
-    acc[i.name] = i.id;
-    return acc;
-  }, {});
+  const dataElementLookup: DataElementLookup = (rawDataElements as RawDataElement[])
+    .reduce((acc: DataElementLookup, i) => {
+      acc[i.id] = i.name;
+      acc[i.name] = i.id;
+      return acc;
+    }, {});
   await write_debug_file(dataElementLookup, 'dataElementLookup');
 
   return { dataValueSets, orgUnitsFeatures, dataElementLookup };

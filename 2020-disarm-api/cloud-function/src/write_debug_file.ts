@@ -9,8 +9,7 @@ export async function write_debug_file(content: any, filename: string): Promise<
     await fs.writeFileSync(filepath, JSON.stringify(content, null, 2));
     console.log('wrote:', filepath);
     return;
-  }
-  else if (config.DEBUG === 'log') {
+  } else if (config.DEBUG === 'log') {
     console.log(content);
   }
 }

@@ -4,16 +4,21 @@
   "description": "notes for data integration",
   "main": "index.js",
   "dependencies": {
-    "@types/express": "^4.17.2",
+    "@google-cloud/functions-framework": "^1.4.0",
+    "@turf/helpers": "^6.1.4",
     "@yaga/generic-geojson": "^1.0.0",
     "lodash": "^4.17.15",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
+    "@types/express": "^4.17.2",
     "@types/node": "^13.7.1",
     "@types/node-fetch": "^2.5.4"
   },
   "scripts": {
+    "build": "tsc -p .",
+    "start": "npm run build && functions-framework --source=lib --target=handler",
+    "debug": "node -r ts-node/register --inspect node_modules/@google-cloud/functions-framework --source=src --target=get_data",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
