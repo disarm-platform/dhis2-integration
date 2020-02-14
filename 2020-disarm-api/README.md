@@ -1,3 +1,10 @@
+## Getting DHIS2 running
+
+What worked for us: use the Docker instances, with the `docker-compose.yml`.
+
+See [Running DHIS2 locally](#Running-DHIS2-locally) for our notes on running a local DHIS2-Live instance.
+
+
 ## Configure DHIS2 instance
 
 1. Navigate to system settings and set analytics cache to zero. **MOST IMPORTANT BEFORE ANYTHING ELSE!!**
@@ -56,3 +63,21 @@ Instructions for deploying as a Google Cloud Function.
 
 1. From the `src` folder, run : `zip -r ../app.zip index.html manifest.webapp assets/*`
 2. Upload the created ZIP file into the DHIS2 App management.
+
+
+## Running DHIS2-Live locally
+
+It seems that DHIS2 requires version 8 of Java (docs say “current version”, but it’s currently 13).
+
+There’s a way to install Java JDK 8 using homebrew: `brew cask install adoptopenjdk8`.
+
+Assuming you’ve got the following:
+
+•	Postgres installed,
+•	a database and user configured,
+•	the `dhis.conf` edited to match the Postgres settings
+
+You should be able to start with the magic command: 
+```
+JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home java -jar dhis2-live.jar
+```
