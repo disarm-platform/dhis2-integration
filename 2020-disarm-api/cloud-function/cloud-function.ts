@@ -13,14 +13,14 @@ import {
   RawOrgUnit,
   DataElementLookup,
   OrgUnitsFeature,
-  PointDataField,
-  PointDataFeature,
-  PointDataProperties,
-  OrgUnitsProperties,
-  InterimProperties,
-  InterimFeature
+  PointDataFields,
+  OrgUnitFields,
+  DataValue,
+  FnResponse,
+  RunResult,
+  RawDataElement,
+  CombinedFeature
 } from './types';
-import { GenericGeoJSONFeature } from '@yaga/generic-geojson';
 
 // CONFIG
 const static_period = '201912';
@@ -28,7 +28,7 @@ const dhis2_root_url = process.env.DHIS2_ROOT_URL || "http://dhis2.disarm.io:808
 const dhis2_headers = {
   Authorization: process.env.DHIS2_AUTH || 'Basic YWRtaW46ZGlzdHJpY3Q='
 };
-const disarm_fn_url = process.env.DISARM_FN_URL || 'https://faas.srv.disarm.io/function/fn-prevalence-predictor-mgcv';
+const disarm_fn_url = process.env.DISARM_FN_URL || 'https://faas.srv.disarm.io/function/fn-prevalence-predictor';
 const DEBUG = process.env.DEBUG;
 
 let debug_file_count = 0;
@@ -67,7 +67,7 @@ async function get_data_from_dhis2() {
   await write_debug_file(metadata, 'metadata');
 
   const dataSetId = metadata.dataSets[0].id;
-  const orgUnitIds: string[] = metadata.organisationUnits.filter(i => i.hasOwnProperty('parent')).map(i => i.id);
+  const orgUnitIds: string[] = (metadata.organisationUnits as RawOrgUnit[]).filter(i => i.hasOwnProperty('parent')).map(i => i.id);
   const orgUnitParams = orgUnitIds.map(i => `&orgUnit=${i}`).join('');
 
   const dataValueSetsUrl = `${dhis2_root_url}/api/dataValueSets.json?dataSet=${dataSetId}&period=${static_period}${orgUnitParams}`;
@@ -98,7 +98,7 @@ async function get_data_from_dhis2() {
   });
 
   // Create lookup for dataElement renaming
-  const dataElementLookup: DataElementLookup = rawDataElements.reduce((acc: DataElementLookup, i) => {
+  const dataElementLookup: DataElementLookup = (rawDataElements as RawDataElement[]).reduce((acc: DataElementLookup, i) => {
     acc[i.id] = i.name;
     acc[i.name] = i.id;
     return acc;
@@ -113,33 +113,31 @@ async function shape_data_for_disarm(
   orgUnitsFeatures: OrgUnitsFeature[],
   dataElementLookup: DataElementLookup,
 ): Promise<FnRequest> {
-  let disarm_features: InterimFeature[] = [];
 
-  dataValueSets.dataValues.forEach((dataValue) => {
-    const found_orgUnit = orgUnitsFeatures.find(o => o.properties.orgUnit_id === dataValue.orgUnit);
+  const dataValues = dataValueSets.dataValues;
 
-    if (!found_orgUnit) {
-      console.error('Cannot find orgUnit for', dataValue);
-      return;
+  const features: CombinedFeature[] = orgUnitsFeatures.map(feature => {
+    const interim_feature = feature as CombinedFeature;
+
+    for (const field in PointDataFields) {
+      const looked_up_field = dataElementLookup[field];
+      const found_dataValue = dataValues.find((dv) => {
+        return (dv.orgUnit === feature.properties.orgUnit_id) && (dv.dataElement === looked_up_field);
+      });
+      if (found_dataValue) {
+        interim_feature.properties[field as PointDataFields] = parseFloat(found_dataValue.value);
+      } else {
+        console.error('Cannot find dataValue for', field, 'in', interim_feature);
+      }
     }
 
-    const found_dataElement = (dataElementLookup[dataValue.dataElement] as PointDataField);
-
-    if (!found_dataElement) {
-      console.error('Cannot find dataElement for', dataValue);
-      return;
-    }
-
-    const value = parseFloat(dataValue.value);
-    const props = found_orgUnit.properties as InterimProperties;
-    props[found_dataElement] = value;
-    found_orgUnit.properties = props;
+    return interim_feature;
   });
 
   const fn_request: FnRequest = {
     point_data: {
       type: 'FeatureCollection',
-      features: disarm_features,
+      features,
     }
   };
   await write_debug_file(fn_request, 'send_to_disarm');
@@ -159,14 +157,20 @@ async function run_disarm_algorithm(fn_request: FnRequest) {
   return real_run_result;
 }
 
-async function shape_result_for_dhis2(run_result, dataElementLookup: DataElementLookup) {
-  const dataValues = run_result.result.features.reduce((acc, f) => {
-    for (const field_name of ['n_trials', 'n_positive', 'prevalence_prediction']) {
+async function shape_result_for_dhis2(run_response: FnResponse, dataElementLookup: DataElementLookup) {
+  if (run_response.function_status === 'error') {
+    throw { name: 'FnError', message: 'Something wrong with DiSARM function' };
+  }
+
+  const result = run_response.result as RunResult;
+
+  const dataValues: DataValue[] = result.features.reduce((acc, f) => {
+    for (const field in PointDataFields) {
       const properties = f.properties;
-      const dataElement = dataElementLookup[field_name];
-      const value = properties[field_name];
+      const dataElement = dataElementLookup[field];
+      const value = properties[field];
       const orgUnit = properties.orgUnit_id;
-      const lastUpdated = new Date;
+      const lastUpdated = (new Date).toISOString();
       acc.push({
         dataElement,
         value,
@@ -176,15 +180,17 @@ async function shape_result_for_dhis2(run_result, dataElementLookup: DataElement
       });
     }
     return acc;
-  }, []);
-  const data_for_dhis2 = {
+  }, [] as DataValue[]);
+
+  const data_for_dhis2: DataValueSets = {
     dataValues,
   };
   await write_debug_file(data_for_dhis2, 'data_for_dhis2');
+
   return data_for_dhis2;
 }
 
-async function write_result_to_dhis2(data_for_dhis2) {
+async function write_result_to_dhis2(data_for_dhis2: DataValueSets) {
   const post_data_to_dhis2_url = `${dhis2_root_url}/api/dataValueSets.json?importStrategy=UPDATE`;
   const post_data_to_dhis2_res = await fetch(post_data_to_dhis2_url, {
     method: 'post',
@@ -217,8 +223,9 @@ async function trigger_dhis2_analytics(delay = 2000) {
 
 async function write_debug_file(content: any, filename: string) {
   if (DEBUG === 'file') {
-    // console.log(filename, content);
-    return await fs.writeFileSync(`data/${debug_file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
+    const filepath = `data/${debug_file_count++}_${filename}.json`;
+    await fs.writeFileSync(filepath, JSON.stringify(content, null, 2));
+    return console.log('wrote:', filepath);
   } else if (DEBUG === 'log') {
     console.log(content);
   }

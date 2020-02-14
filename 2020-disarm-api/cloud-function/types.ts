@@ -1,50 +1,6 @@
 import GeometryObject = GeoJSON.GeometryObject;
 import { GenericGeoJSONFeatureCollection, GenericGeoJSONFeature } from '@yaga/generic-geojson';
 
-
-export enum PointDataField {
-  n_trials = 'n_trials',
-  n_positive = 'n_positive',
-  prevalence_prediction = 'prevalence_prediction',
-}
-
-export type PointDataProperties = {
-  [key in PointDataField]: number;
-}
-
-export interface PointDataFeature {
-  geometry: GeometryObject;
-  properties: PointDataProperties & OrgUnitsProperties;
-}
-
-export type InterimProperties = Partial<PointDataProperties & OrgUnitsProperties>;
-
-export type InterimFeature = GenericGeoJSONFeature<GeometryObject, InterimProperties>;
-
-export type PointDataFeatureCollection =
-  GenericGeoJSONFeatureCollection<GeometryObject, PointDataProperties>;
-
-export interface FnRequest {
-  point_data: PointDataFeatureCollection;
-}
-
-export interface DataValue {
-  dataElement: string;
-  period: string;
-  orgUnit: string;
-  categoryOptionCombo: string;
-  attributeOptionCombo: string;
-  value: string;
-  storedBy: string;
-  created: string;
-  lastUpdated: string;
-  followup: boolean;
-}
-
-export interface DataValueSets {
-  dataValues: DataValue[];
-}
-
 export interface RawOrgUnit {
   code: string;
   level: number;
@@ -83,6 +39,81 @@ export interface OrgUnitsFeature {
   geometry: GeometryObject;
 }
 
+
+export interface DataValue {
+  dataElement: string;
+  value: string;
+  period: string;
+  orgUnit: string;
+  lastUpdated: string;
+  categoryOptionCombo?: string;
+  attributeOptionCombo?: string;
+  storedBy?: string;
+  created?: string;
+  followup?: boolean;
+}
+
+export interface DataValueSets {
+  dataValues: DataValue[];
+}
+
+
+export interface RawDataElement {
+  code: string;
+  lastUpdated: string;
+  id: string;
+  created: string;
+  name: string;
+  shortName: string;
+  aggregationType: string;
+  domainType: string;
+  publicAccess: string;
+  valueType: string;
+  zeroIsSignificant: boolean;
+  categoryCombo: any;
+  lastUpdatedBy: any;
+  user: any;
+  translations: any[];
+  userGroupAccesses: any[];
+  attributeValues: any[];
+  userAccesses: any[];
+  legendSets: any[];
+  aggregationLevels: number[];
+}
+
 export interface DataElementLookup {
   [name: string]: string;
+}
+
+export enum PointDataFields {
+  n_trials = 'n_trials',
+  n_positive = 'n_positive',
+  prevalence_prediction = 'prevalence_prediction',
+}
+
+export type PointDataProperties = {
+  [key in PointDataFields]: number;
+}
+
+export interface PointDataFeature {
+  geometry: GeometryObject;
+  properties: PointDataProperties & OrgUnitsProperties;
+}
+
+export type CombinedProperties = Partial<PointDataProperties & OrgUnitsProperties>;
+
+export type CombinedFeature = GenericGeoJSONFeature<GeometryObject, CombinedProperties>;
+
+export type CombinedFeatureCollection =
+  GenericGeoJSONFeatureCollection<GeometryObject, CombinedProperties>;
+
+export interface FnRequest {
+  point_data: CombinedFeatureCollection;
+}
+
+export type RunResult = GenericGeoJSONFeatureCollection<GeometryObject, any>;
+
+export interface FnResponse {
+  function_status: 'success' | 'error';
+  result: RunResult;
 }
