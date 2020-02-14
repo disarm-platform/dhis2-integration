@@ -7,7 +7,20 @@
 import fs from 'fs';
 import fetch from 'node-fetch';
 import Express from 'express';
-import { FnRequest } from './types';
+import {
+  FnRequest,
+  DataValueSets,
+  RawOrgUnit,
+  DataElementLookup,
+  OrgUnitsFeature,
+  PointDataField,
+  PointDataFeature,
+  PointDataProperties,
+  OrgUnitsProperties,
+  InterimProperties,
+  InterimFeature
+} from './types';
+import { GenericGeoJSONFeature } from '@yaga/generic-geojson';
 
 // CONFIG
 const static_period = '201912';
@@ -54,22 +67,22 @@ async function get_data_from_dhis2() {
   await write_debug_file(metadata, 'metadata');
 
   const dataSetId = metadata.dataSets[0].id;
-  const orgUnitIds = metadata.organisationUnits.filter(i => i.hasOwnProperty('parent')).map(i => i.id);
+  const orgUnitIds: string[] = metadata.organisationUnits.filter(i => i.hasOwnProperty('parent')).map(i => i.id);
   const orgUnitParams = orgUnitIds.map(i => `&orgUnit=${i}`).join('');
 
   const dataValueSetsUrl = `${dhis2_root_url}/api/dataValueSets.json?dataSet=${dataSetId}&period=${static_period}${orgUnitParams}`;
   const dataValueSetsUrl_res = await fetch(dataValueSetsUrl, { headers: dhis2_headers });
-  const dataValueSets = await dataValueSetsUrl_res.json();
+  const dataValueSets: DataValueSets = await dataValueSetsUrl_res.json();
   await write_debug_file(dataValueSets, 'dataValueSets');
-  
-  const rawOrgUnits = metadata.organisationUnits;
+
+  const rawOrgUnits: RawOrgUnit[] = metadata.organisationUnits;
   await write_debug_file(rawOrgUnits, 'rawOrgUnits');
-  
+
   const rawDataElements = metadata.dataElements;
   await write_debug_file(rawDataElements, 'rawDataElements');
-  
+
   // Create GeoJSON of OrgUnits
-  const orgUnitsFeatures = rawOrgUnits.filter(i => i.hasOwnProperty('parent')).map(i => {
+  const orgUnitsFeatures: OrgUnitsFeature[] = rawOrgUnits.filter(i => i.hasOwnProperty('parent')).map(i => {
     return {
       type: 'Feature',
       properties: {
@@ -85,7 +98,7 @@ async function get_data_from_dhis2() {
   });
 
   // Create lookup for dataElement renaming
-  const dataElementLookup = rawDataElements.reduce((acc, i) => {
+  const dataElementLookup: DataElementLookup = rawDataElements.reduce((acc: DataElementLookup, i) => {
     acc[i.id] = i.name;
     acc[i.name] = i.id;
     return acc;
@@ -95,31 +108,40 @@ async function get_data_from_dhis2() {
   return { dataValueSets, orgUnitsFeatures, dataElementLookup };
 }
 
-async function shape_data_for_disarm(dataValueSets, orgUnitsFeatures, dataElementLookup) {
-  dataValueSets.dataValues.forEach((d) => {
-    const found_orgUnit = orgUnitsFeatures.find(o => o.properties.orgUnit_id === d.orgUnit);
+async function shape_data_for_disarm(
+  dataValueSets: DataValueSets,
+  orgUnitsFeatures: OrgUnitsFeature[],
+  dataElementLookup: DataElementLookup,
+): Promise<FnRequest> {
+  let disarm_features: InterimFeature[] = [];
+
+  dataValueSets.dataValues.forEach((dataValue) => {
+    const found_orgUnit = orgUnitsFeatures.find(o => o.properties.orgUnit_id === dataValue.orgUnit);
+
     if (!found_orgUnit) {
-      console.error('Cannot find orgUnit for', d);
+      console.error('Cannot find orgUnit for', dataValue);
       return;
     }
-    const found_dataElement = dataElementLookup[d.dataElement];
+
+    const found_dataElement = (dataElementLookup[dataValue.dataElement] as PointDataField);
+
     if (!found_dataElement) {
-      console.error('Cannot find dataElement for', d);
+      console.error('Cannot find dataElement for', dataValue);
       return;
     }
-    const value = parseFloat(d.value);
-    found_orgUnit.properties[found_dataElement] = value;
+
+    const value = parseFloat(dataValue.value);
+    const props = found_orgUnit.properties as InterimProperties;
+    props[found_dataElement] = value;
+    found_orgUnit.properties = props;
   });
 
-  const orgUnitsGeoJSON = {
-    type: 'FeatureCollection',
-    features: orgUnitsFeatures,
+  const fn_request: FnRequest = {
+    point_data: {
+      type: 'FeatureCollection',
+      features: disarm_features,
+    }
   };
-
-  const fn_request = { point_data: {
-    type: 'FeatureCollection',
-    features: orgUnitsFeatures,
-  } };
   await write_debug_file(fn_request, 'send_to_disarm');
 
   return fn_request;
@@ -137,8 +159,8 @@ async function run_disarm_algorithm(fn_request: FnRequest) {
   return real_run_result;
 }
 
-async function shape_result_for_dhis2(real_run_result, dataElementLookup) {
-  const dataValues = real_run_result.result.features.reduce((acc, f) => {
+async function shape_result_for_dhis2(run_result, dataElementLookup: DataElementLookup) {
+  const dataValues = run_result.result.features.reduce((acc, f) => {
     for (const field_name of ['n_trials', 'n_positive', 'prevalence_prediction']) {
       const properties = f.properties;
       const dataElement = dataElementLookup[field_name];
@@ -194,7 +216,7 @@ async function trigger_dhis2_analytics(delay = 2000) {
 }
 
 async function write_debug_file(content: any, filename: string) {
-  if (DEBUG ===  'file') {
+  if (DEBUG === 'file') {
     // console.log(filename, content);
     return await fs.writeFileSync(`data/${debug_file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
   } else if (DEBUG === 'log') {
