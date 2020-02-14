@@ -88,6 +88,7 @@ async function get_data_from_dhis2() {
 
 async function shape_data_for_disarm(dataValueSets, orgUnitsFeatures, dataElementLookup) {
   const iterate_this = dataValueSets.dataValues; //.slice(0, 9);
+
   iterate_this.forEach((d) => {
     const found_orgUnit = orgUnitsFeatures.find(o => o.properties.orgUnit_id === d.orgUnit);
     if (!found_orgUnit) {
@@ -102,10 +103,12 @@ async function shape_data_for_disarm(dataValueSets, orgUnitsFeatures, dataElemen
     const value = parseFloat(d.value);
     found_orgUnit.properties[found_dataElement] = value;
   });
+
   const orgUnitsGeoJSON = {
     type: 'FeatureCollection',
     features: orgUnitsFeatures,
   };
+
   await write_debug_file(orgUnitsGeoJSON, 'send_to_disarm');
   return orgUnitsGeoJSON;
 }
