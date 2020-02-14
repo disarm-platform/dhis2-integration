@@ -48,7 +48,7 @@ export async function shape_result_for_dhis2(run_response: FnResponse, dataEleme
     throw { name: 'FnError', message: 'Something wrong with DiSARM function' };
   }
   const result = run_response.result as RunResult;
-  const dataValues: DataValue[] = result.features.reduce((acc, f) => {
+  const dataValues: DataValue[] = result.features.reduce((acc: DataValue[], f) => {
     for (const field in PointDataFields) {
       const properties = f.properties;
       const dataElement = dataElementLookup[field];
