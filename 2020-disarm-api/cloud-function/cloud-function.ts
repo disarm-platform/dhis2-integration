@@ -4,8 +4,10 @@
  * The `main` function contains the outline.
  * The `handler` function is responsible for CORS and handling the cloud function request
  */
-const fs = require('fs');
-const fetch = require('node-fetch');
+import fs from 'fs';
+import fetch from 'node-fetch';
+import Express from 'express';
+import { FnRequest } from './types';
 
 // CONFIG
 const static_period = '201912';
@@ -18,16 +20,17 @@ const DEBUG = process.env.DEBUG;
 
 let debug_file_count = 0;
 
-async function main() {
+async function main(): Promise<boolean> {
   const { dataValueSets, orgUnitsFeatures, dataElementLookup } = await get_data_from_dhis2();
-  const orgUnitsGeoJSON = await shape_data_for_disarm(dataValueSets, orgUnitsFeatures, dataElementLookup);
-  const run_result = await run_disarm_algorithm(orgUnitsGeoJSON);
+  const fn_request = await shape_data_for_disarm(dataValueSets, orgUnitsFeatures, dataElementLookup);
+  const run_result = await run_disarm_algorithm(fn_request);
   const data_for_dhis2 = await shape_result_for_dhis2(run_result, dataElementLookup);
   await write_result_to_dhis2(data_for_dhis2);
   await trigger_dhis2_analytics();
+  return true;
 }
 
-exports.handler = async (req, res) => {
+exports.handler = async (req: Express.Request, res: Express.Response) => {
   res.set('Access-Control-Allow-Origin', '*');
   res.set('Access-Control-Allow-Methods', 'GET, POST');
   res.set('Access-Control-Allow-Headers', 'content-type');
@@ -93,9 +96,7 @@ async function get_data_from_dhis2() {
 }
 
 async function shape_data_for_disarm(dataValueSets, orgUnitsFeatures, dataElementLookup) {
-  const iterate_this = dataValueSets.dataValues; //.slice(0, 9);
-
-  iterate_this.forEach((d) => {
+  dataValueSets.dataValues.forEach((d) => {
     const found_orgUnit = orgUnitsFeatures.find(o => o.properties.orgUnit_id === d.orgUnit);
     if (!found_orgUnit) {
       console.error('Cannot find orgUnit for', d);
@@ -115,16 +116,21 @@ async function shape_data_for_disarm(dataValueSets, orgUnitsFeatures, dataElemen
     features: orgUnitsFeatures,
   };
 
-  await write_debug_file(orgUnitsGeoJSON, 'send_to_disarm');
-  return orgUnitsGeoJSON;
+  const fn_request = { point_data: {
+    type: 'FeatureCollection',
+    features: orgUnitsFeatures,
+  } };
+  await write_debug_file(fn_request, 'send_to_disarm');
+
+  return fn_request;
 }
 
-async function run_disarm_algorithm(orgUnitsGeoJSON) {
+async function run_disarm_algorithm(fn_request: FnRequest) {
   const real_run_Url = `${disarm_fn_url}`;
   const real_run_Url_res = await fetch(real_run_Url, {
     method: 'post',
     headers: dhis2_headers,
-    body: JSON.stringify({ point_data: orgUnitsGeoJSON })
+    body: JSON.stringify(fn_request)
   });
   const real_run_result = await real_run_Url_res.json();
   await write_debug_file(real_run_result, 'disarm_output');
@@ -171,7 +177,7 @@ async function write_result_to_dhis2(data_for_dhis2) {
 }
 
 async function trigger_dhis2_analytics(delay = 2000) {
-  await new Promise((resolve, reject) => {
+  await new Promise((resolve, _) => {
     setTimeout(() => {
       console.log('Trigger analytics')
       resolve();
@@ -187,10 +193,10 @@ async function trigger_dhis2_analytics(delay = 2000) {
   await write_debug_file(dhis2_trigger_analytics, 'response_from_dhis2_analytics_bump');
 }
 
-async function write_debug_file(content, filename) {
+async function write_debug_file(content: any, filename: string) {
   if (DEBUG ===  'file') {
     // console.log(filename, content);
-    return await fs.writeFileSync(`data/4_real_run_function/${debug_file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
+    return await fs.writeFileSync(`data/${debug_file_count++}_${filename}.json`, JSON.stringify(content, null, 2));
   } else if (DEBUG === 'log') {
     console.log(content);
   }
