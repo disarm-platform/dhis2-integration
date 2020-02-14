@@ -1,0 +1,17 @@
+{
+  "name": "support_scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1_create_orgUnits.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
