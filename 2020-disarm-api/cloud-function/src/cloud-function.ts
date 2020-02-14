@@ -4,7 +4,6 @@
  * The `main` function contains the outline.
  * The `handler` function is responsible for CORS and handling the cloud function request
  */
-import fs from 'fs';
 import fetch from 'node-fetch';
 import Express from 'express';
 import {
@@ -14,28 +13,19 @@ import {
   DataElementLookup,
   OrgUnitsFeature,
   PointDataFields,
-  OrgUnitFields,
   DataValue,
   FnResponse,
   RunResult,
   RawDataElement,
   CombinedFeature
 } from './types';
+import { write_debug_file } from './write_debug_file';
+import config from './config';
 
-// CONFIG
-const static_period = '201912';
-const dhis2_root_url = process.env.DHIS2_ROOT_URL || "http://dhis2.disarm.io:8080";
-const dhis2_headers = {
-  Authorization: process.env.DHIS2_AUTH || 'Basic YWRtaW46ZGlzdHJpY3Q='
-};
-const disarm_fn_url = process.env.DISARM_FN_URL || 'https://faas.srv.disarm.io/function/fn-prevalence-predictor';
-const DEBUG = process.env.DEBUG;
-
-let debug_file_count = 0;
 
 async function main(): Promise<boolean> {
   const { dataValueSets, orgUnitsFeatures, dataElementLookup } = await get_data_from_dhis2();
-  const fn_request = await shape_data_for_disarm(dataValueSets, orgUnitsFeatures, dataElementLookup);
+  const fn_request = await prepare_request_for_disarm(dataValueSets, orgUnitsFeatures, dataElementLookup);
   const run_result = await run_disarm_algorithm(fn_request);
   const data_for_dhis2 = await shape_result_for_dhis2(run_result, dataElementLookup);
   await write_result_to_dhis2(data_for_dhis2);
@@ -52,8 +42,8 @@ exports.handler = async (req: Express.Request, res: Express.Response) => {
     return;
   }
 
-  const worked = await main();
-  if (worked) {
+  const ran_ok = await main();
+  if (ran_ok) {
     res.sendStatus(200);
   } else {
     res.sendStatus(502);
@@ -61,8 +51,8 @@ exports.handler = async (req: Express.Request, res: Express.Response) => {
 }
 
 async function get_data_from_dhis2() {
-  const metadata_url = `${dhis2_root_url}/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true&dataSets=true&users=true`;
-  const metadata_res = await fetch(metadata_url, { headers: dhis2_headers });
+  const metadata_url = `${config.dhis2_root_url}/api/metadata.json?assumeTrue=false&dataElements=true&organisationUnits=true&dataSets=true&users=true`;
+  const metadata_res = await fetch(metadata_url, { headers: config.dhis2_headers });
   const metadata = await metadata_res.json();
   await write_debug_file(metadata, 'metadata');
 
@@ -70,8 +60,8 @@ async function get_data_from_dhis2() {
   const orgUnitIds: string[] = (metadata.organisationUnits as RawOrgUnit[]).filter(i => i.hasOwnProperty('parent')).map(i => i.id);
   const orgUnitParams = orgUnitIds.map(i => `&orgUnit=${i}`).join('');
 
-  const dataValueSetsUrl = `${dhis2_root_url}/api/dataValueSets.json?dataSet=${dataSetId}&period=${static_period}${orgUnitParams}`;
-  const dataValueSetsUrl_res = await fetch(dataValueSetsUrl, { headers: dhis2_headers });
+  const dataValueSetsUrl = `${config.dhis2_root_url}/api/dataValueSets.json?dataSet=${dataSetId}&period=${config.static_period}${orgUnitParams}`;
+  const dataValueSetsUrl_res = await fetch(dataValueSetsUrl, { headers: config.dhis2_headers });
   const dataValueSets: DataValueSets = await dataValueSetsUrl_res.json();
   await write_debug_file(dataValueSets, 'dataValueSets');
 
@@ -108,7 +98,7 @@ async function get_data_from_dhis2() {
   return { dataValueSets, orgUnitsFeatures, dataElementLookup };
 }
 
-async function shape_data_for_disarm(
+async function prepare_request_for_disarm(
   dataValueSets: DataValueSets,
   orgUnitsFeatures: OrgUnitsFeature[],
   dataElementLookup: DataElementLookup,
@@ -145,19 +135,19 @@ async function shape_data_for_disarm(
   return fn_request;
 }
 
-async function run_disarm_algorithm(fn_request: FnRequest) {
-  const real_run_Url = `${disarm_fn_url}`;
-  const real_run_Url_res = await fetch(real_run_Url, {
+async function run_disarm_algorithm(fn_request: FnRequest): Promise<FnResponse> {
+  const run_url = `${config.disarm_fn_url}`;
+  const run_res = await fetch(run_url, {
     method: 'post',
-    headers: dhis2_headers,
+    headers: config.dhis2_headers,
     body: JSON.stringify(fn_request)
   });
-  const real_run_result = await real_run_Url_res.json();
-  await write_debug_file(real_run_result, 'disarm_output');
-  return real_run_result;
+  const result = await run_res.json();
+  await write_debug_file(result, 'disarm_output');
+  return (result as FnResponse);
 }
 
-async function shape_result_for_dhis2(run_response: FnResponse, dataElementLookup: DataElementLookup) {
+async function shape_result_for_dhis2(run_response: FnResponse, dataElementLookup: DataElementLookup): Promise<DataValueSets> {
   if (run_response.function_status === 'error') {
     throw { name: 'FnError', message: 'Something wrong with DiSARM function' };
   }
@@ -174,7 +164,7 @@ async function shape_result_for_dhis2(run_response: FnResponse, dataElementLooku
       acc.push({
         dataElement,
         value,
-        period: static_period,
+        period: config.static_period,
         orgUnit,
         lastUpdated,
       });
@@ -190,12 +180,12 @@ async function shape_result_for_dhis2(run_response: FnResponse, dataElementLooku
   return data_for_dhis2;
 }
 
-async function write_result_to_dhis2(data_for_dhis2: DataValueSets) {
-  const post_data_to_dhis2_url = `${dhis2_root_url}/api/dataValueSets.json?importStrategy=UPDATE`;
+async function write_result_to_dhis2(data_for_dhis2: DataValueSets): Promise<void> {
+  const post_data_to_dhis2_url = `${config.dhis2_root_url}/api/dataValueSets.json?importStrategy=UPDATE`;
   const post_data_to_dhis2_res = await fetch(post_data_to_dhis2_url, {
     method: 'post',
     headers: {
-      ...dhis2_headers,
+      ...config.dhis2_headers,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(data_for_dhis2)
@@ -204,7 +194,7 @@ async function write_result_to_dhis2(data_for_dhis2: DataValueSets) {
   await write_debug_file(post_data_to_dhis2, 'response_from_dhis2');
 }
 
-async function trigger_dhis2_analytics(delay = 2000) {
+async function trigger_dhis2_analytics(delay = 2000): Promise<void> {
   await new Promise((resolve, _) => {
     setTimeout(() => {
       console.log('Trigger analytics')
@@ -212,23 +202,13 @@ async function trigger_dhis2_analytics(delay = 2000) {
     }, delay);
   })
 
-  const dhis2_trigger_analytics_url = `${dhis2_root_url}/api/resourceTables/analytics`;
+  const dhis2_trigger_analytics_url = `${config.dhis2_root_url}/api/resourceTables/analytics`;
   const dhis2_trigger_analytics_res = await fetch(dhis2_trigger_analytics_url, {
     method: 'post',
-    headers: dhis2_headers
+    headers: config.dhis2_headers
   });
   const dhis2_trigger_analytics = await dhis2_trigger_analytics_res.json();
   await write_debug_file(dhis2_trigger_analytics, 'response_from_dhis2_analytics_bump');
-}
-
-async function write_debug_file(content: any, filename: string) {
-  if (DEBUG === 'file') {
-    const filepath = `data/${debug_file_count++}_${filename}.json`;
-    await fs.writeFileSync(filepath, JSON.stringify(content, null, 2));
-    return console.log('wrote:', filepath);
-  } else if (DEBUG === 'log') {
-    console.log(content);
-  }
 }
 
 main()
