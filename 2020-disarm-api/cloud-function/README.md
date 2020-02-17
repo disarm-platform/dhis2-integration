@@ -24,3 +24,7 @@
 1. Click the button `CREATE` to deploy the function.
 1. Copy the trigger URL and edit the DHIS2 app to point to it.
 
+## Local debugging
+
+1. Make sure you've got a `data` folder at the same level as `package.json`
+1. Start with `DEBUG=file`
