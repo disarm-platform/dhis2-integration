@@ -13,7 +13,7 @@
 1. Make sure `Trigger` is set to `HTTP`
 1. Under `Source code` select the the `ZIP upload` option.
 1. On the `ZIP file` input, upload the zip folder generated.
-1. On the `Stage bucket` input, enter the name of your project bucket.
+1. On the `Stage bucket` input, enter the name of any Cloud Storage bucket you can write to.
 1. On the `Function to execute` input, enter the name `handler`.
 1. Set the following environment variables:
     - `DHIS2_ROOT_URL` to  `http://<dhis2_instance_url>:8080`
