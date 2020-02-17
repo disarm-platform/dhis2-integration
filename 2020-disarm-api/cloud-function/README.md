@@ -1,15 +1,7 @@
-## Package and deploy
 
-- `npm run build`
-- `zip -r fn.zip lib/ package.json`
-- Upload and deploy to Google Cloud Function:
-  - configure the envVars on the way if you want
-  - set timeout to be a few minutes
-  - add `DEBUG`: `log` to get it to print file contents into the logs
 # Packing and deploying  
 
 ## Packaging cloud function
-1. Install typecript in project by running the command `npm install typescript --save-dev`
 1. Run command `npm run build` to build project.
 1. Run command `zip -r fn.zip lib/ package.json` to zip code and package.json for deploy on cloud functions.
 
