@@ -17,7 +17,7 @@
 1. On the `Function to execute` input, enter the name `handler`.
 1. Set the following environment variables:
     - `DHIS2_ROOT_URL` to  `http://<dhis2_instance_url>:8080`
-    - `DHIS_AUTH` to `Base <base64_string>`
+    - `DHIS_AUTH` to `Basic <base64_string>`
     - `DISARM_FN_URL` to `https://faas.srv.disarm.io/function/<fn_name>`
     - `DEBUG` to `log`
 1. Set timeout of atleast `120 seconds`
