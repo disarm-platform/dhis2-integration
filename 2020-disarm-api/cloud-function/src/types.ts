@@ -1,6 +1,11 @@
 import GeometryObject = GeoJSON.GeometryObject;
 import { GenericGeoJSONFeatureCollection, GenericGeoJSONFeature } from '@yaga/generic-geojson';
 
+export enum DebugTypes {
+  log = 'log',
+  file = 'file',
+}
+
 export interface RawOrgUnit {
   code: string;
   level: number;
