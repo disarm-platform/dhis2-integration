@@ -28,7 +28,7 @@ See [Running DHIS2 locally](#Running-DHIS2-locally) for our notes on running a l
 1. Run the script `3_simulate_run_function.js` to send data to DISARM API and populate DHIS2 with returned data.
 
 
-## COnfiguring as a Cloud Function
+## Configuring as a Cloud Function
 
 Instructions for deploying as a Google Cloud Function.
 
