@@ -20,12 +20,9 @@
       console.log('click');
       document.getElementsByTagName('button')[0].disabled = true;
       document.getElementById('running').style.display = '';
-      setTimeout(() => {
-        document.getElementById('running').style.display = 'none';
-        document.getElementById('done').style.display = '';
-
-      }, 1000)
-      // await fetch('https://europe-west1-disarm-platform.cloudfunctions.net/dhis2-integration');
+      await fetch('https://europe-west1-disarm-platform.cloudfunctions.net/dhis2-integration');
+      document.getElementById('running').style.display = 'none';
+      document.getElementById('done').style.display = '';
     };
   </script>
   <style>
