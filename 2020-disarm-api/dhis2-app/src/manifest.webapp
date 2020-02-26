@@ -1,7 +1,7 @@
 {
-    "version": "0.0",
+    "version": "1.0",
     "name": "DiSARM-DHIS2 Integration Demo",
-    "description": "User Support Application for DHIS2",
+    "description": "Demonstration using DiSARM algorithms with DHIS2 data",
     "launch_path": "index.html",
     "icons": {
         "16": "assets/img/icon-16x16.png",
