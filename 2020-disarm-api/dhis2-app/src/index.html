@@ -1,19 +1,31 @@
 <html>
 
-<body style='font-family: Arial, Helvetica, sans-serif'>
+<body style='font-family: Arial, Helvetica, sans-serif; font-size: 1.5em;'>
   <header style=" height: 48px; background: #2c6693; margin: -8px; "> </header>
-  <h3>Run DiSARM API integration</h3>
-  <button onclick='myclick()'>Start</button>
+  <h3>Run DHIS2 data through DiSARM algorithm</h3>
+  <span>Select algorithm:</span>
+
+  <select name="" id="" style="font-size: 1em;">
+    <option value="">Generate prevalence map</option>
+    <option value="">Recommend locations to survey</option>
+  </select>
+
+  <button onclick="myclick()" style="font-size: 1em;">Start</button>
+
   <span id='running' style='display: none;'>Running ...</span>
-  <span id='done' style='display: none;'>Success!</span>
+  <span id='done' style='display: none; color: green;'>Success!</span>
+
   <script>
     async function myclick() {
       console.log('click');
       document.getElementsByTagName('button')[0].disabled = true;
       document.getElementById('running').style.display = '';
-      await fetch('https://europe-west1-disarm-platform.cloudfunctions.net/dhis2-integration');
-      document.getElementById('running').style.display = 'none';
-      document.getElementById('done').style.display = '';
+      setTimeout(() => {
+        document.getElementById('running').style.display = 'none';
+        document.getElementById('done').style.display = '';
+
+      }, 1000)
+      // await fetch('https://europe-west1-disarm-platform.cloudfunctions.net/dhis2-integration');
     };
   </script>
   <style>
