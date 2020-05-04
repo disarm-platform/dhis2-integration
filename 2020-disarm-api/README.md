@@ -1,8 +1,6 @@
 ## Getting DHIS2 running
 
-What worked for us: use the Docker instances, with the `docker-compose.yml`.
-
-See [Running DHIS2 locally](#Running-DHIS2-locally) for our notes on running a local DHIS2-Live instance.
+What worked for us: use the Docker instances, with the `docker-compose.yml`. See below ([Running DHIS2 locally](#Running-DHIS2-locally)) for our notes on running a local DHIS2-Live instance.
 
 
 ## Configure DHIS2 instance
@@ -73,11 +71,11 @@ There’s a way to install Java JDK 8 using homebrew: `brew cask install adoptop
 
 Assuming you’ve got the following:
 
-•	Postgres installed,
-•	a database and user configured,
-•	the `dhis.conf` edited to match the Postgres settings
+- Postgres installed,
+- a database and user configured,
+- the `dhis.conf` edited to match the Postgres settings
 
-You should be able to start with the magic command: 
+You should be able to start with the command: 
 ```
 JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home java -jar dhis2-live.jar
 ```
